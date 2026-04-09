@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charlson Comorbidity Index 計算ツール</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans',sans-serif;background:#f5f5f3;color:#1a1a1a;min-height:100vh;padding:2rem 1rem}
+.wrap{max-width:640px;margin:0 auto}
+h1{font-size:20px;font-weight:600;margin-bottom:4px}
+.sub{font-size:13px;color:#666;margin-bottom:1.5rem}
+.age-row{display:flex;align-items:center;gap:12px;margin-bottom:1.5rem;background:#fff;border:1px solid #e5e5e5;border-radius:10px;padding:12px 16px}
+.age-row label{font-size:13px;color:#666;min-width:40px}
+.age-row input[type=number]{width:72px;padding:6px 10px;font-size:14px;border:1px solid #ddd;border-radius:6px;background:#fff;color:#1a1a1a}
+.age-row .age-pts{font-size:13px;color:#888;margin-left:4px}
+.section{margin-bottom:1.25rem}
+.sec-title{font-size:11px;font-weight:600;color:#888;letter-spacing:.06em;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid #e5e5e5}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.item{display:flex;align-items:center;gap:8px;padding:9px 12px;background:#fff;border-radius:8px;cursor:pointer;border:1px solid #e5e5e5;transition:all .15s;user-select:none}
+.item:hover{border-color:#bbb}
+.item.active{background:#eff6ff;border-color:#93c5fd}
+.item input[type=checkbox]{width:15px;height:15px;cursor:pointer;flex-shrink:0;accent-color:#3b82f6}
+.item label{font-size:13px;cursor:pointer;line-height:1.4;color:#1a1a1a}
+.item .pts{font-size:11px;color:#aaa;margin-left:auto;flex-shrink:0}
+.item.active .pts{color:#3b82f6}
+.result-card{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:1.25rem;margin-top:1.5rem}
+.score-row{display:flex;align-items:baseline;gap:12px;margin-bottom:8px}
+.score-num{font-size:44px;font-weight:600;color:#1a1a1a}
+.score-label{font-size:14px;color:#666}
+.risk-badge{display:inline-block;padding:3px 10px;border-radius:6px;font-size:12px;font-weight:600}
+.age-note{font-size:12px;color:#888;margin-bottom:12px}
+.mort-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.mort-card{background:#f5f5f3;border-radius:8px;padding:10px;text-align:center}
+.mort-card .val{font-size:18px;font-weight:600;color:#1a1a1a}
+.mort-card .lbl{font-size:11px;color:#888;margin-top:2px}
+.note{font-size:11px;color:#aaa;margin-top:10px;line-height:1.6}
+.footer{text-align:center;font-size:11px;color:#bbb;margin-top:2rem}
+@media(max-width:480px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Charlson Comorbidity Index</h1>
+  <p class="sub">各疾患にチェックを入れてください</p>
+
+  <div class="age-row">
+    <label>年齢</label>
+    <input type="number" id="age" min="0" max="120" value="50" oninput="calc()">
+    <span class="age-pts" id="age-pts-label"></span>
+  </div>
+
+  <div class="section">
+    <div class="sec-title">1点</div>
+    <div class="grid" id="g1"></div>
+  </div>
+  <div class="section">
+    <div class="sec-title">2点</div>
+    <div class="grid" id="g2"></div>
+  </div>
+  <div class="section">
+    <div class="sec-title">3点</div>
+    <div class="grid" id="g3"></div>
+  </div>
+  <div class="section">
+    <div class="sec-title">6点</div>
+    <div class="grid" id="g6"></div>
+  </div>
+
+  <div class="result-card">
+    <div class="score-row">
+      <span class="score-num" id="total">0</span>
+      <span class="score-label">点（CCI合計）</span>
+      <span class="risk-badge" id="risk-badge">—</span>
+    </div>
+    <div class="age-note" id="age-note"></div>
+    <div class="mort-grid">
+      <div class="mort-card"><div class="val" id="m1y">—</div><div class="lbl">1年死亡率（参考）</div></div>
+      <div class="mort-card"><div class="val" id="m10y">—</div><div class="lbl">10年生存率（参考）</div></div>
+    </div>
+    <p class="note">※死亡率はCharlson 1987・Quan 2011の推定値。個々の予後判断には使用しないこと。</p>
+  </div>
+
+  <p class="footer">Charlson ME, et al. J Chronic Dis. 1987 / Quan H, et al. Med Care. 2011</p>
+</div>
+
+<script>
+const CONDS=[
+  {id:'mi',label:'心筋梗塞',pts:1,group:1},
+  {id:'chf',label:'うっ血性心不全',pts:1,group:1},
+  {id:'pvd',label:'末梢血管疾患',pts:1,group:1},
+  {id:'cvd',label:'脳血管疾患（TIA含む）',pts:1,group:1},
+  {id:'dem',label:'認知症',pts:1,group:1},
+  {id:'cpd',label:'慢性肺疾患',pts:1,group:1},
+  {id:'ctd',label:'膠原病 / 結合組織疾患',pts:1,group:1},
+  {id:'pud',label:'消化性潰瘍',pts:1,group:1},
+  {id:'mld',label:'肝疾患（軽度）',pts:1,group:1},
+  {id:'dm',label:'糖尿病（臓器障害なし）',pts:1,group:1},
+  {id:'hemi',label:'片麻痺',pts:2,group:2},
+  {id:'ckd',label:'中等度〜重度CKD',pts:2,group:2},
+  {id:'dmcx',label:'糖尿病（臓器障害あり）',pts:2,group:2},
+  {id:'tumor',label:'固形腫瘍（転移なし）',pts:2,group:2},
+  {id:'leuk',label:'白血病',pts:2,group:2},
+  {id:'lymph',label:'悪性リンパ腫',pts:2,group:2},
+  {id:'sld',label:'肝疾患（中等度〜重度）',pts:3,group:3},
+  {id:'aids',label:'AIDS（感染症あり）',pts:6,group:6},
+  {id:'mets',label:'固形腫瘍（転移あり）',pts:6,group:6},
+];
+
+function buildGroup(list,gid){
+  const el=document.getElementById('g'+gid);
+  list.forEach(c=>{
+    el.innerHTML+=`<div class="item" id="wrap-${c.id}" onclick="toggle('${c.id}')">
+      <input type="checkbox" id="${c.id}">
+      <label for="${c.id}">${c.label}</label>
+      <span class="pts">+${c.pts}</span>
+    </div>`;
+  });
+}
+buildGroup(CONDS.filter(c=>c.group===1),1);
+buildGroup(CONDS.filter(c=>c.group===2),2);
+buildGroup(CONDS.filter(c=>c.group===3),3);
+buildGroup(CONDS.filter(c=>c.group===6),6);
+
+function toggle(id){
+  const cb=document.getElementById(id);
+  cb.checked=!cb.checked;
+  calc();
+}
+
+function ageScore(a){
+  if(a<50)return 0;
+  if(a<60)return 1;
+  if(a<70)return 2;
+  if(a<80)return 3;
+  return 4;
+}
+
+function calc(){
+  let base=0;
+  CONDS.forEach(c=>{
+    const cb=document.getElementById(c.id);
+    const wrap=document.getElementById('wrap-'+c.id);
+    if(cb&&cb.checked){base+=c.pts;wrap.classList.add('active');}
+    else if(wrap) wrap.classList.remove('active');
+  });
+  const age=parseInt(document.getElementById('age').value)||0;
+  const ap=ageScore(age);
+  const total=base+ap;
+  document.getElementById('total').textContent=total;
+  document.getElementById('age-note').textContent=ap>0?`年齢加算：+${ap}点（${age}歳）`:`年齢加算：なし（${age}歳 < 50歳）`;
+  document.getElementById('age-pts-label').textContent=ap>0?`→ +${ap}点加算`:'→ 加算なし';
+
+  let risk,color,m1y,m10y;
+  if(total===0){risk='低リスク';color='#059669';m1y='<1%';m10y='~98%';}
+  else if(total<=2){risk='低〜中リスク';color='#65a30d';m1y='~2%';m10y='~90%';}
+  else if(total<=4){risk='中リスク';color='#d97706';m1y='~9%';m10y='~77%';}
+  else if(total<=6){risk='高リスク';color='#ea580c';m1y='~26%';m10y='~53%';}
+  else{risk='非常に高リスク';color='#dc2626';m1y='>52%';m10y='<21%';}
+
+  const badge=document.getElementById('risk-badge');
+  badge.textContent=risk;
+  badge.style.background=color+'18';
+  badge.style.color=color;
+  document.getElementById('m1y').textContent=m1y;
+  document.getElementById('m10y').textContent=m10y;
+}
+calc();
+</script>
+</body>
+</html>
