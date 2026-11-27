@@ -8,15 +8,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-html,body{margin:0;background:#fff}@media(prefers-color-scheme:dark){html,body{background:#140a10}}
+html,body{margin:0;background:#fff}@media(prefers-color-scheme:dark){html,body{background:#0a1222}}
 
 /* VOICE work: a clinical reference for young gastroenterologists, calm and exact
    IDEA a pocket guideline card set, every CQ a card, coloured by its GRADE like a printed evidence table
    PICTURE the evidence map: all 96 CQs as tiles in 18 domain rows, fill = certainty, shape = strength
-   COLOUR white ground, wine ink #4a0f2b band, pancreas salmon scale for certainty, grey hatch for GPS
+   COLOUR white ground, deep blue #0b2a66 band, blue scale for certainty, grey hatch for GPS
    TYPE Zen Kaku Gothic New 700 display + Noto Sans JP text
    LAYOUT laptop: title band with counts, map in two columns below, sticky filter bar, card grid by domain. phone: title, map, filters, cards in one column */
-#iap25{color-scheme:light dark;--bg:light-dark(#ffffff,#140a10);--ink:light-dark(#1d1418,#f3e9ec);--mute:light-dark(#6b5a61,#b9a6ad);--line:light-dark(#eadfe3,#3a2630);--soft:light-dark(#fbf5f6,#1e1018);--band:light-dark(#4a0f2b,#2a0818);--bandInk:#fff4f6;--q4:light-dark(#6b0f2e,#ff8fa3);--q3:light-dark(#b8354f,#e86a7f);--q2:light-dark(#e9806e,#b65a55);--q1:light-dark(#f7c6b5,#6e3a3a);--gps:light-dark(#8a7d83,#9c8c93);--accent:light-dark(#b8354f,#ff8fa3);--sheet:light-dark(#ffffff,#1a0d14)}
+#iap25{color-scheme:light dark;--bg:light-dark(#ffffff,#0a1222);--ink:light-dark(#0f1a2e,#e8eef9);--mute:light-dark(#566278,#a3b0c6);--line:light-dark(#dfe6f1,#24324b);--soft:light-dark(#f4f7fc,#101b30);--band:light-dark(#0b2a66,#0d1f45);--bandInk:#f2f6ff;--q4:light-dark(#0a3a8c,#8fb8ff);--q3:light-dark(#2563d0,#5b8fe6);--q2:light-dark(#7aa6ea,#355f9e);--q1:light-dark(#cfe0fa,#22385c);--gps:light-dark(#8592a8,#8a97ad);--accent:light-dark(#2563d0,#8fb8ff);--sheet:light-dark(#ffffff,#0e182b)}
 :root[data-theme=light] #iap25{color-scheme:light}
 :root[data-theme=dark] #iap25{color-scheme:dark}
 #iap25.lightonly{color-scheme:light}
@@ -28,7 +28,7 @@ html,body{margin:0;background:#fff}@media(prefers-color-scheme:dark){html,body{b
 #iap25 .top{background:var(--band);color:var(--bandInk);padding-block:clamp(28px,4vw,52px) 0}
 #iap25 .head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px 40px;align-items:end}
 #iap25 .src{font-size:14px;opacity:.8;margin:0 0 10px}
-#iap25 h1{font:700 clamp(30px,4.4vw,50px)/1.12 "Zen Kaku Gothic New","Noto Sans JP",sans-serif;letter-spacing:-.01em;margin:0}
+#iap25 h1{font:700 clamp(30px,4.4vw,50px)/1.12 "Zen Kaku Gothic New","Noto Sans JP",sans-serif;letter-spacing:-.01em;margin:0;text-wrap:balance;word-break:keep-all}
 #iap25 .lead{margin:14px 0 0;max-width:42em;font-size:16px;opacity:.9}
 #iap25 .lang{display:inline-flex;border:1px solid color-mix(in srgb,var(--bandInk) 45%,transparent);border-radius:999px;padding:3px;margin-bottom:18px}
 #iap25 .lang button{border:0;background:none;color:var(--bandInk);padding:6px 16px;border-radius:999px;cursor:pointer;font-size:14px;min-height:36px}
@@ -52,10 +52,10 @@ html,body{margin:0;background:#fff}@media(prefers-color-scheme:dark){html,body{b
 #iap25 .s-strong{background:var(--qc);color:var(--qt)}
 #iap25 .s-cond{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 3px var(--qc)}
 #iap25 .s-gps{background:repeating-linear-gradient(135deg,var(--soft) 0 4px,var(--line) 4px 6px);color:var(--mute);box-shadow:inset 0 0 0 1px var(--gps)}
-#iap25 .q4{--qc:var(--q4);--qt:light-dark(#fff,#2a0818)}
-#iap25 .q3{--qc:var(--q3);--qt:light-dark(#fff,#2a0818)}
-#iap25 .q2{--qc:var(--q2);--qt:light-dark(#3a0a1c,#fff)}
-#iap25 .q1{--qc:var(--q1);--qt:light-dark(#3a0a1c,#fff)}
+#iap25 .q4{--qc:var(--q4);--qt:light-dark(#fff,#0a1222)}
+#iap25 .q3{--qc:var(--q3);--qt:light-dark(#fff,#0a1222)}
+#iap25 .q2{--qc:var(--q2);--qt:light-dark(#0b2a66,#fff)}
+#iap25 .q1{--qc:var(--q1);--qt:light-dark(#0b2a66,#fff)}
 #iap25 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding-block:12px}
 #iap25 .bar .wrap{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
 #iap25 .search{flex:1 1 260px;font-size:16px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--soft);color:var(--ink);min-height:44px}
@@ -81,7 +81,7 @@ html,body{margin:0;background:#fff}@media(prefers-color-scheme:dark){html,body{b
 #iap25 .foot{border-top:1px solid var(--line);padding-block:28px 40px;font-size:14px;color:var(--mute)}
 #iap25 .foot p{margin:0 0 8px;max-width:72em}
 #iap25 .foot a{color:var(--accent)}
-#iap25 .scrim{position:fixed;inset:0;background:rgba(20,6,12,.42);z-index:99998;opacity:0;transition:opacity .2s}
+#iap25 .scrim{position:fixed;inset:0;background:rgba(6,14,30,.45);z-index:99998;opacity:0;transition:opacity .2s}
 #iap25 .scrim.on{opacity:1}
 #iap25 .sheet{position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);background:var(--sheet);color:var(--ink);z-index:99999;display:grid;grid-template-rows:auto minmax(0,1fr) auto;box-shadow:-8px 0 30px rgba(0,0,0,.18);transform:translateX(100%);transition:transform .26s cubic-bezier(.2,.8,.2,1)}
 #iap25 .sheet.on{transform:none}

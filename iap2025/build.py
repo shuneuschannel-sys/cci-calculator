@@ -39,7 +39,7 @@ head, body = frag.split("<style>", 1)
 standalone = ("<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n"
               "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n"
               + head.replace('<meta name="claude:viewport-fit-sides" content="cover">\n', "")
-              + "<style>\nhtml,body{margin:0;background:#fff}@media(prefers-color-scheme:dark){html,body{background:#140a10}}\n"
+              + "<style>\nhtml,body{margin:0;background:#fff}@media(prefers-color-scheme:dark){html,body{background:#0a1222}}\n"
               + body.replace("</style>", "</style>\n</head>\n<body>", 1).replace("__ROOTCLASS__", "")
               + "\n</body>\n</html>\n")
 (HERE / "index.html").write_text(standalone, encoding="utf-8")
