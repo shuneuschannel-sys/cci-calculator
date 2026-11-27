@@ -31,7 +31,8 @@ for it in items:
 
 tpl = (HERE / "template.html").read_text(encoding="utf-8")
 data_js = json.dumps(items, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-frag = tpl.replace("__DATA__", data_js)
+qr_svg = (HERE / "qr" / "inline.svg").read_text(encoding="utf-8")
+frag = tpl.replace("__DATA__", data_js).replace("__QR__", qr_svg)
 
 (HERE / "preview.html").write_text(frag.replace("__ROOTCLASS__", ""), encoding="utf-8")
 
