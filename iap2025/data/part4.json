@@ -1,0 +1,947 @@
+[
+ {
+  "q": 56,
+  "section": "XIII",
+  "question_en": "Does the etiology of AP differ between children and adults?",
+  "question_ja": "小児と成人で急性膵炎の成因は異なるか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Etiologies of AP are diverse and differ substantially between children and adults. Most cases are idiopathic. Gallstone disease, multi-system illnesses, medications, viral infection, developmental abnormalities, trauma and genetic causes are common etiologies in children.",
+    "text_ja": "急性膵炎の成因は多様であり、小児と成人で大きく異なる。大部分は特発性である。胆石症、多臓器にわたる全身疾患、薬剤、ウイルス感染、発生異常、外傷、遺伝的要因が小児における一般的な成因である。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "成人との最大の違いはアルコール性膵炎がほとんどないことである。一方で胆石症は想定以上に多く、小児例の約30%を占めうる。",
+   "全身性・多臓器疾患に伴うものが最大40%、遺伝的リスク因子を持つものが約20%と報告されている。L-アスパラギナーゼなど成人ではあまり使わない薬剤による膵炎も重要な位置を占める。",
+   "膵管癒合不全、膵・胆管合流異常、輪状膵、先天性胆道拡張症などの構造異常は小児期に初めて見つかることが多いが、膵炎との直接の因果関係は確立していない。かつて最多とされた外傷は、近年の報告では10%以下に減っている。",
+   "遺伝学的評価は、18歳未満で複数回の膵炎発作がある場合や慢性膵炎の所見がある場合に行うのが通常である。"
+  ],
+  "summary_en": [
+   "The main difference from adults is that alcohol-related pancreatitis is rare in children. Gallstone disease is more frequent than once believed and may account for about 30% of pediatric cases.",
+   "Systemic or multi-system illness explains up to 40% of cases, and nearly 20% of children carry genetic risk factors. Drug-induced pancreatitis, often from agents such as L-asparaginase that are uncommon in adult practice, is another relevant cause.",
+   "Structural anomalies such as pancreas divisum, pancreaticobiliary maljunction, annular pancreas and choledochal cyst are usually first found in childhood, but whether they directly cause pancreatitis is uncertain. Trauma, once considered the leading cause, now accounts for 10% or less in recent series.",
+   "Genetic testing is generally reserved for children with more than one episode or with features of chronic pancreatitis before age 18."
+  ],
+  "evidence": [
+   {
+    "en": "Gallstone disease may account for about 30% of pediatric AP",
+    "ja": "胆石症は小児急性膵炎の約30%を占めうる"
+   },
+   {
+    "en": "Systemic or multi-system illness in up to 40% of cases, genetic risk factors in almost 20%",
+    "ja": "全身性・多臓器疾患が最大40%、遺伝的リスク因子が約20%"
+   },
+   {
+    "en": "Trauma accounts for 10% or less of cases in recent series",
+    "ja": "外傷は近年の報告で10%以下"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 57,
+  "section": "XIII",
+  "question_en": "How should severity be assessed in children with AP?",
+  "question_ja": "小児急性膵炎の重症度はどのように評価すべきか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Severe AP in children is defined if there is a presence of persistent organ failure similar to adults but utilizing the International Pediatric Sepsis Consensus definitions of organ failure.",
+    "text_ja": "小児の重症急性膵炎は、成人と同様に持続性臓器不全の存在によって定義するが、臓器不全の判定には International Pediatric Sepsis Consensus の定義を用いる。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "NASPGHAN の膵臓委員会は、改訂アトランタ分類に準じて小児急性膵炎を軽症・中等症・重症に分類した。成人との違いは、臓器不全の評価に modified Marshall スコアではなく International Pediatric Sepsis Consensus の定義を用いる点である。",
+   "SIRS は臓器不全のリスクを高めるため小児でも評価すべきであり、白血球数、心拍数、呼吸数に年齢別のカットオフを設けた小児用 SIRS 基準を使う。",
+   "重症例は成人より少なく、死亡率は成人同様5%未満である。ただし急性リンパ性白血病の治療に用いる L-アスパラギナーゼによる膵炎は例外で、中等症以上となる割合が高い。"
+  ],
+  "summary_en": [
+   "The NASPGHAN Pancreas Committee adapted the revised Atlanta classification (mild, moderately severe, severe) for children. The key difference is that organ failure is graded by the International Pediatric Sepsis Consensus definitions rather than the modified Marshall score.",
+   "SIRS raises the risk of organ failure and should be assessed using pediatric SIRS criteria with age-based thresholds for leukocyte count, heart rate and respiratory rate.",
+   "Severe disease is less common than in adults, and overall mortality is below 5%. Asparaginase-associated pancreatitis in acute lymphoblastic leukemia is an exception, with a large share of cases being at least moderately severe."
+  ],
+  "evidence": [
+   {
+    "en": "Overall mortality of pediatric AP is below 5%",
+    "ja": "小児急性膵炎の全体死亡率は5%未満"
+   },
+   {
+    "en": "Pooled raw data from 26 ALL trials: one-quarter to two-thirds of asparaginase-associated pancreatitis was at least moderately severe",
+    "ja": "ALL の26試験の個票統合解析：アスパラギナーゼ関連膵炎の4分の1から3分の2が中等症以上"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 58,
+  "section": "XIII",
+  "question_en": "What is the optimal imaging modality to diagnose AP in children?",
+  "question_ja": "小児急性膵炎の診断に最適な画像検査は何か？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Trans-abdominal ultrasonography (USG) is the preferred first-line imaging modality in children, while CT and MRI/MRCP should be reserved for patients in whom USG is not diagnostic and ideally delayed at least 96 hours after the onset of symptoms.",
+    "text_ja": "小児では経腹壁超音波検査（US）が第一選択の画像検査である。CT および MRI/MRCP は US で診断がつかない患者に限定し、可能であれば症状発現から少なくとも96時間以降に行う。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "小児で画像検査を行う目的は、膵炎の診断と他疾患の除外、危険因子の同定、合併症の評価である。",
+   "US は放射線被曝の累積を避けられ、腹壁が薄い小児では描出もしやすい。診断が不確かな場合や処置を予定する場合に CT または MRI を追加する。",
+   "原因不明の膵炎でも、初回発作だけで膵管癒合不全などの構造異常を精査する必要はない。再発した場合には MRCP を考慮する。"
+  ],
+  "summary_en": [
+   "Imaging in children aims to confirm pancreatitis, exclude other causes of pain, identify risk factors and assess complications.",
+   "Ultrasound avoids cumulative radiation and works well because children usually have a thin abdominal wall. CT or MRI is added when the diagnosis is uncertain or an intervention is planned.",
+   "A search for structural anomalies is not needed after a single unexplained episode. MRCP may be advised when pancreatitis recurs."
+  ],
+  "evidence": [],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 59,
+  "section": "XIII",
+  "question_en": "Does the optimal therapy for AP in children differ from that in adults?",
+  "question_ja": "小児急性膵炎の最適な治療は成人と異なるか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Therapies for AP, including fluid resuscitation, nutrition support, analgesics, and the use of antibiotics, are similar in children as those for adults.",
+    "text_ja": "輸液蘇生、栄養療法、鎮痛薬、抗菌薬の使用を含む急性膵炎の治療は、小児でも成人と同様である。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "小児膵炎を対象とした治療試験は乏しく、成人のエビデンスを準用しているのが現状である。",
+   "輸液は維持量の1.5〜2倍で行うと ICU 入室の減少や入院期間短縮につながる可能性がある。最近の多施設 RCT では、診断後48時間以内の乳酸リンゲル液投与で入院期間が短縮した。",
+   "栄養は耐えられれば早期に経腸で開始する。24〜48時間以内に経腸栄養を始めた小児は軽症で経過しやすい。72時間以内に経口摂取できなければ経鼻胃管または経鼻空腸管による経管栄養を行う。",
+   "鎮痛は非麻薬性鎮痛薬から始め、必要に応じてオピオイドを用いる。抗菌薬は全身感染、胆管炎、感染性膵壊死が疑われる場合に限る。"
+  ],
+  "summary_en": [
+   "Pediatric treatment trials are scarce, so practice largely follows adult evidence.",
+   "Fluids at 1.5 to 2 times maintenance may reduce ICU admission and shorten hospital stay. A recent multicenter randomized trial found that lactated Ringer's given within 48 hours of diagnosis was linked to a shorter stay.",
+   "Enteral feeding should start as soon as tolerated. Children fed within 24 to 48 hours tend to have a milder course. If they cannot eat by 72 hours, nasogastric or nasojejunal tube feeding is advised.",
+   "Analgesia starts with non-narcotic agents, adding opioids when needed. Antibiotics are given only for suspected systemic infection, cholangitis or infected necrosis."
+  ],
+  "evidence": [
+   {
+    "en": "Fluid resuscitation at 1.5 to 2 times maintenance may reduce ICU admission and length of stay",
+    "ja": "維持量の1.5〜2倍の輸液で ICU 入室減少と入院期間短縮の可能性"
+   },
+   {
+    "en": "Multicenter RCT in children: lactated Ringer's within 48 hours of diagnosis associated with shorter hospital stay",
+    "ja": "小児の多施設 RCT：診断後48時間以内の乳酸リンゲル液で入院期間短縮"
+   },
+   {
+    "en": "Enteral feeding within 24 to 48 hours associated with a milder course",
+    "ja": "24〜48時間以内の経腸栄養開始で軽症の経過と関連"
+   }
+  ],
+  "note_ja": "ブドウ糖含有晶質液を初期輸液に推奨する意見もあるが、小児を対象とした輸液試験はまだ少ない。",
+  "note_en": "Dextrose-containing crystalloid has been suggested as the initial fluid, but pediatric fluid trials remain limited.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 60,
+  "section": "XIII",
+  "question_en": "What are the complications of AP that occur in children?",
+  "question_ja": "小児急性膵炎で生じる合併症は何か？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "The complications of AP in children are similar to those in adults, with similar interventional management approaches.",
+    "text_ja": "小児急性膵炎の合併症は成人と同様であり、インターベンションによる管理方針も同様である。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "NASPGHAN 分類では、合併症は中等症または重症の膵炎に伴うものとされる。",
+   "胆石性膵炎の小児では、胆管炎を合併した場合や、全身状態が安定していて総胆管結石と持続する黄疸がある場合に早期 ERCP の適応となる。合併症のない胆石性膵炎では同一入院中の胆嚢摘出術が推奨され、重症例では合併症の処理後に行う。",
+   "膵周囲液体貯留の多くは自然に消退する。症状がある、または消退しない場合は EUS ガイド下の内瘻化が望ましい。"
+  ],
+  "summary_en": [
+   "Under the NASPGHAN classification, complications occur with moderately severe or severe disease.",
+   "In biliary pancreatitis, early ERCP is indicated for cholangitis or for choledocholithiasis with ongoing jaundice once the child is stable. Cholecystectomy is advised during the index admission for uncomplicated cases and after complications are handled in severe cases.",
+   "Many pancreatic fluid collections resolve on their own. Symptomatic or persistent collections are best drained internally under EUS guidance."
+  ],
+  "evidence": [],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "患者側は、小児でも外傷を一般的な成因に含めるべきとし、重症度評価には成人と同じ SIRS、CRP、IL-6 などを使えると考えている。鎮痛や輸液量など、小児と成人で治療が異なる点を明示してほしいと求めている。",
+  "patients_en": "Patients list trauma as a common cause in children and feel that the same severity tests as in adults, such as SIRS, CRP and IL-6, could be used. They ask that treatment differences between children and adults, such as analgesia and fluid needs, be spelled out."
+ },
+ {
+  "q": 61,
+  "section": "XIII",
+  "question_en": "When should AP due to hyperparathyroidism be suspected?",
+  "question_ja": "副甲状腺機能亢進症による急性膵炎はどのような場合に疑うべきか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Acute pancreatitis due to hyperparathyroidism should be suspected in patients with elevated calcium levels and those with other clinical features suggestive of hyperparathyroidism.",
+    "text_ja": "血清カルシウム値が上昇している患者、および副甲状腺機能亢進症を示唆するその他の臨床所見を有する患者では、副甲状腺機能亢進症による急性膵炎を疑うべきである。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "原発性副甲状腺機能亢進症（PHPT）を膵炎の原因として捉えるには、意識して疑うことが必要である。腎結石、腎機能障害、骨粗鬆症や病的骨折などの既往が手がかりになる。",
+   "膵炎の急性期には、特に重症例でカルシウム値が正常化していることがあるため、疑いが残る場合は回復後に再検する。高カルシウム血症の判定にはアルブミン補正カルシウムまたはイオン化カルシウムを用いる。",
+   "PHPT は高カルシウム血症の最多原因だが、急性膵炎の原因としてはまれで1%未満である。地域住民を対象とした研究では PHPT 患者で膵炎の発生は増えておらず、因果関係そのものに疑問も残る。"
+  ],
+  "summary_en": [
+   "Recognizing primary hyperparathyroidism (PHPT) as a cause requires active suspicion. A history of renal stones, renal dysfunction, osteoporosis or pathological fractures can be a clue.",
+   "Calcium may be normal during the attack, especially in severe disease, so it should be rechecked after recovery when suspicion persists. Use albumin-adjusted or ionized calcium to confirm hypercalcemia.",
+   "PHPT is the commonest cause of hypercalcemia but explains fewer than 1% of AP cases. A population-based study found no increase in AP among community patients with PHPT, so a causal link is not certain."
+  ],
+  "evidence": [
+   {
+    "en": "PHPT underlies fewer than 1% of AP cases",
+    "ja": "PHPT が背景にある急性膵炎は1%未満"
+   },
+   {
+    "en": "Population-based study: AP incidence not increased in community patients with PHPT",
+    "ja": "住民ベース研究：PHPT 患者で急性膵炎の発生率は増加せず"
+   }
+  ],
+  "note_ja": "Table 1 では「primary hyperparathyroidism（PHPT）」と記載されており、本文の推奨文とは表現がわずかに異なる。",
+  "note_en": "Table 1 words this statement as primary hyperparathyroidism (PHPT), slightly different from the body text.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 62,
+  "section": "XIII",
+  "question_en": "What is the optimal testing approach to document AP due to hyperparathyroidism?",
+  "question_ja": "副甲状腺機能亢進症による急性膵炎を確認するための最適な検査方法は何か？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Patients with AP and elevated serum calcium levels should be further evaluated by measuring serum parathyroid hormone (PTH). An inappropriately elevated serum PTH confirms the diagnosis of PHPT.",
+    "text_ja": "血清カルシウム値が上昇している急性膵炎患者では、血清副甲状腺ホルモン（PTH）を測定して追加評価を行うべきである。血清 PTH が不適切に高値であれば PHPT と確定診断できる。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "PHPT の診断は、高カルシウム血症があるにもかかわらず PTH が抑制されていないことに基づく。",
+   "PTH は第2世代（intact PTH）または第3世代（whole PTH）アッセイで測定でき、両者の診断性能は同等である。",
+   "ビタミンD欠乏でも PTH は上昇するため、PHPT を疑う全例で 25(OH)D を測定する。高カルシウム血症下で PTH が正常範囲にあることも「不適切に高い」と解釈し、専門医による評価につなげる。"
+  ],
+  "summary_en": [
+   "PHPT is diagnosed when PTH is not suppressed despite hypercalcemia.",
+   "PTH can be measured with a second-generation (intact) or third-generation (whole) assay, and both perform similarly.",
+   "Vitamin D deficiency also raises PTH, so 25(OH)D should be measured in every suspected case. A normal PTH in the face of high calcium is inappropriately high and warrants specialist evaluation."
+  ],
+  "evidence": [],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 63,
+  "section": "XIII",
+  "question_en": "What is the optimal strategy for treating patients with PHPT-related AP?",
+  "question_ja": "PHPT 関連急性膵炎の患者に対する最適な治療戦略は何か？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Standard treatment is recommended for PHPT-related AP. In addition, patients with serum calcium levels >14 mg/dL or hypercalcemia accompanied by altered sensorium require emergent measures to reduce serum calcium levels, including volume expansion with isotonic saline (and not lactated Ringer's solution), and avoidance of calcium supplements and Vitamin D.",
+    "text_ja": "PHPT 関連急性膵炎には標準治療を推奨する。加えて、血清カルシウム値が14 mg/dL を超える患者、または意識変容を伴う高カルシウム血症の患者では、血清カルシウム値を下げるための緊急処置が必要である。これには等張食塩水（乳酸リンゲル液ではない）による容量負荷、カルシウム製剤およびビタミンDの回避が含まれる。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "膵炎そのものの治療は他の成因と同じである。生命を脅かす高カルシウム血症への対応は、消化器内科、集中治療医、内分泌内科の連携で行う。",
+   "乳酸リンゲル液はカルシウムを含むため、容量負荷には等張食塩水を使う。カルシウム製剤とビタミンDは避ける。",
+   "多くの患者は高カルシウム血症による急性症状がなく、急いでカルシウムを下げる必要はない。膵炎が落ち着いた後、再発と長期的な高カルシウム血症の害を防ぐために副甲状腺摘出術などの根治治療を行う。手術でカルシウムと PTH は正常化し、膵炎の再発を防げる。"
+  ],
+  "summary_en": [
+   "The pancreatitis itself is managed as for any other cause. Life-threatening hypercalcemia needs joint care by gastroenterologists, intensivists and endocrinologists.",
+   "Volume expansion should use isotonic saline because lactated Ringer's contains calcium. Calcium supplements and vitamin D should be stopped.",
+   "Most patients have no acute symptoms from hypercalcemia and do not need urgent lowering. After recovery, definitive treatment such as parathyroidectomy normalizes calcium and PTH and prevents further attacks."
+  ],
+  "evidence": [],
+  "note_ja": "通常の急性膵炎では乳酸リンゲル液が推奨されるが、高カルシウム血症を伴う場合は生理食塩水を選ぶ点に注意する。",
+  "note_en": "Although lactated Ringer's is the usual fluid in AP, isotonic saline is preferred when hypercalcemia is present.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 64,
+  "section": "XIII",
+  "question_en": "What is the optimal medical therapy to reduce triglyceride levels in hypertriglyceridemia-associated AP?",
+  "question_ja": "高トリグリセリド血症性膵炎（HTGP）でトリグリセリド値を下げるための最適な薬物療法は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Besides the standard care for AP, Insulin is recommended in diabetics and may be considered in non-diabetic patients as the first-line therapy to reduce serum triglyceride (TG) levels for hypertriglyceridemia-associated acute pancreatitis (HTGP).",
+    "text_ja": "高トリグリセリド血症性急性膵炎（HTGP）では、急性膵炎の標準治療に加え、血清トリグリセリド（TG）値を下げる第一選択治療として、糖尿病患者にはインスリンを推奨し、非糖尿病患者でもインスリンを考慮してよい。",
+    "strength": "strong",
+    "quality": "moderate"
+   },
+   {
+    "kind": "rec",
+    "text_en": "Short-term (<3 days) use of low molecular weight heparin (LMWH) may also be considered.",
+    "text_ja": "低分子量ヘパリン（LMWH）の短期間（3日未満）使用も考慮してよい。",
+    "strength": "conditional",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "HTGP は急性膵炎の最大10%を占め、中国では第2位の成因である。他の成因に比べ、SIRS、持続性臓器不全、局所合併症、死亡が多く、重症化しやすい。",
+   "機序として、カイロミクロンによる膵毛細血管の虚血とアシドーシス、脂肪分解で生じた遊離脂肪酸による腺房細胞障害が想定されている。",
+   "初期治療は他の膵炎と同じで、絶食と輸液だけでも TG は下がる。特異的治療ではインスリンとヘパリンが最も有効とするメタ解析がある。インスリンはリポ蛋白リパーゼ（LPL）を活性化し、非糖尿病患者にも安全に使えるとする報告がある。",
+   "ヘパリンの長期単独使用は LPL を枯渇させ TG のリバウンドを招くため、短期間にとどめる。出血傾向や腎不全など禁忌がある場合はヘパリン類を使わない。"
+  ],
+  "summary_en": [
+   "HTGP causes up to 10% of AP and is the second leading cause in China. It tends to be more severe, with more SIRS, persistent organ failure, local complications and deaths than other etiologies.",
+   "Proposed mechanisms are chylomicron-related capillary ischemia with acidosis and acinar injury from free fatty acids released by lipolysis.",
+   "Initial care is the same as for other causes, and fasting with IV fluids alone lowers TG. Meta-analyses point to insulin and heparin as the most effective specific therapies. Insulin activates lipoprotein lipase (LPL) and appears safe even without diabetes.",
+   "Prolonged heparin alone can deplete LPL and cause TG rebound, so use should be brief. Heparins are avoided with bleeding disorders or renal failure."
+  ],
+  "evidence": [
+   {
+    "en": "HTGP accounts for up to 10% of AP cases",
+    "ja": "HTGP は急性膵炎の最大10%"
+   },
+   {
+    "en": "Systematic review and meta-analysis: insulin and/or heparin are the most effective specific therapy",
+    "ja": "系統的レビュー・メタ解析：インスリンおよび/またはヘパリンが最も有効な特異的治療"
+   },
+   {
+    "en": "One comparative study: similar TG reduction with insulin and conservative treatment",
+    "ja": "比較研究1件：インスリンと保存的治療で TG 低下は同程度"
+   },
+   {
+    "en": "RCT: insulin/LMWH had lower organ failure incidence than plasmapheresis, without significant TG rebound",
+    "ja": "RCT：インスリン/LMWH は血漿交換より臓器不全の発生が少なく、有意な TG リバウンドなし"
+   }
+  ],
+  "note_ja": "インスリンとヘパリンの併用は症例集積で相乗効果が報告され、重症 HTGP の第一選択として用いられうる。",
+  "note_en": "Case series report a synergistic effect of insulin plus heparin, which may be used first line in severe HTGP.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 65,
+  "section": "XIII",
+  "question_en": "Should plasmapheresis be used for HTGP?",
+  "question_ja": "HTGP に血漿交換を行うべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "In patients with HTGP, plasmapheresis may be considered in case of persistent organ failure with high TG levels, particularly in patients with acute renal failure.",
+    "text_ja": "HTGP 患者で TG 高値を伴う持続性臓器不全がある場合、特に急性腎不全を伴う患者では、血漿交換を考慮してよい。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "血漿交換は TG を速やかに下げるが、臨床転帰の改善は示されていない。系統的レビューでも明確な利益は確認されず、多施設前向きコホート研究では臓器不全の発生や持続期間は減らず、ICU 滞在が延びた。",
+   "腎不全を伴う重症 HTGP では利益が見込まれ、血液濾過との併用も可能である。抗凝固には出血リスクを抑えるためヘパリンではなくクエン酸ナトリウムを用いる。",
+   "高コスト、侵襲性、不確かな効果、有害事象を考えると、適応を絞って使うべき治療である。"
+  ],
+  "summary_en": [
+   "Plasmapheresis lowers TG quickly, but better clinical outcomes have not been shown. A systematic review found no clear benefit, and a multicenter prospective cohort found no reduction in organ failure but a longer ICU stay.",
+   "Patients with severe HTGP and renal failure are the most likely to benefit, and plasmapheresis can be combined with hemofiltration. Sodium citrate rather than heparin should be used for anticoagulation to limit bleeding.",
+   "Given cost, invasiveness, uncertain benefit and adverse events, it should be used selectively."
+  ],
+  "evidence": [
+   {
+    "en": "Case-control study: double filtration plasmapheresis shortened hospitalization when TG >5000 mg/dL",
+    "ja": "症例対照研究：TG 5000 mg/dL 超で二重濾過血漿交換（DFPP）により入院期間短縮"
+   },
+   {
+    "en": "Multicenter prospective cohort: no reduction in organ failure incidence or duration, longer ICU stay",
+    "ja": "多施設前向きコホート：臓器不全の発生・持続は減らず、ICU 滞在は延長"
+   },
+   {
+    "en": "Prospective trial: short-term high-volume hemofiltration may reduce complications and mortality in severe HTGP",
+    "ja": "前向き試験：短期高容量血液濾過（HVHF）で重症 HTGP の合併症と死亡が減る可能性"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 66,
+  "section": "XIII",
+  "question_en": "What is the optimal nutritional approach for patients with hypertriglyceridemia-associated AP?",
+  "question_ja": "HTGP 患者に対する最適な栄養管理は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Patients with HTGP should fast for the first 48 hours, followed by an oral low-fat soft diet. If oral intake is not tolerated, enteral nutrition (EN) via nasogastric or nasojejunal tube should be initiated.",
+    "text_ja": "HTGP 患者は最初の48時間は絶食とし、その後は経口の低脂肪軟食を開始する。経口摂取が困難な場合は、経鼻胃管または経鼻空腸管による経腸栄養（EN）を開始する。",
+    "strength": "strong",
+    "quality": "low"
+   },
+   {
+    "kind": "rec",
+    "text_en": "If parenteral nutrition is required, intravenous fat emulsion should not be given in patients with TG ≥ 400 mg/dL",
+    "text_ja": "静脈栄養が必要な場合、TG 400 mg/dL 以上の患者には脂肪乳剤を投与すべきではない。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "48時間の絶食で多くの患者の TG は速やかに低下する。絶食中は TG に富むカイロミクロンが速やかに代謝され、低カロリー輸液により肝臓からの VLDL 分泌も減る。",
+   "その後は重症度に応じて低脂肪の経口食または経管栄養に移行する。",
+   "静脈栄養を行う場合は脂肪乳剤を一時的に抜くと TG が有意に下がる。静脈栄養中の許容 TG は400 mg/dL 未満であり、これ以上なら脂肪乳剤を中止する。"
+  ],
+  "summary_en": [
+   "A 48-hour fast lowers TG rapidly in most patients. TG-rich chylomicrons are cleared quickly during fasting, and low-calorie IV infusion reduces hepatic VLDL output.",
+   "A low-fat oral diet or tube feeding then follows, depending on severity.",
+   "During parenteral nutrition, briefly withholding the lipid component lowers TG significantly. The acceptable TG on PN is below 400 mg/dL, and lipid emulsion should be stopped at or above that level."
+  ],
+  "evidence": [
+   {
+    "en": "Retrospective study in severe HTG: IV insulin plus 24-hour fasting lowered TG by 87% vs 40% with insulin alone",
+    "ja": "重症 HTG の後ろ向き研究：静注インスリン＋24時間絶食で TG 87%低下、インスリン単独では40%低下"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 67,
+  "section": "XIII",
+  "question_en": "What level of TGs should be maintained after discharge to prevent relapse of hypertriglyceridemic associated AP?",
+  "question_ja": "HTGP の再発予防のため、退院後に TG 値をどの程度に維持すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "The levels of serum TG should be maintained below 500 mg/dL after discharge to prevent relapse of HTGP.",
+    "text_ja": "HTGP の再発を予防するため、退院後の血清 TG 値は500 mg/dL 未満に維持すべきである。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "退院後も TG を継続的に500 mg/dL 未満に保つことが再発予防の目標となる。大規模コホートでは、TG が500 mg/dL 以上で推移した患者は膵炎発症リスクが高かった。",
+   "HTGP 患者の前向きコホートでは、12か月と18か月の累積再発率がそれぞれ8%と22%であり、再発は少なくない。",
+   "フェノフィブラートが最も広く使われるが、膵炎再発予防効果を示した臨床試験はない。家族性高 TG 血症で TG が著明に高い患者では、APOC3 を標的とするアンチセンス核酸（volanesorsen、olezarsen）が膵炎の再発を減らしたと報告されている。"
+  ],
+  "summary_en": [
+   "TG should be kept consistently below 500 mg/dL after discharge. In a large cohort, patients whose TG stayed at or above 500 mg/dL had more pancreatitis episodes.",
+   "Relapse is common: a prospective HTGP cohort showed cumulative recurrence of 8% at 12 months and 22% at 18 months.",
+   "Fenofibrate is the most used agent, but no trial has shown that it prevents recurrence. In familial hypertriglyceridemia with very high TG, antisense oligonucleotides against APOC3 (volanesorsen, olezarsen) have reduced recurrent pancreatitis."
+  ],
+  "evidence": [
+   {
+    "en": "Cohort of 41,210 patients with severe HTG: higher pancreatitis risk when TG remained ≥500 mg/dL",
+    "ja": "重症 HTG 41,210例のコホート：TG 500 mg/dL 以上が続くと膵炎リスク上昇"
+   },
+   {
+    "en": "Study of 3091 individuals with severe HTG: 171 (6%) developed AP, TG >500 mg/dL independently associated with recurrence",
+    "ja": "重症 HTG 3091例の研究：171例（6%）が急性膵炎を発症、TG 500 mg/dL 超は再発の独立因子"
+   },
+   {
+    "en": "Prospective cohort of 317 HTGP patients: cumulative recurrence 8% at 12 months and 22% at 18 months",
+    "ja": "HTGP 317例の前向きコホート：累積再発率は12か月で8%、18か月で22%"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 68,
+  "section": "XIII",
+  "question_en": "What is the recommendation for peri-procedure intravenous fluids to prevent post-ERCP-pancreatitis (PEP)?",
+  "question_ja": "ERCP 後膵炎（PEP）を予防するための周術期輸液に関する推奨は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Moderate intravenous fluids with Lactated Ringer's solution should be given to patients undergoing ERCP during the periprocedural period in addition to rectal NSAIDs to prevent PEP.",
+    "text_ja": "PEP 予防のため、ERCP を受ける患者には周術期に NSAIDs 坐剤に加えて乳酸リンゲル液による中等量の輸液を行うべきである。",
+    "strength": "strong",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "周術期の輸液は PEP の発生や重症化を抑える可能性がある。後ろ向き研究で中等症以上の PEP の減少と入院期間短縮が示され、その後の RCT とメタ解析でも効果が確認された。",
+   "乳酸リンゲル液とインドメタシン坐剤の併用は、プラセボや生理食塩水と比べて PEP と再入院を減らした RCT がある。",
+   "一方、多施設 FLUYT 試験では NSAIDs 坐剤を併用する条件下で積極的輸液は標準輸液に勝らなかった。最適量は不明だが、ERCP 中に少なくとも1 L を投与する施設が多い。"
+  ],
+  "summary_en": [
+   "Periprocedural fluids may prevent PEP or reduce its severity. Retrospective studies linked fluids to fewer moderate to severe PEP cases and shorter stays, and later RCTs and meta-analyses confirmed the benefit.",
+   "One RCT showed that lactated Ringer's plus rectal indomethacin lowered PEP and readmissions compared with placebo and normal saline.",
+   "The multicenter FLUYT trial, however, found no added benefit of aggressive over standard fluids when rectal NSAIDs were given. The ideal volume is unknown, but many centers give at least 1 L during ERCP."
+  ],
+  "evidence": [
+   {
+    "en": "Two retrospective studies: periprocedural IV fluids protective against moderate to severe PEP and shorter hospital stay",
+    "ja": "後ろ向き研究2件：周術期輸液は中等症以上の PEP を抑制し、入院期間を短縮"
+   },
+   {
+    "en": "RCT: lactated Ringer's plus rectal indomethacin reduced PEP and readmission vs placebo and normal saline",
+    "ja": "RCT：乳酸リンゲル液＋インドメタシン坐剤はプラセボ・生理食塩水に比べ PEP と再入院を減少"
+   },
+   {
+    "en": "FLUYT trial (multicenter): aggressive fluids no better than standard fluids on top of rectal NSAIDs",
+    "ja": "FLUYT 試験（多施設）：NSAIDs 坐剤併用下で積極的輸液は標準輸液に優らず"
+   }
+  ],
+  "note_ja": "推奨は「積極的」ではなく「中等量」の輸液である。心不全や腎不全など体液過剰のリスクがある患者では量を調整する。",
+  "note_en": "The recommendation is for moderate, not aggressive, fluids. Volume should be adjusted in patients at risk of fluid overload.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 69,
+  "section": "XIII",
+  "question_en": "What are the indications for rectal NSAIDs to prevent post-ERCP pancreatitis?",
+  "question_ja": "ERCP 後膵炎予防のための NSAIDs 坐剤の適応は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Prophylactic rectal indomethacin or diclofenac is recommended for patients undergoing ERCP who are at high risk of post-ERCP pancreatitis.",
+    "text_ja": "ERCP 後膵炎の高リスク患者で ERCP を行う場合、予防的にインドメタシンまたはジクロフェナクの坐剤を投与することを推奨する。",
+    "strength": "strong",
+    "quality": "high"
+   },
+   {
+    "kind": "rec",
+    "text_en": "Prophylactic rectal indomethacin or diclofenac is recommended for average-risk patients undergoing ERCP.",
+    "text_ja": "平均的リスクの患者で ERCP を行う場合も、予防的にインドメタシンまたはジクロフェナクの坐剤を投与することを推奨する。",
+    "strength": "strong",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "高リスク患者における NSAIDs 坐剤の PEP 予防効果は、複数の RCT とメタ解析で確立している。平均的リスクの集団でもインドメタシン坐剤で PEP が減ることが複数の研究で示されている。",
+   "患者側の高リスク因子は若年、PEP の既往、Oddi 括約筋機能不全の疑いである。手技側の高リスク因子は挿管困難、膵管への反復挿管、膵管造影、プレカットや針状ナイフによる乳頭切開である。",
+   "投与は処置前30分以内が望ましい。作用機序は十分に解明されていないが、ホスホリパーゼ A2 の阻害が関与すると考えられている。"
+  ],
+  "summary_en": [
+   "Multiple RCTs and meta-analyses establish the benefit of rectal NSAIDs in high-risk patients. Several studies also show fewer PEP cases with rectal indomethacin in average-risk patients.",
+   "Patient-related risk factors are young age, prior PEP and suspected sphincter of Oddi dysfunction. Procedure-related factors are difficult cannulation, repeated pancreatic duct cannulation, pancreatic duct injection and precut or needle-knife sphincterotomy.",
+   "The drug is ideally given within 30 minutes before the procedure. The mechanism is unclear but may involve inhibition of phospholipase A2."
+  ],
+  "evidence": [
+   {
+    "en": "Multiple RCTs and meta-analyses: rectal diclofenac or indomethacin reduces PEP in high-risk patients",
+    "ja": "複数の RCT・メタ解析：ジクロフェナクまたはインドメタシン坐剤は高リスク患者の PEP を減少"
+   },
+   {
+    "en": "Multiple studies in average-risk populations: rectal indomethacin decreases PEP",
+    "ja": "平均的リスク集団の複数研究：インドメタシン坐剤で PEP 減少"
+   }
+  ],
+  "note_ja": "高リスク患者は high quality、平均的リスク患者は moderate quality と、エビデンスの質が分けて評価されている。",
+  "note_en": "Evidence quality is graded high for high-risk patients and moderate for average-risk patients.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 70,
+  "section": "XIII",
+  "question_en": "What are the indications for Pancreatic Duct stent placement to prevent PEP?",
+  "question_ja": "PEP 予防のための膵管ステント留置の適応は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "A prophylactic pancreatic duct stent should be placed in patients with inadvertent multiple pancreatic duct cannulation or injection of contrast into the pancreatic duct during ERCP.",
+    "text_ja": "ERCP 中に意図せず膵管への複数回挿管または膵管への造影剤注入が生じた患者には、予防的膵管ステントを留置すべきである。",
+    "strength": "conditional",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "膵管ステントは膵管内圧を下げ、膵液のドレナージを助けることで PEP を予防する。RCT とメタ解析で PEP の有意な減少が示されている。",
+   "主な適応は、胆管挿管困難例での膵管造影や膵管への反復挿管である。Oddi 括約筋機能不全疑いなどの高リスク例でのルーチン留置もありうるが、利益と害を比較して判断する。",
+   "留置の失敗はかえって PEP のリスクを上げ、膵管損傷や狭窄、長期留置による慢性的な膵管障害も起こりうる。",
+   "推奨されるステントは5 Fr、長さ3〜5 cm、内側フランジのないシングルピッグテール型である。2〜3週間以内に自然逸脱していなければ抜去する。"
+  ],
+  "summary_en": [
+   "A pancreatic stent lowers ductal pressure and aids drainage. RCTs and meta-analyses show a significant reduction in PEP.",
+   "Typical indications are pancreatic duct opacification or repeated pancreatic duct cannulation during difficult biliary access. Routine stenting in high-risk cases such as suspected sphincter of Oddi dysfunction is possible, but benefit must be weighed against harm.",
+   "A failed stent attempt increases PEP risk, and stenting can injure the duct, causing stricture or disruption, while long dwell times can cause chronic damage.",
+   "A 5 Fr, 3 to 5 cm single pigtail stent without internal flanges is recommended. It should be removed if it has not passed spontaneously within 2 to 3 weeks."
+  ],
+  "evidence": [
+   {
+    "en": "RCTs and meta-analyses: prophylactic PD stenting significantly reduces PEP",
+    "ja": "RCT・メタ解析：予防的膵管ステントで PEP は有意に減少"
+   },
+   {
+    "en": "Recent RCT: PD stent without rectal NSAID significantly reduced PEP in unselected patients with inadvertent PD cannulation",
+    "ja": "最近の RCT：意図しない膵管挿管例で、NSAIDs 坐剤なしの膵管ステント留置により PEP が有意に減少"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 71,
+  "section": "XIII",
+  "question_en": "What are the indications for combined rectal indomethacin and pancreatic duct stent placement to prevent PEP?",
+  "question_ja": "PEP 予防のためにインドメタシン坐剤と膵管ステント留置を併用する適応は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "A prophylactic pancreatic duct stent should be considered in addition to rectal NSAID in high-risk patients for PEP prophylaxis.",
+    "text_ja": "PEP 高リスク患者では、PEP 予防として NSAIDs 坐剤に加えて予防的膵管ステント留置を考慮すべきである。",
+    "strength": "conditional",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "以前の RCT の事後解析では、インドメタシン坐剤単独と膵管ステント併用で PEP 発生率に差はなかった。",
+   "しかし高リスク患者1950例を対象とした最近の RCT では、インドメタシン単独群の PEP が14.9%、ステント併用群が11.3%であり、単独群は併用群に対する非劣性を示せなかった。著者らは高リスク患者ではインドメタシン単独は併用ほど有効でないと結論した。",
+   "NSAIDs 坐剤を投与済みでも、意図しない膵管への複数回挿管や造影が起きた場合は膵管ステントの追加を考慮する。"
+  ],
+  "summary_en": [
+   "A post hoc analysis of an earlier RCT found no difference in PEP between indomethacin alone and indomethacin plus stent.",
+   "A recent randomized trial of 1950 high-risk patients, however, showed PEP in 14.9% with indomethacin alone vs 11.3% with indomethacin plus stent, and non-inferiority of indomethacin alone was not shown. The authors concluded that indomethacin alone was less effective than the combination in high-risk patients.",
+   "Even after rectal NSAID prophylaxis, a stent should be considered when inadvertent multiple pancreatic duct cannulation or contrast injection occurs."
+  ],
+  "evidence": [
+   {
+    "en": "Post hoc analysis of earlier RCT: no difference between indomethacin alone and indomethacin plus PD stent",
+    "ja": "過去の RCT の事後解析：インドメタシン単独と膵管ステント併用で差なし"
+   },
+   {
+    "en": "RCT (n=1950 high-risk): PEP 145/975 (14.9%) indomethacin alone vs 110/975 (11.3%) with stent, risk difference 3.6% (95% CI 0.6 to 6.6), p=0.18 for non-inferiority",
+    "ja": "RCT（高リスク1950例）：PEP はインドメタシン単独145/975（14.9%）、ステント併用110/975（11.3%）、リスク差3.6%（95%CI 0.6〜6.6）、非劣性の p=0.18"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 72,
+  "section": "XIII",
+  "question_en": "What is the optimal imaging approach to diagnose traumatic pancreatitis? Is MRCP required to diagnose pancreatic ductal disruption?",
+  "question_ja": "外傷性膵炎の診断に最適な画像検査は何か？膵管損傷の診断に MRCP は必要か？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "A contrast-enhanced CT (CECT) is recommended for stable patients with suspected pancreatic trauma. MRI/MRCP should be reserved for situations when there is a persistent clinical suspicion of pancreatic ductal injury and equivocal findings on a CT scan.",
+    "text_ja": "膵外傷が疑われる循環動態の安定した患者には造影 CT（CECT）を推奨する。MRI/MRCP は、膵管損傷の臨床的疑いが持続し、かつ CT 所見がはっきりしない場合に限って行う。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "膵損傷は腹部外傷の2〜6%に生じる。画像検査の選択は循環動態で決まり、FAST 陽性の不安定例は緊急手術、安定例は造影 CT で他臓器損傷も含めて評価する。",
+   "造影 CT の膵損傷に対する感度は43〜95%とばらつく。初回 CT が正常でも膵損傷は否定できず、特に受傷後12時間以内の撮影で症状が続く場合は24〜48時間後に再検する。",
+   "多断面再構成や MinIP を用いた最近の造影 CT は膵管損傷の感度・特異度がともに90%を超える。MRCP は CT で膵管の連続性が判定できないときに追加する。"
+  ],
+  "summary_en": [
+   "Pancreatic injury occurs in 2% to 6% of abdominal trauma. Hemodynamic status determines imaging: unstable patients with a positive FAST go to surgery, and stable patients undergo CECT, which also assesses other organs.",
+   "CECT sensitivity for pancreatic injury ranges from 43% to 95%. A normal first scan does not exclude injury, and CT should be repeated after 24 to 48 hours if symptoms persist, especially if the first scan was within 12 hours of injury.",
+   "Modern CECT with multiplanar reconstruction and minimum intensity projection detects ductal injury with sensitivity and specificity above 90%. MRCP is added when CT is equivocal about ductal integrity."
+  ],
+  "evidence": [
+   {
+    "en": "Multicenter study (20 centers): CT sensitivity for pancreatic injury 47% to 60%, for MPD integrity sensitivity 52% to 54% and specificity 90% to 95%",
+    "ja": "20施設の多施設研究：膵損傷に対する CT の感度47〜60%、主膵管の連続性評価で感度52〜54%、特異度90〜95%"
+   },
+   {
+    "en": "CECT with MPR and MinIP: sensitivity and specificity >90% for ductal injury",
+    "ja": "MPR・MinIP を用いた造影 CT：膵管損傷の感度・特異度とも90%超"
+   },
+   {
+    "en": "Single-center study: CECT and MRCP comparable for detecting pancreatic duct injury",
+    "ja": "単施設研究：膵管損傷の検出能は造影 CT と MRCP で同等"
+   }
+  ],
+  "note_ja": "膵損傷は grade 1〜5 に分類される（補足表16）。",
+  "note_en": "Pancreatic injury is graded from 1 to 5 (Supplementary Table 16).",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 73,
+  "section": "XIII",
+  "question_en": "When is ERCP indicated in patients with pancreatic trauma?",
+  "question_ja": "膵外傷患者において ERCP はいつ適応となるか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "ERCP is not recommended for diagnostic purposes in patients with AP due to trauma. ERCP should be reserved only for therapeutic purposes to place a stent in the MPD, if indicated.",
+    "text_ja": "外傷による急性膵炎の患者に診断目的の ERCP は推奨しない。ERCP は、適応がある場合に主膵管へステントを留置する治療目的に限って行うべきである。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "以前は損傷部位と範囲を把握でき、そのまま治療にも移れることから ERCP が膵管損傷の診断に用いられていた。",
+   "しかし ERCP は侵襲的で合併症もある。現在は MDCT と MRCP が膵管の連続性評価の主役であり、MRCP の膵管損傷に対する精度は ERCP と同等である。",
+   "したがって ERCP は治療を前提とした場合に限り行う（Q75 参照）。"
+  ],
+  "summary_en": [
+   "ERCP was once used to diagnose ductal injury because it shows the site and extent and offers a route to therapy.",
+   "It is invasive and carries complications, and MDCT and MRCP have replaced it for assessing ductal integrity. MRCP accuracy for ductal injury is comparable to ERCP.",
+   "ERCP should therefore be done only with therapeutic intent (see Q75)."
+  ],
+  "evidence": [
+   {
+    "en": "MRCP accuracy for pancreatic ductal injury comparable to ERCP",
+    "ja": "膵管損傷に対する MRCP の精度は ERCP と同等"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 74,
+  "section": "XIII",
+  "question_en": "How should pancreatic trauma be treated?",
+  "question_ja": "膵外傷はどのように治療すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "A hemodynamically unstable patient with pancreatic trauma should be treated with an exploratory laparotomy with a \"damage control\" approach. Grade 1 and 2 pancreatic injuries should be managed conservatively. For hemodynamically stable patients, early surgical resection is advised for grade 3 injuries.",
+    "text_ja": "循環動態が不安定な膵外傷患者には、ダメージコントロールの方針で試験開腹術を行うべきである。grade 1 および 2 の膵損傷は保存的に管理する。循環動態が安定した患者の grade 3 損傷には早期の外科的切除を勧める。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "治療方針は全身状態、受診のタイミング、損傷 grade、他臓器・血管損傷の有無で決まり、特に膵管の状態が鍵となる。循環動態が不安定なら直ちに開腹する。",
+   "低 grade 損傷は保存的に扱う。開腹時に見つかった低 grade 損傷で切除を行うと、ドレナージのみより腹腔内膿瘍が多かった。",
+   "grade 3 では膵体尾部切除が第一選択であり、非切除群は死亡率と膵液瘻が有意に多かった。診断が遅れ他に開腹適応がなければ非手術的管理も選択肢となる。",
+   "grade 4 では残膵が小さくなるため尾側切除は好まれず、grade 5 では十二指腸・膵頭部の血流と乳頭が保たれていれば外ドレナージ、そうでなければ膵頭十二指腸切除を要しうる。診断や治療が24時間以上遅れると合併症と入院期間が増えるため、手術が必要なら診断後すみやかに行う。"
+  ],
+  "summary_en": [
+   "Management depends on overall condition, timing, injury grade and associated visceral or vascular injury, with ductal status being critical. Unstable patients need immediate laparotomy.",
+   "Low-grade injuries are treated conservatively. When found at laparotomy, resection led to more intra-abdominal abscesses than drainage alone.",
+   "Distal pancreatectomy is the treatment of choice for grade 3 injury, and non-resection carried higher mortality and fistula rates. Late-diagnosed grade 3 injury without another reason for laparotomy can be managed non-operatively.",
+   "For grade 4, distal resection is avoided because the remnant would be small. For grade 5, external drainage is reasonable if the pancreatoduodenal complex and ampulla are viable, otherwise pancreatoduodenectomy may be needed. Delays beyond 24 hours raise complications and length of stay, so surgery, when needed, should follow diagnosis promptly."
+  ],
+  "evidence": [
+   {
+    "en": "EAST analysis (14 articles, 299 patients): resection for low-grade injury led to more intra-abdominal abscess than drains alone",
+    "ja": "EAST の解析（14論文、299例）：低 grade 損傷で切除するとドレナージのみより腹腔内膿瘍が多い"
+   },
+   {
+    "en": "Review of 314 patients from 19 studies (grade 3): mortality 27.2% vs 8.6% and fistula 88.0% vs 17.7%, no resection vs resection",
+    "ja": "19研究314例のレビュー（grade 3）：非切除と切除で死亡率27.2%対8.6%、膵液瘻88.0%対17.7%"
+   },
+   {
+    "en": "Systematic review of 365 pediatric high-grade injuries: 167 managed non-operatively first, success 89%",
+    "ja": "小児高 grade 膵損傷365例の系統的レビュー：167例で初期に非手術的管理、成功率89%"
+   }
+  ],
+  "note_ja": "高 grade 損傷でどの時点から非手術的管理に切り替えるべきかについてのコンセンサスはない。",
+  "note_en": "There is no consensus on the time point after which non-operative management should be preferred for high-grade injury.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 75,
+  "section": "XIII",
+  "question_en": "What is the role of endoscopic therapy in pancreatic trauma?",
+  "question_ja": "膵外傷における内視鏡治療の役割は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "ERCP with pancreatic stenting is recommended in stable patients with symptomatic main pancreatic duct disruption following trauma who do not have an indication for surgical treatment. Endoscopic transmural internal drainage is recommended for patients with symptomatic pseudocyst or walled-off necrosis after recovery from the initial injury.",
+    "text_ja": "外傷後に症候性の主膵管断裂を生じ、手術適応のない循環動態の安定した患者には、ERCP による膵管ステント留置を推奨する。受傷初期から回復した後に症候性の仮性嚢胞または被包化壊死（WON）を生じた患者には、内視鏡的経消化管的内瘻化を推奨する。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "非手術的管理中の安定例や、主膵管損傷と膵液漏出で遅れて受診した例では、部分的な主膵管損傷に対し ERCP による膵管ステント留置が選択肢となる。",
+   "5 Fr の経乳頭ステントで損傷部を橋渡しするのが基本である。橋渡しできなければ、尾側膵のドレナージを助けるためできるだけ奥まで留置する。治癒後に膵管狭窄を生じることがあり、症状があれば治療する。",
+   "急性期を乗り切った後に仮性嚢胞や WON を形成した場合は、他の成因の膵炎と同様に内視鏡的経消化管的ドレナージを行う。"
+  ],
+  "summary_en": [
+   "In stable patients managed non-operatively, or those presenting late with main duct injury and leak, ERCP with pancreatic stenting can treat partial duct injury.",
+   "A 5 Fr transpapillary stent should bridge the injury. If bridging fails, the stent is advanced as far as possible to help drain the distal pancreas. The healed site may stricture and should be treated if symptomatic.",
+   "Pseudocysts or walled-off necrosis that develop after recovery are drained endoscopically through the gut wall, as for pancreatitis of any other cause."
+  ],
+  "evidence": [],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 76,
+  "section": "XIII",
+  "question_en": "What is the impact of AP during pregnancy on fetal outcomes?",
+  "question_ja": "妊娠中の急性膵炎は胎児の転帰にどのような影響を及ぼすか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Acute pancreatitis during pregnancy results in higher rates of preterm delivery and perinatal mortality, including intra-uterine death. Fetal loss rates are higher in patients with severe pancreatitis as compared to those with mild pancreatitis.",
+    "text_ja": "妊娠中の急性膵炎は、早産および子宮内胎児死亡を含む周産期死亡の増加をもたらす。胎児喪失率は軽症膵炎に比べ重症膵炎で高い。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "妊娠中の急性膵炎はまれで、1万妊娠に1例程度である。成因は胆石が最多である。",
+   "8つの後ろ向き研究では、早産は12.1〜30.1%、胎児喪失は0〜33%であった。母体死亡と胎児死亡はすべて重症例で生じ、妊娠初期の発症ほど胎児の転帰が悪い。",
+   "米国 NIS データベースの大規模解析でも、急性膵炎合併妊娠では早産が多かった。"
+  ],
+  "summary_en": [
+   "AP is rare in pregnancy, about 1 in 10,000 pregnancies, and gallstones are the most common cause.",
+   "Across 8 retrospective studies, preterm delivery ranged from 12.1% to 30.1% and fetal loss from 0% to 33%. All maternal and fetal deaths occurred in severe AP, and first-trimester onset carried more adverse fetal outcomes.",
+   "A large analysis of the US NIS database also showed more preterm labor in pregnancies complicated by AP."
+  ],
+  "evidence": [
+   {
+    "en": "8 retrospective studies: preterm delivery 12.1% to 30.1%, fetal loss 0% to 33%",
+    "ja": "後ろ向き研究8件：早産12.1〜30.1%、胎児喪失0〜33%"
+   },
+   {
+    "en": "NIS database 2009 to 2019 (5439 pregnancies with AP vs 40,882,220 without): preterm labor 17.9% vs 5.8%, increased maternal mortality risk",
+    "ja": "NIS データベース2009〜2019年（急性膵炎合併5439妊娠、非合併40,882,220妊娠）：早産17.9%対5.8%、母体死亡リスク上昇"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 77,
+  "section": "XIII",
+  "question_en": "What is the optimal imaging approach to identify AP in pregnancy?",
+  "question_ja": "妊娠中の急性膵炎を診断するための最適な画像検査は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Transabdominal USG is recommended as the initial imaging modality of choice to confirm the diagnosis of AP during pregnancy. MRI may be considered for patients with indeterminate sonographic findings.",
+    "text_ja": "妊娠中の急性膵炎の診断を確定するための初期画像検査として、経腹壁超音波検査を推奨する。超音波所見で判断がつかない患者では MRI を考慮してよい。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "超音波検査は被曝がなく、胆石の検出感度も高いため、妊娠中の第一選択となる。",
+   "ガドリニウム造影を用いない MRI はすべての妊娠期間で安全とされ、超音波で結論が出ないときに用いる。非外傷性腹痛の妊婦94例では CT と MRI の診断能に差はなかった。",
+   "胎児への放射線リスクは妊娠2〜20週で0.05〜0.15 Gy を超える場合に最も大きい。腹部 CT の線量は約0.01 Gy（10 mSv）である。ヨード造影剤は胎児甲状腺機能低下症のおそれがあるため可能な限り避ける。"
+  ],
+  "summary_en": [
+   "Ultrasound involves no radiation and is highly sensitive for gallstones, making it the first choice in pregnancy.",
+   "MRI without gadolinium is considered safe in all trimesters and is used when ultrasound is inconclusive. In 94 pregnant women with non-traumatic abdominal pain, CT and MRI performed similarly.",
+   "Fetal radiation risk is greatest at 2 to 20 weeks when the dose exceeds 0.05 to 0.15 Gy. An abdominal CT delivers about 0.01 Gy (10 mSv). Iodinated contrast should be avoided when feasible because of the risk of fetal hypothyroidism."
+  ],
+  "evidence": [
+   {
+    "en": "94 pregnant patients with non-traumatic abdominal pain: no difference in diagnostic performance between CT and MRI",
+    "ja": "非外傷性腹痛の妊婦94例：CT と MRI で診断能に差なし"
+   },
+   {
+    "en": "Fetal radiation risk greatest at 2 to 20 weeks above 0.05 to 0.15 Gy, abdominal CT about 0.01 Gy (10 mSv)",
+    "ja": "胎児被曝リスクは妊娠2〜20週、0.05〜0.15 Gy 超で最大、腹部 CT は約0.01 Gy（10 mSv）"
+   }
+  ],
+  "note_ja": "MRI ではガドリニウム造影剤を使用しない。",
+  "note_en": "MRI should be performed without gadolinium.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 78,
+  "section": "XIII",
+  "question_en": "Is there a difference in managing AP during pregnancy?",
+  "question_ja": "妊娠中の急性膵炎の管理に違いはあるか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Generally, pregnant patients with AP should be managed similarly to non-pregnant patients.",
+    "text_ja": "一般に、急性膵炎の妊婦は非妊娠患者と同様に管理すべきである。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "治療の基本は非妊娠患者と同じである。ただし産科医と連携して管理し、母体や胎児に有害となりうる薬剤は避ける。",
+   "安定した仮性嚢胞や WON に対する妊娠中のインターベンションの時期について文献上の指針はなく、臨床的な適応と施設の経験に基づいて判断する。"
+  ],
+  "summary_en": [
+   "Treatment follows the same principles as in non-pregnant patients, but care should be shared with an obstetrician and drugs with maternal or fetal risk avoided.",
+   "There is no specific guidance on timing interventions for stable pseudocysts or walled-off necrosis during pregnancy, so decisions rest on clinical indication and local expertise."
+  ],
+  "evidence": [],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 79,
+  "section": "XIII",
+  "question_en": "What is the optimal timing for cholecystectomy for gallstones in pregnant patients with acute biliary pancreatitis?",
+  "question_ja": "急性胆石性膵炎の妊婦における胆嚢摘出術の最適な時期はいつか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Early cholecystectomy is recommended for pregnant patients with mild acute biliary pancreatitis, preferably in the second and early third trimester.",
+    "text_ja": "軽症の急性胆石性膵炎の妊婦には早期の胆嚢摘出術を推奨し、妊娠中期から妊娠後期の早い時期に行うことが望ましい。",
+    "strength": "strong",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "胆石性膵炎は妊娠週数が進むほど多い。妊娠中の再発率は最大70%で、一般集団の20〜30%より高いため、保存的治療で待つ利点は乏しい。",
+   "保存的治療群では胎児死亡、救急受診、入院、胆道イベントの再発が多い傾向が報告されている。腹腔鏡下胆嚢摘出術はどの妊娠期間でも安全だが、器官形成が終わり子宮がまだ大きくない妊娠中期から後期初めが最適である。",
+   "重症例での手術時期は非妊娠患者と同様に定まっておらず、全身のリスク、妊娠期間、局所合併症を踏まえて決める。",
+   "総胆管結石が疑われる場合は、まず腹部超音波、必要なら MRI か EUS で確認してから ERCP を行う。妊娠中期以降の ERCP では左側臥位と骨盤左傾で大動脈・下大静脈の圧迫を避け、胎児モニタリングを考慮し、腹部の鉛遮蔽などで被曝を最小限にする。"
+  ],
+  "summary_en": [
+   "Biliary pancreatitis becomes more common as pregnancy advances. Recurrence during pregnancy may reach 70%, vs 20% to 30% in the general population, so waiting offers little.",
+   "Conservative care has been linked to more fetal deaths, emergency visits, admissions and recurrent biliary events. Laparoscopic cholecystectomy is safe in all trimesters but is best done in the second or early third trimester, after organogenesis and before the uterus is large.",
+   "Timing in severe disease is unclear, as in non-pregnant patients, and should weigh overall risk, trimester and local complications.",
+   "Suspected bile duct stones should be confirmed by ultrasound, and by MRI or EUS if doubtful, before ERCP. During ERCP in the second and third trimesters, use left pelvic tilt and left lateral positioning to avoid aortocaval compression, consider fetal monitoring and minimize radiation with abdominal lead shielding."
+  ],
+  "evidence": [
+   {
+    "en": "Recurrence of acute biliary pancreatitis during pregnancy up to 70% vs 20% to 30% in the general population",
+    "ja": "妊娠中の急性胆石性膵炎の再発率は最大70%、一般集団では20〜30%"
+   },
+   {
+    "en": "Review of 113 patients from 12 studies: fetal mortality 8.0% with conservative care vs 2.6% with cholecystectomy (p=0.28)",
+    "ja": "12研究113例のレビュー：胎児死亡は保存的治療8.0%、胆嚢摘出術2.6%（p=0.28）"
+   },
+   {
+    "en": "Retrospective series of 112 pregnant patients: more emergency visits, admissions and recurrent biliary events with conservative treatment than with intervention",
+    "ja": "妊婦112例の後ろ向き研究：保存的治療群はインターベンション群より救急受診、入院、胆道イベント再発が多い"
+   }
+  ],
+  "note_ja": "胎児死亡の差（8.0%対2.6%）は統計学的に有意ではない（p=0.28）点に注意する。",
+  "note_en": "The difference in fetal mortality (8.0% vs 2.6%) was not statistically significant (p=0.28).",
+  "patients_ja": "",
+  "patients_en": ""
+ }
+]

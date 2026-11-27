@@ -1,0 +1,709 @@
+[
+  {
+    "q": 80,
+    "section": "XIV",
+    "question_en": "Is any targeted therapy indicated for patients with AP?",
+    "question_ja": "急性膵炎に対して適応となる標的治療（targeted therapy）はあるか？",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "At present, no effective targeted therapy is available, and thus, no targeted therapy is recommended for patients with AP.",
+        "text_ja": "現時点で有効な標的治療は存在せず、したがって急性膵炎患者に対して推奨される標的治療はない。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "発症後1週間の急性膵炎治療は、現在も輸液、鎮痛、栄養などの全身支持療法に限られている。局所および全身の炎症を直接抑える薬剤は、臨床で使えるものがまだない。",
+      "罹患率と死亡率を下げるには、新規薬剤の開発パイプラインが必要である。候補薬はよくデザインされたRCTで評価すべきとされる。",
+      "がん領域のprecision medicineのように、adaptive designを組み込んだマスタープロトコルによるトライアルプラットフォームを作れば、開発を加速できる可能性があると述べられている。"
+    ],
+    "summary_en": [
+      "Treatment of AP during the first week is still limited to general supportive care such as fluids, analgesia and nutrition. No drug that directly targets local or systemic inflammation is available for clinical use.",
+      "A development pipeline of new agents is needed to reduce morbidity and mortality, and candidate drugs should be tested in well designed randomized controlled trials.",
+      "The guideline suggests that a master protocol for a trial platform with adaptive designs, as used in cancer precision medicine, could speed up development."
+    ],
+    "evidence": [
+      {
+        "en": "No agent has shown proven efficacy to date, so the statement is a GPS without graded evidence",
+        "ja": "有効性が証明された薬剤は現時点でなく、エビデンスグレードを伴わないGPSとして提示されている"
+      },
+      {
+        "en": "Proposal: master protocol trial platforms with adaptive designs, modeled on oncology precision medicine",
+        "ja": "提案：腫瘍領域のprecision medicineをモデルとした、adaptive designを含むマスタープロトコル型トライアルプラットフォーム"
+      }
+    ],
+    "note_ja": "臨床現場では、膵炎特異的な薬物療法を期待するより、支持療法の質を高めることが中心となる。",
+    "note_en": "In practice, the focus remains on high quality supportive care rather than any pancreatitis specific drug.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 81,
+    "section": "XIV",
+    "question_en": "Are there some promising therapeutic options to target inflammation in AP?",
+    "question_ja": "急性膵炎の炎症を標的とする有望な治療選択肢はあるか？",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "A few therapeutic agents to mitigate inflammation are currently undergoing trials, which could effectively reduce the severity of AP.",
+        "text_ja": "炎症を抑制するいくつかの治療薬が現在臨床試験中であり、急性膵炎の重症度を効果的に軽減する可能性がある。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "これまで多くの薬剤が試されたが、罹患率や死亡率の改善には至らなかった。PAF拮抗薬lexipafant、pentoxifylline、蛋白分解酵素阻害薬（ulinastatin、gabexate、camostat、nafamostat）、ソマトスタチン受容体リガンド（somatostatin、octreotide）、蛋白分解酵素阻害薬の持続動注療法（CRAI、抗菌薬併用の有無を問わない）などである。",
+      "低分子ヘパリンとCOX-2阻害薬は重症度や処置の必要性を減らす可能性が示されているが、さらなる確認が必要とされる。",
+      "現在RCTで検討中の薬剤として、ORAI1チャネル阻害薬、ω-3脂肪酸、抗IL-6受容体抗体tocilizumab、ステロイド、抗TNF-α抗体infliximabが挙げられている。"
+    ],
+    "summary_en": [
+      "Many earlier agents failed to reduce morbidity or mortality, including the PAF antagonist lexipafant, pentoxifylline, protease inhibitors (ulinastatin, gabexate, camostat, nafamostat), somatostatin receptor ligands (somatostatin, octreotide) and continuous regional arterial infusion (CRAI) of protease inhibitors with or without antibiotics.",
+      "Low molecular weight heparin and COX-2 inhibitors have shown promise in reducing severity and the need for procedures, but need confirmation.",
+      "Agents now in randomized trials include an ORAI1 channel inhibitor, omega-3 fatty acids, the anti-IL-6 receptor antibody tocilizumab, steroids and the anti-TNF-alpha antibody infliximab."
+    ],
+    "evidence": [
+      {
+        "en": "Unsuccessful agents: lexipafant, pentoxifylline, protease inhibitors, somatostatin and octreotide, CRAI of protease inhibitors",
+        "ja": "無効だった薬剤：lexipafant、pentoxifylline、蛋白分解酵素阻害薬、somatostatin・octreotide、蛋白分解酵素阻害薬のCRAI"
+      },
+      {
+        "en": "Low molecular weight heparin and COX-2 inhibitors: promising for severity reduction, need further confirmation",
+        "ja": "低分子ヘパリン、COX-2阻害薬：重症度軽減に有望だが追加の検証が必要"
+      },
+      {
+        "en": "Ongoing RCTs: ORAI1 channel inhibitor, omega-3 fatty acids, tocilizumab, steroids, infliximab",
+        "ja": "進行中のRCT：ORAI1チャネル阻害薬、ω-3脂肪酸、tocilizumab、ステロイド、infliximab"
+      }
+    ],
+    "note_ja": "日本で使われてきた蛋白分解酵素阻害薬やCRAIは、本ガイドラインでは有効性が示されなかった治療として位置づけられている。",
+    "note_en": "Protease inhibitors and CRAI, used widely in Japan, are listed among therapies that failed to show benefit.",
+    "patients_ja": "患者は、急性膵炎の大きな負担を減らすため、国際的に有効性が認められた標的治療薬の開発と承認を強く支持している。",
+    "patients_en": "Patients strongly support the development and worldwide approval of effective targeted drugs to reduce the large burden of AP, for which no agreed disease modifying therapy exists."
+  },
+  {
+    "q": 82,
+    "section": "XV",
+    "question_en": "What clinical features and laboratory markers indicate that it is safe to discharge a patient with AP?",
+    "question_ja": "急性膵炎患者を安全に退院させてよいと判断できる臨床所見と検査マーカーは何か？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Stable patients who tolerate an oral diet, demonstrate improvement of inflammatory markers (C-reactive protein) and/or total leukocyte count, absence of persistent fever, and require no or minimal non-opioid analgesia are suitable candidates for discharge following AP.",
+        "text_ja": "経口摂取に耐えられ、炎症マーカー（CRP）および/または白血球数の改善を認め、持続する発熱がなく、非オピオイド鎮痛薬を必要としないかごく少量で済む安定した患者は、急性膵炎後の退院の適切な候補である。",
+        "strength": "conditional",
+        "quality": "low"
+      }
+    ],
+    "summary_ja": [
+      "初回発作後の再入院は20%を超えるとする大規模集団研究があり、うっ血性心不全など他の高負担疾患と同程度である。再入院は死亡率上昇と関連し、再入院費用の中央値は初回入院費用を上回ることもある。そのため退院基準の明確化が求められる。",
+      "再入院のリスク因子として、退院時の消化器症状（悪心、嘔吐、下痢）、固形食未満の経口摂取、中等量から大量の飲酒、膵壊死が挙げられている。",
+      "軽症例では、経口摂取が可能、WHO第1段階の鎮痛で疼痛がコントロール、CRP<150 mg/dL、24時間間隔の2回の測定でBUN上昇が5 mg/dL以下、という条件がそろえば発症48時間以内の早期退院も安全であった。経口摂取とCRP低下に基づくプロトコルで在院日数を短縮しつつ再入院率を低く抑えた多施設研究もある。"
+    ],
+    "summary_en": [
+      "Large population studies show readmission rates above 20% after a first episode, similar to other high burden conditions such as congestive heart failure. Readmission is linked to higher mortality, and its median cost may exceed that of the index stay, so clear discharge standards are needed.",
+      "Risk factors for readmission include GI symptoms at discharge (nausea, vomiting, diarrhea), tolerating less than a solid diet, moderate to heavy alcohol use and pancreatic necrosis.",
+      "In mild AP, tolerance of oral intake, pain control with first step WHO analgesia, CRP below 150 mg/dL and a BUN rise of no more than 5 mg/dL over two samples 24 hours apart were associated with safe discharge within the first 24 to 48 hours. A multicenter protocol based on oral diet tolerance and falling CRP achieved a short stay with a low readmission rate."
+    ],
+    "evidence": [
+      {
+        "en": "Readmission after a first AP episode exceeds 20% in large population studies",
+        "ja": "大規模集団研究で初回急性膵炎後の再入院率は20%超"
+      },
+      {
+        "en": "Safe early discharge (first 24 to 48 h) in mild AP: oral intake tolerated, WHO step 1 analgesia, CRP <150 mg/dL, BUN rise no more than 5 mg/dL in two samples 24 h apart",
+        "ja": "軽症例の早期退院（24〜48時間以内）の安全条件：経口摂取可、WHO第1段階鎮痛、CRP<150 mg/dL、24時間間隔の2回測定でBUN上昇5 mg/dL以下"
+      },
+      {
+        "en": "Hungarian multicenter protocol (oral diet tolerance plus falling CRP): length of stay 6 (5 to 9) days, readmission 5%",
+        "ja": "ハンガリー多施設研究のプロトコル（経口摂取可とCRP低下）：在院日数6（5〜9）日、再入院率5%"
+      }
+    ],
+    "note_ja": "CRPの単位は原文どおりmg/dLで記載されている（150 mg/Lの意味である可能性があり、解釈に注意）。",
+    "note_en": "The CRP cutoff is written as 150 mg/dL in the paper. It may mean 150 mg/L, so interpret with care.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 83,
+    "section": "XV",
+    "question_en": "Should any specific scoring system or algorithm be used to determine whether a patient with AP is eligible for discharge?",
+    "question_ja": "急性膵炎患者の退院可否の判断に特定のスコアリングシステムやアルゴリズムを用いるべきか？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "No validated specific scoring system is recommended to determine safe discharge, although PASS and SNAPP scores may be used as guidance.",
+        "text_ja": "安全な退院を判断するための検証済みの特定スコアリングシステムは推奨されないが、PASSおよびSNAPPスコアを目安として用いてもよい。",
+        "strength": "conditional",
+        "quality": "low"
+      }
+    ],
+    "summary_ja": [
+      "国際調査では87.5%（49/56）の施設が退院プロトコルを持っていなかった。再入院のおよそ半数は退院後30日以内の早期、半数は30日超の晩期である。早期再入院はくすぶる膵炎を、晩期再入院は合併症や新たな発作を反映すると考えられる。",
+      "SNAPPモデルは、症状（悪心、嘔吐、固形食不耐）、固形食未満の栄養、抗菌薬使用、膵壊死、退院時疼痛から早期再入院を予測する。高スコア群の再入院は68%、低スコア群は4%で、外部検証も行われている。",
+      "PASSは臨床経過中の疾患活動性を定量化するスコアで、30日再入院と相関し、PASS>60の再入院予測は感度68%、特異度71%であった。ハンガリーのスコアは外部検証が必要とされる。晩期再入院の予測スコアはなく、飲酒が強く関連するため、同一入院中の胆嚢摘出術や積極的な脂質管理が予防策となりうる。"
+    ],
+    "summary_en": [
+      "An international survey found that 87.5% (49/56) of centers had no discharge protocol. About half of readmissions are early (within 30 days) and half late. Early readmission likely reflects smoldering pancreatitis, while late readmission reflects complications or new attacks.",
+      "The SNAPP model (symptoms, nutrition below solid diet, antibiotic use, pancreatic necrosis, pain at discharge) predicts early readmission. Readmission was 68% with high scores and 4% with low scores in a testing cohort, and the score has been validated.",
+      "The Pancreatitis Activity Scoring System (PASS) correlated with 30 day readmission, and a score above 60 had 68% sensitivity and 71% specificity. The Hungarian score still needs external validation. No score predicts late readmission, which is closely tied to alcohol use, and same admission cholecystectomy or aggressive lipid control may prevent it in biliary or hypertriglyceridemic AP."
+    ],
+    "evidence": [
+      {
+        "en": "International survey: 87.5% (49/56) of centers had no discharge protocol",
+        "ja": "国際調査：87.5%（49/56）の施設に退院プロトコルなし"
+      },
+      {
+        "en": "SNAPP score: readmission 68% with high scores vs 4% with low scores in a testing cohort, validated",
+        "ja": "SNAPPスコア：検証コホートで高スコア群の再入院68%、低スコア群4%、妥当性検証済み"
+      },
+      {
+        "en": "PASS >60: sensitivity 68%, specificity 71% for 30 day readmission",
+        "ja": "PASS>60：30日再入院予測の感度68%、特異度71%"
+      },
+      {
+        "en": "In one study, 21% of patients had early readmission, correlated with ongoing nausea, vomiting and intolerance of solid diet",
+        "ja": "ある研究では21%が早期再入院し、悪心、嘔吐、固形食不耐の持続と相関"
+      }
+    ],
+    "note_ja": "スコアの導入が再入院率、費用、死亡率に与える影響を検証する実装研究が今後必要とされている。",
+    "note_en": "Implementation studies are still needed to test how SNAPP, PASS and other scores affect readmission, cost and mortality.",
+    "patients_ja": "患者は、いつ退院できるのか、どの基準で判断されるのかの明確な説明を求めている。合併症の出現や推奨されるフォローアップ時期への関心が高く、入院中と退院後の心身両面の支援、長期入院による筋力低下などへの対応を望んでいる。",
+    "patients_en": "Patients want clear explanations of when and by which criteria they can be discharged. They worry about complications and follow-up timing, and ask for support for both mental and physical health before and after discharge, including issues such as muscle wasting after long stays."
+  },
+  {
+    "q": 84,
+    "section": "XVI",
+    "question_en": "What is the optimal timing of cholecystectomy after mild acute biliary pancreatitis?",
+    "question_ja": "軽症急性胆石性膵炎後の胆嚢摘出術の至適時期はいつか？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Early cholecystectomy during index admission for mild biliary pancreatitis is safe and is recommended to prevent recurrence of AP.",
+        "text_ja": "軽症胆石性膵炎に対する初回入院中の早期胆嚢摘出術は安全であり、急性膵炎の再発予防のために推奨される。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "軽症急性胆石性膵炎後の胆嚢摘出術の時期は、再発や胆道合併症を最小化するうえで重要である。",
+      "初回入院中の胆嚢摘出術と待機的（interval）胆嚢摘出術を比較した多施設RCTでは、再発性膵炎は待機群9%、同一入院群2%であった。患者報告アウトカムの改善、費用削減、膵炎後糖尿病の減少も報告されている。システマティックレビューとメタ解析でも、早期胆嚢摘出術で胆道合併症と再発が減ることが示されている。",
+      "早期胆嚢摘出術が行えない重症例では内視鏡的乳頭括約筋切開術（ES）が再発を防ぐ可能性があるが、さらなる検証が必要である。手術リスクの高い高齢者などではES単独も選択肢となりうるが、一部は胆石疝痛を再発する。"
+    ],
+    "summary_en": [
+      "Timing of cholecystectomy after mild acute biliary pancreatitis is key to minimizing recurrence and biliary complications.",
+      "In a multicenter RCT of same admission vs interval cholecystectomy, recurrent pancreatitis occurred in 9% of the interval group vs 2% of the same admission group. Better patient reported outcomes, cost savings and less post-pancreatitis diabetes have also been reported. Systematic reviews and meta-analyses confirm fewer biliary complications and recurrences with early surgery.",
+      "Endoscopic sphincterotomy (ES) may prevent recurrence in severe cases that cannot undergo early cholecystectomy, but needs confirmation. ES alone may be reasonable in high surgical risk patients such as the elderly with comorbidities, although some develop recurrent biliary colic."
+    ],
+    "evidence": [
+      {
+        "en": "Multicenter RCT (same admission vs interval cholecystectomy): recurrent pancreatitis 2% vs 9%",
+        "ja": "多施設RCT（同一入院中と待機的胆嚢摘出術の比較）：再発性膵炎は2%対9%"
+      },
+      {
+        "en": "Early cholecystectomy also linked to better patient reported outcomes, cost savings and less post-pancreatitis diabetes",
+        "ja": "早期胆嚢摘出術は患者報告アウトカム改善、費用削減、膵炎後糖尿病減少とも関連"
+      },
+      {
+        "en": "Systematic reviews and meta-analyses: early cholecystectomy reduces biliary complications and recurrent pancreatitis",
+        "ja": "システマティックレビュー・メタ解析：早期胆嚢摘出術で胆道合併症と再発性膵炎が減少"
+      }
+    ],
+    "note_ja": "",
+    "note_en": "",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 85,
+    "section": "XVI",
+    "question_en": "What is the optimal timing of cholecystectomy after severe acute biliary pancreatitis?",
+    "question_ja": "重症急性胆石性膵炎後の胆嚢摘出術の至適時期はいつか？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Cholecystectomy should be delayed in patients with moderate and severe AP, in particular, those with necrotizing pancreatitis and peripancreatic fluid collections, until the collections nearly resolve.",
+        "text_ja": "中等症および重症急性膵炎、特に壊死性膵炎および膵周囲液体貯留を伴う患者では、液体貯留がほぼ消退するまで胆嚢摘出術を延期すべきである。",
+        "strength": "conditional",
+        "quality": "low"
+      }
+    ],
+    "summary_ja": [
+      "壊死や液体貯留を伴う重症急性胆石性膵炎では、膵周囲液体貯留（PFC）が消退するかドレナージされるまで手術を遅らせる。PFCが6週間を超えて残る場合、手術時期は膵の炎症の消退に合わせて決め、必要に応じて他の外科的ドレナージと同時に行うこともある。",
+      "内視鏡的ドレナージが進歩した現在でも、合併症が落ち着くまで待つことが推奨されるが、強固なデータはない。中等症から重症の胆石性膵炎108例の後ろ向き研究では、早期胆嚢摘出術は遅延群と比べて死亡、合併症、感染のリスク上昇と関連した。",
+      "壊死性膵炎の事後解析では、再発と胆道合併症を減らすため、退院後8週以内を目安とした胆嚢摘出術が示唆されている。至適時期の確立には十分な検出力のRCTが必要である。"
+    ],
+    "summary_en": [
+      "In severe acute biliary pancreatitis with necrosis or collections, surgery should wait until peripancreatic fluid collections (PFCs) resolve or are drained. If PFCs persist beyond 6 weeks, timing should follow resolution of inflammation, possibly combined with other surgical drainage.",
+      "Despite advances in endoscopic drainage, waiting until complications settle is advised, though robust data are lacking. A retrospective study of 108 patients with moderately severe and severe biliary AP found early cholecystectomy associated with higher mortality, morbidity and infection than delayed surgery.",
+      "A post-hoc analysis of necrotizing pancreatitis suggested cholecystectomy within a mean of 8 weeks after discharge to reduce recurrence and biliary complications. Adequately powered RCTs are needed to define optimal timing."
+    ],
+    "evidence": [
+      {
+        "en": "Retrospective study (n=108, moderately severe and severe biliary AP): early cholecystectomy linked to higher mortality, morbidity and infection",
+        "ja": "後ろ向き研究（n=108、中等症〜重症胆石性膵炎）：早期胆嚢摘出術で死亡、合併症、感染が増加"
+      },
+      {
+        "en": "Post-hoc analysis in necrotizing pancreatitis: cholecystectomy within about 8 weeks after discharge suggested",
+        "ja": "壊死性膵炎の事後解析：退院後おおむね8週以内の胆嚢摘出術が望ましい"
+      },
+      {
+        "en": "PFCs persisting beyond 6 weeks: time surgery to the resolution of inflammation, can combine with surgical drainage",
+        "ja": "6週を超えて持続するPFC：炎症の消退に合わせて手術時期を決め、外科的ドレナージと同時施行も可"
+      }
+    ],
+    "note_ja": "延期しすぎると待機中の胆道イベントや再発のリスクがあるため、液体貯留の経過を画像で追いながら時期を決める。",
+    "note_en": "Delaying too long risks biliary events while waiting, so timing should be guided by imaging follow-up of the collections.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 86,
+    "section": "XVI",
+    "question_en": "What is the role of cholecystectomy in patients with acute biliary pancreatitis who have undergone ERCP and endoscopic sphincterotomy?",
+    "question_ja": "ERCPおよび内視鏡的乳頭括約筋切開術を受けた急性胆石性膵炎患者における胆嚢摘出術の役割は何か？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Cholecystectomy is recommended in patients with acute biliary pancreatitis who have undergone ERCP and endoscopic sphincterotomy and are fit for surgery.",
+        "text_ja": "ERCPおよび内視鏡的乳頭括約筋切開術を受け、手術に耐えられる急性胆石性膵炎患者には胆嚢摘出術が推奨される。",
+        "strength": "conditional",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "ES後に待機的胆嚢摘出術を待つ患者の最大10%で、胆石疝痛、胆嚢炎、再発性膵炎などの胆道合併症が起こる。ESを行っても胆嚢を残せば胆道イベントのリスクは残る。",
+      "重症胆石性膵炎におけるESの役割、胆嚢摘出術ができない患者でESが再発をどこまで減らすかについてのデータは限られている。",
+      "サブグループ解析では、胆嚢摘出術前のERCPとESは再発性膵炎を減らしたが、胆道イベントは減らさなかった。手術可能な患者では、ES後も胆嚢摘出術を行うのが原則である。"
+    ],
+    "summary_en": [
+      "Biliary complications such as biliary colic, cholecystitis and recurrent pancreatitis occur in up to 10% of patients awaiting interval cholecystectomy after ES. Leaving the gallbladder in place keeps the risk of biliary events.",
+      "Data on ES in severe biliary pancreatitis, and on how much ES reduces recurrence in patients who cannot have cholecystectomy, are limited.",
+      "In a subgroup analysis, ERCP with ES before cholecystectomy reduced recurrent pancreatitis but not biliary events. In patients fit for surgery, cholecystectomy should still follow ES."
+    ],
+    "evidence": [
+      {
+        "en": "Biliary complications in up to 10% of patients awaiting interval cholecystectomy after ES",
+        "ja": "ES後に待機的胆嚢摘出術を待つ患者の最大10%に胆道合併症"
+      },
+      {
+        "en": "Subgroup analysis: ERCP with ES before cholecystectomy reduced recurrent pancreatitis but not biliary events",
+        "ja": "サブグループ解析：胆嚢摘出術前のERCP＋ESで再発性膵炎は減少したが胆道イベントは減少せず"
+      }
+    ],
+    "note_ja": "ES単独で済ませてよいのは、手術リスクが高い高齢者などに限られる（Q84参照）。",
+    "note_en": "ES alone should be reserved for high surgical risk patients such as frail elderly patients (see Q84).",
+    "patients_ja": "患者は、禁酒や禁煙を含む生活習慣の管理を再発予防に含めるべきと考えている。高トリグリセリド血症関連膵炎では食事指導が特に重要とし、背景にある慢性膵炎への配慮やそれに応じたフォローアップも求めている。",
+    "patients_en": "Patients feel lifestyle management, including stopping alcohol and smoking, should be part of prevention. They see dietary advice as especially important after triglyceride associated AP and want underlying chronic pancreatitis to be considered in follow-up."
+  },
+  {
+    "q": 87,
+    "section": "XVII",
+    "question_en": "Is there a need for periodic follow-up of patients with AP after discharge to assess short- and long-term complications?",
+    "question_ja": "急性膵炎患者に対して、短期および長期合併症を評価するために退院後の定期的なフォローアップは必要か？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Patients who recover from an attack of AP should be followed up periodically after discharge to assess short- and long-term complications.",
+        "text_ja": "急性膵炎の発作から回復した患者は、短期および長期合併症を評価するため、退院後に定期的にフォローアップすべきである。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "急性膵炎後には、再発性急性膵炎、慢性膵炎（CP）、PFCの再発、膵皮膚瘻、胆道や胃排出路の狭窄、膵内外分泌機能障害などの短期および長期合併症が起こりうる。最大3分の1が再発し、10%がCPに進展する。",
+      "CPへの進展リスクは男性、アルコール性、再発例で約4倍高い。喫煙、遺伝子変異、高トリグリセリド血症も進展のリスク因子である。",
+      "急性膵炎が膵癌の初発症状である場合がある。初回急性膵炎41,669例の研究では、5年超の長期膵癌リスクが一般人口の2倍以上（HR 2.02）であった。ただし関連性には議論がある。さらに長期死亡も多く、オランダの研究では13年の追跡で26%が死亡し、ハンガリーの研究では退院後8年まで一般人口の3倍の死亡率であった。"
+    ],
+    "summary_en": [
+      "After AP, patients may develop short- and long-term complications including recurrent AP, chronic pancreatitis (CP), recurrent PFCs, pancreatico-cutaneous fistula, biliary and gastric outlet obstruction and functional insufficiency. Up to one third have recurrence and 10% develop CP.",
+      "The risk of progression to CP is about four times higher in men, in alcohol related disease and in recurrent AP. Smoking, genetic mutations and hypertriglyceridemia are further risk factors.",
+      "AP can be the first sign of pancreatic cancer. In 41,669 patients with first time AP, the long term (over 5 years) cancer risk was more than twofold (HR 2.02), although the link is debated. Late mortality is also high: 26% died during 13 years of follow-up in a Dutch study, and a Hungarian study of 2613 patients showed threefold mortality vs the general population up to 8 years after discharge."
+    ],
+    "evidence": [
+      {
+        "en": "Up to one third develop recurrent AP and 10% develop CP, risk of CP about fourfold higher in men, alcohol etiology and recurrent AP",
+        "ja": "最大3分の1が再発、10%がCPへ進展。男性、アルコール性、再発例ではCP進展リスクが約4倍"
+      },
+      {
+        "en": "Cohort of 41,669 first time AP patients: long term (>5 years) pancreatic cancer risk HR 2.02 (95% CI 1.57 to 2.61)",
+        "ja": "初回急性膵炎41,669例のコホート：5年超の膵癌リスクHR 2.02（95% CI 1.57〜2.61）"
+      },
+      {
+        "en": "Dutch cohort: 26% died during long-term follow-up of 13 years",
+        "ja": "オランダのコホート：13年の長期追跡で26%が死亡"
+      },
+      {
+        "en": "Hungarian population cohort (n=2613): threefold higher mortality than the general population up to 8 years after discharge",
+        "ja": "ハンガリーの集団コホート（n=2613）：退院後8年まで一般人口の3倍の死亡率"
+      }
+    ],
+    "note_ja": "長期死亡の原因として、高齢、併存疾患、初回発作によるフレイル、膵癌が考えられており、定期フォローの根拠となっている。",
+    "note_en": "Older age, comorbidities, frailty after the index attack and pancreatic cancer are the likely causes of late mortality, which supports regular follow-up.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 88,
+    "section": "XVII",
+    "question_en": "Should patients with AP be screened for diabetes mellitus (DM) during follow-up?",
+    "question_ja": "急性膵炎患者は経過観察中に糖尿病（DM）のスクリーニングを受けるべきか？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Screening for pre-diabetes and DM after AP is recommended in all patients. Blood glucose and hemoglobin A1c levels should be tested every 12 months, starting 3-6 months after recovery from AP.",
+        "text_ja": "急性膵炎後には全例で前糖尿病および糖尿病のスクリーニングが推奨される。血糖およびHbA1cは急性膵炎からの回復後3〜6カ月から開始し、12カ月ごとに測定すべきである。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "急性膵炎は重症度にかかわらず、その後の糖尿病リスクを高める。軽症例でも例外ではない点が全例スクリーニングの根拠である。",
+      "24の前向き研究（1102例）のシステマティックレビューでは、初回急性膵炎後の新規糖尿病の統合有病率は23%、インスリン必要例は15%であった。31研究の更新レビューでも同様の推定値が得られ、重症と軽症（39%対14%）、壊死性と非壊死性（37%対11%）、アルコール性と胆石性（28%対12%）でリスクに差があった。",
+      "膵炎後糖尿病の機序として、壊死による膵島の喪失、炎症、インスリン抵抗性、自己免疫の顕在化、遺伝的素因が挙げられている。回復後3〜6カ月から年1回の血糖とHbA1c測定が勧められる。"
+    ],
+    "summary_en": [
+      "AP increases the risk of diabetes regardless of severity, so even patients with mild disease should be screened.",
+      "A systematic review of 24 prospective studies (1102 patients) estimated a pooled prevalence of new onset DM after a first episode of 23%, with 15% needing insulin. An updated review of 31 studies gave similar estimates and showed higher risk in severe vs mild AP (39% vs 14%), necrotizing vs non-necrotizing AP (37% vs 11%) and alcohol vs biliary etiology (28% vs 12%).",
+      "Mechanisms include islet loss from necrosis, inflammation, insulin resistance, unmasking of autoimmunity and genetic predisposition. Yearly testing of blood glucose and HbA1c from 3 to 6 months after the episode is advised."
+    ],
+    "evidence": [
+      {
+        "en": "Systematic review of 24 prospective studies (n=1102): new onset DM after first AP 23% (95% CI 16 to 31%), insulin required in 15% (9 to 21%)",
+        "ja": "24の前向き研究（n=1102）のシステマティックレビュー：初回急性膵炎後の新規糖尿病23%（95% CI 16〜31%）、インスリン必要15%（9〜21%）"
+      },
+      {
+        "en": "Updated review of 31 studies: DM risk severe vs mild 39% vs 14%, necrotizing vs non-necrotizing 37% vs 11%, alcohol vs biliary 28% vs 12%",
+        "ja": "31研究の更新レビュー：糖尿病リスクは重症対軽症39%対14%、壊死性対非壊死性37%対11%、アルコール性対胆石性28%対12%"
+      }
+    ],
+    "note_ja": "推奨文の「3-6 months」は原文ではen dashで表記されている（本データでは記号の制約上ハイフンに置換）。",
+    "note_en": "The range \"3-6 months\" uses an en dash in the original and is written with a hyphen here.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 89,
+    "section": "XVII",
+    "question_en": "How should pancreatic exocrine insufficiency (PEI) be evaluated and managed following recovery from AP?",
+    "question_ja": "急性膵炎からの回復後、膵外分泌機能不全（PEI）はどのように評価・管理すべきか？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "PEI may occur due to extensive pancreatic necrosis in patients with acute pancreatitis. Patients with clinical symptoms of steatorrhea or severe undernutrition with low fecal elastase (<100 μg/g) may be treated with Pancreatic Enzyme Replacement Therapy (PERT).",
+        "text_ja": "急性膵炎患者では広範な膵壊死によりPEIが生じうる。脂肪便の臨床症状または高度の低栄養があり、便中エラスターゼが低値（<100 μg/g）の患者には、膵消化酵素補充療法（PERT）を行ってよい。",
+        "strength": "conditional",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "壊死性急性膵炎ではPEIのリスクが高い。実質の壊死に加え、酵素分泌調節の障害などの二次的機序も関与する。",
+      "32研究（1495例）のメタ解析では、退院後36カ月時点のPEI統合有病率は27.1%であった。39研究（1795例）のより新しいメタ解析では35%で、入院中の統合有病率は62%と高かった。重症度、壊死、アルコール性でリスクが高い。",
+      "回復期のPERTを検討したRCTは2つあるが、1つは23例と小規模で有益性を示せず、もう1つは登録不足で中止された。脂肪便の症状がある患者にはPERTを行い、便中エラスターゼ低値で低栄養のある患者にも考慮する。壊死性膵炎では消退後に間接的検査でPEIを評価してよい。"
+    ],
+    "summary_en": [
+      "Patients with necrotizing AP are at higher risk of PEI, caused by parenchymal necrosis and by secondary mechanisms such as impaired regulation of enzyme secretion.",
+      "A meta-analysis of 32 studies (1495 patients) found a pooled PEI prevalence of 27.1% at 36 months after discharge. A newer meta-analysis of 39 studies (1795 patients) found 35%, and 62% during hospitalization. Risk rises with severity, necrosis and alcohol etiology.",
+      "Two RCTs tested PERT in the convalescent phase. One enrolled only 23 patients and showed no benefit, and the other stopped early for poor recruitment. PERT should be given for symptomatic steatorrhea and may be given to undernourished patients with low fecal elastase. After necrotizing AP, an indirect test can be used once the disease has resolved."
+    ],
+    "evidence": [
+      {
+        "en": "Meta-analysis of 32 studies (n=1495): PEI prevalence 27.1% (95% CI 20.3 to 35.1%) at 36 months after discharge",
+        "ja": "32研究（n=1495）のメタ解析：退院後36カ月のPEI有病率27.1%（95% CI 20.3〜35.1%）"
+      },
+      {
+        "en": "Meta-analysis of 39 studies (n=1795): PEI 35% (95% CI 27 to 43%), 62% (95% CI 39 to 82%) during hospitalization",
+        "ja": "39研究（n=1795）のメタ解析：PEI 35%（95% CI 27〜43%）、入院中は62%（95% CI 39〜82%）"
+      },
+      {
+        "en": "RCTs of PERT in convalescence: one small trial (n=23) showed no benefit, another stopped for insufficient recruitment",
+        "ja": "回復期PERTのRCT：小規模試験（n=23）で有益性なし、もう1試験は登録不足で中止"
+      }
+    ],
+    "note_ja": "PERTの有効性を示すRCTはまだなく、症状と栄養状態に基づいて適応を判断する。",
+    "note_en": "No RCT has yet shown benefit of PERT after AP, so treatment is guided by symptoms and nutritional status.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 90,
+    "section": "XVII",
+    "question_en": "Is the quality of life worse in patients with AP after discharge?",
+    "question_ja": "急性膵炎患者では退院後のQOLが低下するか？",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "Patients who recover from an attack of AP may have a poor quality of life, especially in those with acute necrotizing pancreatitis.",
+        "text_ja": "急性膵炎の発作から回復した患者はQOLが低下していることがあり、特に急性壊死性膵炎の患者で顕著である。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "16研究のシステマティックレビューでは、急性膵炎患者では全般的健康と活力の領域が有意に低下していた。",
+      "追跡時点でかなりの改善を示した研究もある。QOL低下と関連する因子は、腹痛の持続、鎮痛薬の使用、喫煙の継続、障害の存在である。",
+      "退院後も継続的なケアと心理的支援が必要である。"
+    ],
+    "summary_en": [
+      "A systematic review of 16 studies found significantly worse general health and vitality domains in patients after AP.",
+      "One study showed considerable improvement at follow-up. Abdominal pain, analgesic use, current smoking and disability were associated with impaired QOL.",
+      "Patients need continued care and psychological support during follow-up."
+    ],
+    "evidence": [
+      {
+        "en": "Systematic review of 16 studies: general health and vitality domains significantly worse after AP",
+        "ja": "16研究のシステマティックレビュー：急性膵炎後に全般的健康と活力の領域が有意に低下"
+      },
+      {
+        "en": "Factors linked to impaired QOL: abdominal pain, analgesic use, current smoking, disability",
+        "ja": "QOL低下の関連因子：腹痛、鎮痛薬使用、喫煙継続、障害"
+      }
+    ],
+    "note_ja": "",
+    "note_en": "",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 91,
+    "section": "XVII",
+    "question_en": "How to prevent complications of AP after discharge?",
+    "question_ja": "退院後の急性膵炎の合併症をどのように予防するか？",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "Elimination of treatable causes of AP, including behavioral therapy for de-addiction, is recommended for preventing recurrent AP and progression to CP.",
+        "text_ja": "再発性急性膵炎と慢性膵炎への進展を予防するため、依存症に対する行動療法を含め、治療可能な急性膵炎の原因を除去することが推奨される。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "CPへの進展リスクは、アルコール、喫煙、遺伝的因子、高トリグリセリド血症で高まる。",
+      "再発と進行を防ぐ主な戦略は行動変容と治療可能な原因への対処である。禁酒と禁煙は重要な治療目標である。",
+      "胆石性では胆嚢摘出術、高トリグリセリド血症では脂質管理が原因除去に当たる（Q83〜Q86参照）。"
+    ],
+    "summary_en": [
+      "Alcohol, smoking, genetic factors and hypertriglyceridemia increase the risk of progression to CP.",
+      "The main strategies to prevent recurrence and progression are behavior modification and treatment of correctable causes. Stopping alcohol and tobacco are key therapeutic goals.",
+      "Cholecystectomy for biliary AP and lipid control for hypertriglyceridemia are examples of removing the cause (see Q83 to Q86)."
+    ],
+    "evidence": [
+      {
+        "en": "Risk factors for progression to CP: alcohol, smoking, genetic factors, hypertriglyceridemia",
+        "ja": "CP進展のリスク因子：アルコール、喫煙、遺伝的因子、高トリグリセリド血症"
+      },
+      {
+        "en": "Behavior modification and treatment of correctable causes are the primary preventive strategies, alcohol and tobacco cessation are key goals",
+        "ja": "行動変容と治療可能な原因への対処が主な予防戦略で、禁酒と禁煙が重要な目標"
+      }
+    ],
+    "note_ja": "",
+    "note_en": "",
+    "patients_ja": "患者は再燃しうる腹痛や症状持続の原因を明らかにしてほしいと考えている。速やかに回復する人もいれば、QOLが大きく損なわれる人もいる。コミュニケーション、栄養、心身のリハビリ、フォローアップの充実を求め、遺伝性膵炎と判明した場合は国際的合意に沿った膵癌スクリーニングを勧めている。",
+    "patients_en": "Patients want the causes of relapsing pain and continuing problems identified. Some recover quickly while others have a markedly reduced quality of life. They ask for good communication, nutrition, physical and mental therapies and follow-up, and recommend cancer screening per international consensus when hereditary pancreatitis is identified."
+  },
+  {
+    "q": 92,
+    "section": "XVIII",
+    "question_en": "What are the clinical presentations of the disconnected pancreatic duct?",
+    "question_ja": "膵管断裂（disconnected pancreatic duct）の臨床像はどのようなものか？",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "Patients with acute necrotizing pancreatitis may develop disconnected pancreatic duct syndrome (DPDS). Most patients with DPDS remain asymptomatic. DPDS may present with persistent external pancreatic fistula (EPF), recurrent pseudocyst, and/or recurrent acute or chronic pancreatitis involving the upstream pancreatic parenchyma.",
+        "text_ja": "急性壊死性膵炎の患者は膵管断裂症候群（DPDS）を発症することがある。DPDSの患者の多くは無症状のまま経過する。DPDSは持続する外膵瘻（EPF）、仮性嚢胞の再発、および/または上流側膵実質に及ぶ再発性急性膵炎もしくは慢性膵炎として発症しうる。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "DPDSは中心部の膵壊死によって主膵管が完全に断裂し、上流側の分泌能をもつ膵実質と消化管との連続性が失われた状態である。壊死性膵炎の10〜75%にみられる。",
+      "DPDSの患者では治療介入、再介入、救済手術、長期入院が必要となることがある。診断は急性壊死性貯留が消退してから数カ月から数年後になることが多い。",
+      "EPFは血清値の3倍以上のアミラーゼを含む外分泌液の持続的排出で、低排出（<200 ml/日）と高排出（>200 ml/日）に分けられ、外ドレナージ後に生じやすい。より多いのはPFCの残存や再発である。上流膵に限局する再発性膵炎はまれで診断も難しく、多くは初回と同じ病因による。大半のDPDSは無症状である。"
+    ],
+    "summary_en": [
+      "DPDS is complete disruption of the main pancreatic duct by central necrosis, leaving viable secreting upstream pancreas disconnected from the gastrointestinal tract. It occurs in 10 to 75% of necrotizing pancreatitis.",
+      "These patients may need intervention, reintervention, rescue surgery or longer hospital stays. Diagnosis is often made months to years after the acute necrotic collections resolve.",
+      "External pancreatic fistula (EPF) is persistent exocrine output with fluid amylase at least 3 times the serum level, classed as low output (<200 ml/day) or high output (>200 ml/day), and usually follows external drainage. Residual or recurrent PFC is more common. Pancreatitis confined to the upstream gland is uncommon and hard to diagnose, and recurrence is more often due to the original etiology. Most patients with DPDS are asymptomatic."
+    ],
+    "evidence": [
+      {
+        "en": "DPDS seen in 10 to 75% of necrotizing pancreatitis",
+        "ja": "DPDSは壊死性膵炎の10〜75%にみられる"
+      },
+      {
+        "en": "EPF definition: fluid amylase at least 3 times serum, low output <200 ml/day vs high output >200 ml/day",
+        "ja": "EPFの定義：排液アミラーゼが血清値の3倍以上、低排出<200 ml/日、高排出>200 ml/日"
+      }
+    ],
+    "note_ja": "本設問の見出しは原文で「Q. 92」と表記されている。",
+    "note_en": "The heading appears as \"Q. 92\" in the paper.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 93,
+    "section": "XVIII",
+    "question_en": "How is disconnected pancreatic duct/syndrome diagnosed?",
+    "question_ja": "膵管断裂（症候群）はどのように診断するか？",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "A contrast-enhanced CT scan showing central pancreatic necrosis during the acute phase of AP may suggest the development of DPDS. Later in the disease course, MRCP should be used to diagnose DPDS.",
+        "text_ja": "急性期の造影CTで膵中心部の壊死を認める場合、DPDSの発症が示唆される。病期の後半には、DPDSの診断にMRCPを用いるべきである。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "壊死性膵炎の患者ではDPDSを常に念頭に置く。膵中心部の壊死、持続する液体貯留、瘻孔形成、上流側膵に生じる再発性膵炎はDPDSを示唆する所見である。",
+      "急性期の造影CTで中心部壊死を確認できればDPDSを疑える。中心部壊死の例では、上流側（尾部）の膵組織がかなり残っていることが多い。",
+      "経過の後半ではMRCPで診断する。セクレチン投与は膵管描出の補助になる。ERCPでも診断できるが上流膵管が描出されず、高度狭窄と断裂の区別ができない。EUSは残存する生存膵組織の評価に有用である。"
+    ],
+    "summary_en": [
+      "DPDS should be considered in every patient with necrotizing pancreatitis. Central necrosis, persistent collections, fistula formation and recurrent pancreatitis in the upstream gland are suggestive features.",
+      "Contrast-enhanced CT showing central necrosis in the acute phase can suggest DPDS, and a significant amount of upstream (tail) pancreas often remains viable in these patients.",
+      "Later in the course, MRCP should be used for diagnosis, and secretin can help visualize the duct. ERCP can diagnose DPDS but cannot show the upstream duct or separate a high grade stenosis from a disconnection. EUS may help evaluate viable disconnected pancreatic tissue."
+    ],
+    "evidence": [
+      {
+        "en": "Suggestive features: central necrosis, persistent collections, fistula, recurrent pancreatitis in the upstream gland",
+        "ja": "示唆所見：中心部壊死、持続する液体貯留、瘻孔、上流側膵の再発性膵炎"
+      },
+      {
+        "en": "Secretin-enhanced MRCP as an adjunct to highlight the duct, ERCP cannot distinguish high grade stenosis from disconnection",
+        "ja": "セクレチン併用MRCPが膵管描出の補助となる。ERCPでは高度狭窄と断裂を区別できない"
+      }
+    ],
+    "note_ja": "推奨文はTable 1では「early phase」、本文では「acute phase」と表記されている（本データは本文表記に準拠）。",
+    "note_en": "Table 1 says \"early phase\" while the body text says \"acute phase\". This item follows the body text.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 94,
+    "section": "XVIII",
+    "question_en": "What is the natural history of disconnected pancreatic duct syndrome?",
+    "question_ja": "膵管断裂症候群の自然史はどのようなものか？",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "There is limited data on the natural history of disconnected pancreatic duct syndrome, but it remains asymptomatic in most patients.",
+        "text_ja": "膵管断裂症候群の自然史に関するデータは限られているが、大多数の患者では無症状のまま経過する。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "DPDSの自然史はよくわかっていない。膵管断裂（DPD）の頻度は10〜75%と報告にばらつきが大きく、DPDS患者でのPFC再発は13〜50%と報告されている。",
+      "WON 256例の研究では189例（73.8%）がDPDSを発症したが、急性膵炎の再発や介入を要する液体貯留をきたしたのは13%にとどまった。",
+      "DPDの大半は無症状で再介入を必要としない。長期的には上流側膵管の拡張や実質の萎縮など、慢性膵炎様の変化が尾部に生じることがある。"
+    ],
+    "summary_en": [
+      "The natural history of DPDS is poorly understood. Reported incidence of disconnected pancreatic duct (DPD) ranges from 10 to 75%, and PFC recurrence in DPDS from 13 to 50%.",
+      "In a study of 256 patients with walled-off necrosis, 189 (73.8%) developed DPDS, but only 13% had recurrent events (AP or collections needing intervention).",
+      "Most patients with DPD are asymptomatic and need no reintervention. Over the long term the pancreatic tail may develop changes resembling chronic pancreatitis, with a dilated upstream duct and loss of parenchyma."
+    ],
+    "evidence": [
+      {
+        "en": "Incidence of DPD 10 to 75%, PFC recurrence 13 to 50% in DPDS",
+        "ja": "DPDの頻度10〜75%、DPDSでのPFC再発13〜50%"
+      },
+      {
+        "en": "WON cohort (n=256): DPDS in 189 (73.8%), only 13% had recurrent AP or collections requiring intervention",
+        "ja": "WONコホート（n=256）：189例（73.8%）がDPDSを発症し、再発性膵炎や介入を要する液体貯留は13%のみ"
+      }
+    ],
+    "note_ja": "",
+    "note_en": "",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 95,
+    "section": "XVIII",
+    "question_en": "What are the indications for intervention in a Disconnected Pancreatic Duct Syndrome?",
+    "question_ja": "膵管断裂症候群に対する介入の適応は何か？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Indications for interventions for DPDS include persistent high-output external pancreatic fistula and symptomatic recurrent fluid collections and/or recurrent acute pancreatitis confined to the upstream pancreas.",
+        "text_ja": "DPDSに対する介入の適応には、持続する高排出量の外膵瘻、症候性の再発性液体貯留、および/または上流側膵に限局する再発性急性膵炎が含まれる。",
+        "strength": "conditional",
+        "quality": "low"
+      }
+    ],
+    "summary_ja": [
+      "DPDSに伴う低排出EPFは、上流膵の萎縮で膵液分泌が止まるため、多くの患者で自然閉鎖する。",
+      "まず保存的管理を2〜3カ月行う。経鼻空腸栄養、高用量の膵酵素補充、経皮カテーテルのダウンサイジング、自然落差ドレナージから人工肛門用バッグへの切り替えなどである。それでもEPFが続きQOLが低い場合に介入を行う。",
+      "再発性PFCに対する介入の適応は壊死性膵炎と同様で、疼痛、感染、胃排出路狭窄、PFCによる持続する全身不良である。"
+    ],
+    "summary_en": [
+      "Low output EPF in DPDS closes spontaneously in most patients, because upstream glandular atrophy stops juice secretion.",
+      "Conservative management should be tried for 2 to 3 months: naso-jejunal feeding, high dose pancreatic enzymes, downsizing the percutaneous catheter and converting gravity drainage to a colostomy bag. Intervention is indicated if the EPF persists with poor quality of life.",
+      "Indications for intervention in recurrent PFCs are the same as in necrotizing pancreatitis: pain, infection, gastric outlet obstruction and persistent unwellness due to the PFC."
+    ],
+    "evidence": [
+      {
+        "en": "Low output EPF usually closes spontaneously due to atrophy of the upstream gland",
+        "ja": "低排出EPFは上流膵の萎縮により多くが自然閉鎖"
+      },
+      {
+        "en": "Conservative measures for 2 to 3 months before intervention: naso-jejunal feeding, high dose enzymes, catheter downsizing, colostomy bag drainage",
+        "ja": "介入前に2〜3カ月の保存的治療：経鼻空腸栄養、高用量酵素、カテーテルのダウンサイジング、人工肛門用バッグへのドレナージ"
+      }
+    ],
+    "note_ja": "無症状のDPDSは介入の対象にならない（Q94参照）。",
+    "note_en": "Asymptomatic DPDS is not an indication for intervention (see Q94).",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 96,
+    "section": "XVIII",
+    "question_en": "What are the treatment options for the management of Disconnected Pancreatic Duct Syndrome?",
+    "question_ja": "膵管断裂症候群の管理における治療選択肢は何か？",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Endoscopic management is the preferred option for symptomatic DPDS in the post-acute setting if conservative treatment is unsuccessful.",
+        "text_ja": "保存的治療が奏効しない場合、急性期以降の症候性DPDSには内視鏡的治療が第一選択である。",
+        "strength": "conditional",
+        "quality": "low"
+      }
+    ],
+    "summary_ja": [
+      "壊死性膵炎に対する内視鏡的経消化管的治療は、経皮的step-up approachや外科的アプローチに比べ、DPDSによる外膵瘻や内瘻が有意に少ない。",
+      "WONをプラスチックステントで内ドレナージした場合、小規模RCTでステント抜去後の再発が多かった。LAMS抜去時にDPDがあればプラスチックステントへの置換でPFC再発を防げる可能性があるが、LAMS抜去後にプラスチックステントへ置換する群としない群で再発に差はなかったRCTもある。プラスチックステント抜去後に症候性液体貯留が再発しDPDが疑われる場合は、ダブルピッグテール型プラスチックステントによる再ドレナージを行い、長期留置してよい。",
+      "症候性DPDSでは、胃と拡張した尾側膵管の間にプラスチックステントを留置する膵胃吻合（内視鏡的）も試みられる。持続する外瘻ではランデブー法やEUSガイド下ステント留置が症例集積で成功している。経乳頭的ステントで断裂部を橋渡しすることは通常困難である。外科的には上流膵切除や、上流膵管が十分太い場合（通常>5 mm）のRoux-en-Y膵空腸吻合があり、90%で持続的な効果が示されている。"
+    ],
+    "summary_en": [
+      "Endoscopic transluminal interventions for necrotizing pancreatitis lead to significantly fewer external or internal fistulae due to DPDS than percutaneous step-up or surgical approaches.",
+      "After internal drainage of WON with plastic stents, a small RCT showed more recurrence after stent removal. Replacing a LAMS with a plastic stent may prevent PFC recurrence when DPD is present, but another RCT found no difference in recurrence between replacement and no stent after LAMS removal. If symptomatic collections recur after plastic stent removal and imaging suggests DPD, repeat drainage with double pigtail plastic stents left long term is recommended.",
+      "In symptomatic DPDS, endoscopic pancreaticogastrostomy with a plastic stent between the stomach and the dilated distal duct may be tried. For persistent external fistula, a rendezvous technique or EUS-guided stent placement has worked in a case series. Transpapillary bridging is usually not possible. Surgical options include resection of the upstream pancreas or, if the upstream duct is wide enough (typically >5 mm), Roux-en-Y pancreatojejunostomy, with a durable response in 90%."
+    ],
+    "evidence": [
+      {
+        "en": "Endoscopic transluminal approach: fewer DPDS related external or internal fistulae than percutaneous step-up or surgery",
+        "ja": "内視鏡的経消化管的アプローチ：経皮的step-upや外科と比べDPDS関連の外瘻・内瘻が少ない"
+      },
+      {
+        "en": "Small RCT: higher recurrence after removal of plastic stents used for WON drainage",
+        "ja": "小規模RCT：WONドレナージ用プラスチックステント抜去後に再発が多い"
+      },
+      {
+        "en": "RCT: no difference in fluid collection recurrence between plastic stent replacement and no stent after LAMS removal",
+        "ja": "RCT：LAMS抜去後のプラスチックステント置換と非置換で液体貯留の再発に差なし"
+      },
+      {
+        "en": "Surgery (upstream resection or Roux-en-Y pancreatojejunostomy if duct >5 mm): durable response in 90%",
+        "ja": "外科治療（上流膵切除、膵管>5 mmならRoux-en-Y膵空腸吻合）：90%で持続的効果"
+      }
+    ],
+    "note_ja": "LAMS抜去後のプラスチックステント置換の是非はRCTで差がなく、施設の方針や画像所見で判断することになる。",
+    "note_en": "Whether to replace a LAMS with a plastic stent is unsettled given the negative RCT, so it depends on imaging and local practice.",
+    "patients_ja": "患者はこの複雑な合併症の管理について、専門医の知識と推奨を認め、信頼している。",
+    "patients_en": "Patients recognize and trust the specialists' expertise and recommendations for managing this complex complication."
+  }
+]

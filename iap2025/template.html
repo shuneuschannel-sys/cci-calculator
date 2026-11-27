@@ -1,0 +1,434 @@
+<title>IAP 2025 急性膵炎ガイドライン</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE work: a clinical reference for young gastroenterologists, calm and exact
+   IDEA a pocket guideline card set, every CQ a card, coloured by its GRADE like a printed evidence table
+   PICTURE the evidence map: all 96 CQs as tiles in 18 domain rows, fill = certainty, shape = strength
+   COLOUR white ground, deep blue #0b2a66 band, blue scale for certainty, grey hatch for GPS
+   TYPE Zen Kaku Gothic New 700 display + Noto Sans JP text
+   LAYOUT laptop: title band with counts, map in two columns below, sticky filter bar, card grid by domain. phone: title, map, filters, cards in one column */
+#iap25{color-scheme:light dark;--bg:light-dark(#ffffff,#0a1222);--ink:light-dark(#0f1a2e,#e8eef9);--mute:light-dark(#566278,#a3b0c6);--line:light-dark(#dfe6f1,#24324b);--soft:light-dark(#f4f7fc,#101b30);--band:light-dark(#0b2a66,#0d1f45);--bandInk:#f2f6ff;--q4:light-dark(#0a3a8c,#8fb8ff);--q3:light-dark(#2563d0,#5b8fe6);--q2:light-dark(#7aa6ea,#355f9e);--q1:light-dark(#cfe0fa,#22385c);--gps:light-dark(#8592a8,#8a97ad);--accent:light-dark(#2563d0,#8fb8ff);--sheet:light-dark(#ffffff,#0e182b)}
+:root[data-theme=light] #iap25{color-scheme:light}
+:root[data-theme=dark] #iap25{color-scheme:dark}
+#iap25.lightonly{color-scheme:light}
+#iap25,#iap25 *{box-sizing:border-box;min-width:0}
+#iap25 [hidden]{display:none!important}
+#iap25{background:var(--bg);color:var(--ink);font:16px/1.7 "Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;overflow-x:clip;-webkit-font-smoothing:antialiased}
+#iap25 button{font:inherit;color:inherit}
+#iap25 .pad{padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+#iap25 .wrap{max-width:1240px;margin:0 auto}
+#iap25 .top{background:var(--band);color:var(--bandInk);padding-block:clamp(24px,3.4vw,44px)}
+#iap25 .head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px 40px;align-items:end}
+#iap25 .src{font-size:14px;opacity:.8;margin:0 0 10px}
+#iap25 h1{font:700 clamp(28px,3.8vw,44px)/1.15 "Zen Kaku Gothic New","Noto Sans JP",sans-serif;letter-spacing:-.01em;margin:0;text-wrap:balance;word-break:keep-all}
+#iap25 .about{margin:14px 0 0;max-width:46em;font-size:14px;line-height:1.7;opacity:.78;padding-left:12px;border-left:2px solid color-mix(in srgb,var(--bandInk) 35%,transparent)}
+#iap25 .lead{margin:14px 0 0;max-width:42em;font-size:16px;opacity:.9}
+#iap25 .lang{display:inline-flex;border:1px solid color-mix(in srgb,var(--bandInk) 45%,transparent);border-radius:999px;padding:3px;margin-bottom:18px}
+#iap25 .lang button{border:0;background:none;color:var(--bandInk);padding:6px 16px;border-radius:999px;cursor:pointer;font-size:14px;min-height:36px}
+#iap25 .lang button[aria-pressed=true]{background:var(--bandInk);color:var(--band);font-weight:700}
+#iap25 .side{display:grid;gap:18px;justify-items:end}
+#iap25 .qr{display:flex;align-items:center;gap:12px;color:var(--bandInk);text-decoration:none;background:color-mix(in srgb,var(--bandInk) 10%,transparent);border-radius:12px;padding:8px 14px 8px 8px}
+#iap25 .qrbox{display:block;width:88px;height:88px;background:#fff;border-radius:6px;padding:4px}
+#iap25 .qrbox svg{display:block;width:100%;height:100%}
+#iap25 .qr b{display:block;font-size:14px}
+#iap25 .qr small{font-size:13px;opacity:.75}
+#iap25 .tally{display:grid;grid-template-columns:repeat(4,auto);gap:4px 28px;text-align:left}
+#iap25 .tally b{display:block;font:700 clamp(26px,3vw,38px)/1 "Zen Kaku Gothic New",sans-serif;font-variant-numeric:tabular-nums}
+#iap25 .tally span{font-size:13px;opacity:.85;white-space:nowrap}
+#iap25 h2{font:700 18px/1.3 "Zen Kaku Gothic New",sans-serif;margin:0}
+#iap25 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--mute);align-items:center}
+#iap25 .legend i{display:inline-block;width:13px;height:13px;border-radius:3px;vertical-align:-2px;margin-right:5px}
+#iap25 .homeh{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;align-items:baseline;margin:26px 0 14px}
+#iap25 .panels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#iap25 .panel{display:grid;grid-template-rows:auto 1fr auto;gap:6px;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:14px;padding:16px 18px 16px;cursor:pointer;min-height:132px;transition:border-color .15s,transform .15s,box-shadow .15s}
+#iap25 .panel:hover,#iap25 .panel:focus-visible{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 6px 18px color-mix(in srgb,var(--accent) 14%,transparent);outline:none}
+#iap25 .panel .pn{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+#iap25 .panel em{font:700 15px/1 "Zen Kaku Gothic New",sans-serif;font-style:normal;color:var(--accent);font-variant-numeric:tabular-nums}
+#iap25 .panel small{font-size:13px;color:var(--mute);white-space:nowrap}
+#iap25 .panel strong{font:700 17px/1.4 "Zen Kaku Gothic New",sans-serif}
+#iap25 .panel .short{display:none}
+#iap25 .mini{display:flex;flex-wrap:wrap;gap:3px}
+#iap25 .mini i{width:14px;height:14px;border-radius:3px}
+#iap25 .mini i.dim{opacity:.15}
+#iap25 .crumb{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:22px 0 4px}
+#iap25 .back{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 14px 6px 10px;cursor:pointer;font-size:14px;min-height:40px}
+#iap25 .back:hover{border-color:var(--accent)}
+#iap25 .dnav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}
+#iap25 .dnav button{border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:12px 16px;cursor:pointer;font-size:14px;min-height:56px;text-align:left}
+#iap25 .dnav button:hover{border-color:var(--accent)}
+#iap25 .dnav .nx{text-align:right}
+#iap25 .dnav span{display:block;font-size:13px;color:var(--mute)}
+#iap25 .snip{font-size:13px;color:var(--mute);line-height:1.55;margin:0}
+#iap25 mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+#iap25 kbd{font:12px/1 system-ui,sans-serif;border:1px solid var(--line);border-radius:4px;padding:2px 5px;color:var(--mute)}
+#iap25 .cells{display:flex;flex-wrap:wrap;gap:4px}
+#iap25 .cell{width:30px;height:30px;border-radius:5px;border:0;cursor:pointer;font-size:11px;font-weight:700;display:grid;place-items:center;font-variant-numeric:tabular-nums;transition:transform .12s}
+#iap25 .cell:hover,#iap25 .cell:focus-visible{transform:translateY(-2px);outline:2px solid var(--ink);outline-offset:1px}
+#iap25 .cell.dim{opacity:.16}
+#iap25 .s-strong{background:var(--qc);color:var(--qt)}
+#iap25 .s-cond{background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 3px var(--qc)}
+#iap25 .s-gps{background:repeating-linear-gradient(135deg,var(--soft) 0 4px,var(--line) 4px 6px);color:var(--mute);box-shadow:inset 0 0 0 1px var(--gps)}
+#iap25 .q4{--qc:var(--q4);--qt:light-dark(#fff,#0a1222)}
+#iap25 .q3{--qc:var(--q3);--qt:light-dark(#fff,#0a1222)}
+#iap25 .q2{--qc:var(--q2);--qt:light-dark(#0b2a66,#fff)}
+#iap25 .q1{--qc:var(--q1);--qt:light-dark(#0b2a66,#fff)}
+#iap25 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding-block:12px}
+#iap25 .bar .wrap{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+#iap25 .search{flex:1 1 320px;font-size:16px;padding:11px 14px 11px 40px;background-image:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2718%27 height=%2718%27 fill=%27none%27 stroke=%27%23768299%27 stroke-width=%272%27%3E%3Ccircle cx=%278%27 cy=%278%27 r=%276%27/%3E%3Cpath d=%27m12.5 12.5 4 4%27/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:13px 50%;border:1px solid var(--line);border-radius:10px;background-color:var(--soft);color:var(--ink);min-height:44px}
+#iap25 .search:focus{outline:2px solid var(--accent);outline-offset:0;background-color:var(--bg)}
+#iap25 .chips{display:flex;flex-wrap:wrap;gap:6px}
+#iap25 .chip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 13px;font-size:14px;cursor:pointer;min-height:38px;white-space:nowrap}
+#iap25 .chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+#iap25 .count{font-size:14px;color:var(--mute);white-space:nowrap}
+#iap25 .list{padding-block:4px 56px;scroll-margin-top:72px}
+#iap25 .dom{padding-top:34px;scroll-margin-top:80px}
+#iap25 .domh{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;align-items:baseline;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:14px}
+#iap25 .domh em{font:700 15px/1 "Zen Kaku Gothic New",sans-serif;font-style:normal;color:var(--accent);font-variant-numeric:tabular-nums}
+#iap25 .domh h3{font:700 clamp(19px,2vw,23px)/1.35 "Zen Kaku Gothic New",sans-serif;margin:0}
+#iap25 .sub{font-size:14px;font-weight:700;color:var(--mute);margin:18px 0 8px}
+#iap25 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px}
+#iap25 .card{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:14px 16px 14px 14px;cursor:pointer;transition:border-color .15s,background .15s}
+#iap25 .card:hover,#iap25 .card:focus-visible{border-color:var(--accent);background:var(--soft);outline:none}
+#iap25 .card>*{grid-column:2}
+#iap25 .card .cell{grid-column:1;grid-row:1 / span 3;width:40px;height:40px;font-size:14px;cursor:inherit}
+#iap25 .card .cell:hover{transform:none;outline:0}
+#iap25 .card p{margin:0;font-size:15px;line-height:1.55;font-weight:500}
+#iap25 .tags{display:flex;flex-wrap:wrap;gap:6px;font-size:13px;color:var(--mute)}
+#iap25 .empty{padding:48px 0;color:var(--mute);text-align:center}
+#iap25 .foot{border-top:1px solid var(--line);padding-block:28px 40px;font-size:14px;color:var(--mute)}
+#iap25 .foot p{margin:0 0 8px;max-width:72em}
+#iap25 .foot a{color:var(--accent)}
+#iap25 .scrim{position:fixed;inset:0;background:rgba(6,14,30,.45);z-index:99998;opacity:0;transition:opacity .2s}
+#iap25 .scrim.on{opacity:1}
+#iap25 .sheet{position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);background:var(--sheet);color:var(--ink);z-index:99999;display:grid;grid-template-rows:auto minmax(0,1fr) auto;box-shadow:-8px 0 30px rgba(0,0,0,.18);transform:translateX(100%);transition:transform .26s cubic-bezier(.2,.8,.2,1)}
+#iap25 .sheet.on{transform:none}
+#iap25 .sh-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:calc(12px + env(safe-area-inset-top,0px)) 20px 12px;border-bottom:1px solid var(--line)}
+#iap25 .sh-top small{font-size:13px;color:var(--mute);flex:1}
+#iap25 .lang.sm{margin:0;border-color:var(--line)}
+#iap25 .lang.sm button{color:var(--ink);padding:4px 12px;min-height:34px;font-size:13px}
+#iap25 .lang.sm button[aria-pressed=true]{background:var(--ink);color:var(--sheet)}
+#iap25 .x{border:0;background:var(--soft);width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:22px;line-height:1;flex:none}
+#iap25 .sh-body{overflow-y:auto;padding:22px 24px 28px;overscroll-behavior:contain}
+#iap25 .sh-q{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;align-items:start;margin-bottom:20px}
+#iap25 .sh-q .cell{width:52px;height:52px;font-size:17px;cursor:default}
+#iap25 .sh-q .cell:hover{transform:none;outline:0}
+#iap25 .sh-q h4{font:700 clamp(19px,2.4vw,22px)/1.45 "Zen Kaku Gothic New",sans-serif;margin:0}
+#iap25 .stmt{border-radius:12px;padding:16px 18px;margin-bottom:12px;background:var(--soft);border-left:5px solid var(--qc,var(--gps))}
+#iap25 .stmt .k{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-bottom:8px;font-size:13px}
+#iap25 .pill{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-weight:700;font-size:13px;white-space:nowrap}
+#iap25 .pill.kind{background:var(--ink);color:var(--bg)}
+#iap25 .pill.str{border:1px solid var(--qc,var(--gps));color:var(--ink)}
+#iap25 .meter{display:inline-flex;gap:2px}
+#iap25 .meter i{width:7px;height:13px;border-radius:2px;background:var(--line)}
+#iap25 .meter i.f{background:var(--qc)}
+#iap25 .stmt p{margin:0;font-size:16px;line-height:1.75;font-weight:500;white-space:pre-line}
+#iap25 details.orig{margin-top:10px;font-size:14px;color:var(--mute)}
+#iap25 details.orig summary{cursor:pointer;min-height:32px;display:flex;align-items:center}
+#iap25 details.orig p{white-space:pre-line;font-size:14px;font-weight:400;color:var(--mute);line-height:1.65}
+#iap25 h5{font:700 16px/1.4 "Zen Kaku Gothic New",sans-serif;margin:26px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+#iap25 .txt p{margin:0 0 12px}
+#iap25 .ev{list-style:none;padding:0;margin:0}
+#iap25 .ev li{position:relative;padding:8px 0 8px 18px;border-bottom:1px dashed var(--line);font-size:15px;line-height:1.6}
+#iap25 .ev li::before{content:"";position:absolute;left:2px;top:17px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+#iap25 .note{background:color-mix(in srgb,var(--accent) 9%,var(--sheet));border-radius:10px;padding:12px 16px;font-size:15px;margin-top:18px}
+#iap25 .note b{display:block;font-size:13px;color:var(--accent);margin-bottom:2px}
+#iap25 .sh-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px 20px calc(12px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line)}
+#iap25 .sh-nav button{border:1px solid var(--line);background:var(--bg);border-radius:10px;min-height:46px;cursor:pointer;font-size:14px;padding:6px 12px}
+#iap25 .sh-nav button:hover:not(:disabled){border-color:var(--accent)}
+#iap25 .sh-nav button:disabled{opacity:.35;cursor:default}
+#iap25 .sh-nav .nx{text-align:right}
+#iap25.embed .bar{position:static;backdrop-filter:none}
+#iap25.embed .sheet{position:relative;inset:auto;width:auto;max-width:1240px;margin:8px auto 24px;transform:none;box-shadow:none;border:1px solid var(--line);border-radius:14px;display:block;transition:none;z-index:auto}
+#iap25.embed .sh-top{padding-top:12px}
+#iap25.embed .sh-body{overflow:visible}
+#iap25.embed .sh-nav{padding-bottom:12px}
+@media(max-width:900px){#iap25 .head{grid-template-columns:minmax(0,1fr)}#iap25 .side{justify-items:start}#iap25 .qr{display:none}#iap25 .panel strong{font-size:15px}}
+@media(max-width:600px){#iap25 .tally{grid-template-columns:repeat(4,auto);gap:4px 18px}#iap25 .about{margin:14px 0 0;max-width:46em;font-size:14px;line-height:1.7;opacity:.78;padding-left:12px;border-left:2px solid color-mix(in srgb,var(--bandInk) 35%,transparent)}
+#iap25 .lead{font-size:15px}#iap25 .about{font-size:13px}#iap25 .lang{margin-bottom:12px}#iap25 .top{padding-top:22px}#iap25 .panels{gap:8px}#iap25 .panel{padding:12px 10px;min-height:112px;border-radius:12px}#iap25 .panel .full{display:none}#iap25 .panel .short{display:inline}#iap25 .panel strong{font-size:14px}#iap25 .panel small{font-size:13px}#iap25 .mini i{width:9px;height:9px;border-radius:2px}#iap25 .mini{gap:2px}#iap25 .kbdh{display:none}#iap25 .sh-body{padding:18px 16px 24px}#iap25 .chip{padding:6px 11px}}
+@media(prefers-reduced-motion:reduce){#iap25 .sheet,#iap25 .scrim,#iap25 .cell{transition:none}}
+</style>
+
+<div id="iap25" class="__ROOTCLASS__">
+  <header class="top pad">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="lang" role="group" aria-label="Language">
+            <button type="button" data-lang="ja" aria-pressed="true">日本語</button>
+            <button type="button" data-lang="en" aria-pressed="false">English</button>
+          </div>
+          <p class="src" data-t="src"></p>
+          <h1 data-t="title"></h1>
+          <p class="lead" data-t="lead"></p>
+          <p class="about" data-t="about"></p>
+        </div>
+        <div class="side"><div class="tally" id="tally"></div><a class="qr" href="https://masterofeus.com/2026/11/27/iap2025/" target="_top"><span class="qrbox">__QR__</span><span><b data-t="qrh"></b><small>masterofeus.com</small></span></a></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="bar pad">
+    <div class="wrap">
+      <input class="search" id="q" type="search" autocomplete="off">
+      <div class="chips" id="chips"></div>
+      <span class="count" id="count"></span><span class="count kbdh"><kbd>/</kbd> <span data-t="kbd"></span></span>
+    </div>
+  </div>
+
+  <main class="list pad" id="main"><div class="wrap" id="list"></div></main>
+
+  <footer class="foot pad"><div class="wrap" id="foot"></div></footer>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="shq" hidden>
+    <div class="sh-top"><small id="shmeta"></small><div class="lang sm" role="group" aria-label="Language"><button type="button" data-lang="ja" aria-pressed="true">JA</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div><button class="x" id="close" type="button" aria-label="Close">×</button></div>
+    <div class="sh-body" id="shbody"></div>
+    <div class="sh-nav"><button type="button" id="prev"></button><button type="button" class="nx" id="next"></button></div>
+  </aside>
+</div>
+
+<script>
+{
+const DATA = __DATA__;
+const DOMAINS = [
+ ["I",1,3,"診断と成因","Diagnosis and etiology","診断・成因","Diagnosis"],
+ ["II",4,6,"重症度と予後の予測","Prognostication and prediction of severity","重症度予測","Severity"],
+ ["III",7,9,"画像診断","Imaging","画像","Imaging"],
+ ["IV",10,12,"輸液療法","Fluid therapy","輸液","Fluids"],
+ ["V",13,14,"鎮痛","Analgesics","鎮痛","Analgesia"],
+ ["VI",15,16,"臓器不全と集中治療","Organ failure and intensive care","臓器不全・ICU","Organ failure"],
+ ["VII",17,21,"感染性合併症に対する抗菌薬","Antibiotics for infectious complications","抗菌薬","Antibiotics"],
+ ["VIII",22,27,"栄養療法","Nutritional support","栄養","Nutrition"],
+ ["IX",28,29,"胆道系の管理","Biliary tract management","胆道","Biliary"],
+ ["X",30,35,"壊死性膵炎の保存的治療","Necrotizing pancreatitis: conservative management","壊死・保存的","Necrosis"],
+ ["XI",36,44,"インターベンションの適応・時期・戦略","Interventions: indications, timing and strategy","インターベンション","Intervention"],
+ ["XII",45,54,"非感染性の急性合併症","Acute non-infectious complications","非感染性合併症","Complications"],
+ ["XIII",55,79,"特殊な急性膵炎","Special types of acute pancreatitis","特殊型","Special types"],
+ ["XIV",80,81,"標的治療","Targeted therapy","標的治療","Targeted"],
+ ["XV",82,83,"退院基準","Discharge criteria","退院","Discharge"],
+ ["XVI",84,86,"再発予防","Prevention of recurrence","再発予防","Recurrence"],
+ ["XVII",87,91,"長期合併症と長期管理","Long-term complications and care","長期管理","Long-term"],
+ ["XVIII",92,96,"膵管断裂症候群（DPDS）","Disconnected pancreatic duct syndrome","DPDS","DPDS"]
+];
+const SUBS = [[55,60,"小児の急性膵炎","Pediatric AP"],[61,63,"副甲状腺機能亢進症による急性膵炎","AP due to primary hyperparathyroidism"],[64,67,"高トリグリセリド血症性膵炎（HTGP）","Hypertriglyceridemia-induced pancreatitis"],[68,71,"ERCP後膵炎の予防","Prevention of post-ERCP pancreatitis"],[72,75,"外傷性膵炎","Traumatic pancreatitis"],[76,79,"妊娠中の急性膵炎","AP in pregnancy"]];
+const T = {
+ ja:{about:"IAP（International Association of Pancreatology、国際膵臓学会）が、米国のAPA、欧州のEPC、インドのIPC、日本膵臓学会（JPS）と共同で作成した急性膵炎の国際ガイドライン。2013年のIAP/APAガイドラインを改訂したもので、18領域96のCQについて、推奨の強さとエビデンスの確実性をGRADEで示している。各領域の末尾には患者の視点も収載されている。",src:"Pancreatology 2025, 25: 770–814 ｜ IAP/APA/EPC/IPC/JPS",title:"IAP 2025 急性膵炎ガイドライン 全96 CQ",lead:"18領域96のクリニカルクエスチョンを、推奨文・GRADE・解説・主要エビデンスまで日本語で引ける。領域パネルから辿るか、キーワードで検索する。",qrh:"スマホで開く",maph:"18領域から探す",back:"18領域へ",pd:"前の領域",nd:"次の領域",res:"検索結果",cqn:n=>n+" CQ",kbd:"でどこからでも検索",tq:"CQ",ts:"強い推奨",tc:"条件付き推奨",tg:"GPS",lgS:"強い推奨（塗り）",lgC:"条件付き推奨（枠）",lgG:"GPS（斜線）",lgQ:"色の濃さ＝エビデンスの確実性",ph:"キーワードで検索（例：LAMS、乳酸リンゲル、妊娠）",fAll:"すべて",fS:"強い推奨",fC:"条件付き",fG:"GPS",cnt:n=>n+" 件",none:"該当するCQはありません",rec:"推奨",gps:"Good Practice Statement",strong:"強い推奨",conditional:"条件付き推奨",q:{high:"高","moderate":"中",low:"低","very low":"非常に低"},ql:"エビデンス",orig:"原文（英語）",sum:"解説",ev:"主要エビデンス",note:"臨床のポイント",pt:"患者の視点",prev:"前のCQ",next:"次のCQ",close:"閉じる",
+  foot:['出典：IAP/APA/EPC/IPC/JPS Working Group. International Association of Pancreatology Revised Guidelines on Acute Pancreatitis 2025. Pancreatology 2025;25:770–814. <a href="https://doi.org/10.1016/j.pan.2025.04.020" target="_blank" rel="noopener">doi:10.1016/j.pan.2025.04.020</a>','本ページは EUS channel による非公式の日本語解説である。推奨文は原文の翻訳、解説は原文 Remarks をもとに要点をまとめたもので、原文の逐語訳ではない。診療上の判断には必ず原著を参照のこと。','GRADE：強い推奨／条件付き推奨、エビデンスの確実性は 高・中・低・非常に低 の4段階。Good Practice Statement（GPS）は直接的エビデンスが乏しいが利益が明らかな事項で、正式な格付けはない。']},
+ en:{about:"Developed by the International Association of Pancreatology (IAP) with the American Pancreatic Association, European Pancreatic Club, Indian Pancreas Club and Japan Pancreas Society. It revises the 2013 IAP/APA guidelines and rates the strength of each recommendation and the certainty of evidence with GRADE across 18 domains and 96 questions. Patients' perspectives are included at the end of each domain.",src:"Pancreatology 2025, 25: 770–814 | IAP/APA/EPC/IPC/JPS",title:"IAP 2025 Acute Pancreatitis Guidelines, all 96 CQs",lead:"All 96 clinical questions across 18 domains with recommendation, GRADE rating, commentary and key evidence. Browse by domain or search.",qrh:"Open on your phone",maph:"Browse 18 domains",back:"All domains",pd:"Previous domain",nd:"Next domain",res:"Search results",cqn:n=>n+(n===1?" CQ":" CQs"),kbd:"to search from anywhere",tq:"Questions",ts:"Strong",tc:"Conditional",tg:"GPS",lgS:"Strong (filled)",lgC:"Conditional (outlined)",lgG:"GPS (hatched)",lgQ:"Darker = higher certainty",ph:"Search (e.g. LAMS, Ringer, pregnancy)",fAll:"All",fS:"Strong",fC:"Conditional",fG:"GPS",cnt:n=>n+(n===1?" question":" questions"),none:"No matching questions",rec:"Recommendation",gps:"Good Practice Statement",strong:"Strong recommendation",conditional:"Conditional recommendation",q:{high:"High","moderate":"Moderate",low:"Low","very low":"Very low"},ql:"Evidence",orig:"Original",sum:"Commentary",ev:"Key evidence",note:"Clinical point",pt:"Patients' view",prev:"Previous",next:"Next",close:"Close",
+  foot:['Source: IAP/APA/EPC/IPC/JPS Working Group. International Association of Pancreatology Revised Guidelines on Acute Pancreatitis 2025. Pancreatology 2025;25:770–814. <a href="https://doi.org/10.1016/j.pan.2025.04.020" target="_blank" rel="noopener">doi:10.1016/j.pan.2025.04.020</a>','An unofficial study guide by EUS channel. Statements follow the original wording. Commentary summarises the Remarks in our own words and is not a verbatim copy. Always check the original article for clinical decisions.','GRADE: strong or conditional recommendation, certainty of evidence high, moderate, low or very low. Good Practice Statements (GPS) are not formally graded.']}
+};
+const QL = {high:4,moderate:3,low:2,"very low":1};
+const root = document.getElementById('iap25');
+const $ = id => root.querySelector('#'+id);
+const esc = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let lang = 'ja', filt = 'all', term = '', cur = -1, view = {v:'home'}, inApp = false;
+try { const s = localStorage.getItem('iap25-lang'); if (s==='en'||s==='ja') lang = s; } catch(e) {}
+
+const byQ = DATA.slice().sort((a,b)=>a.q-b.q);
+const domOf = q => DOMAINS.find(d=>q>=d[1]&&q<=d[2]);
+const subOf = q => SUBS.find(s=>q>=s[0]&&q<=s[1]);
+const L = k => T[lang][k];
+const pick = (it,k) => it[k+'_'+lang] ?? it[k+'_en'] ?? '';
+const dName = d => lang==='ja'?d[3]:d[4];
+const dShort = d => lang==='ja'?d[5]:d[6];
+function lead(it){
+  const recs = (it.statements||[]).filter(s=>s.kind==='rec');
+  if (!recs.length) return {kind:'gps'};
+  return recs.slice().sort((a,b)=>((b.strength==='strong')-(a.strength==='strong'))||((QL[b.quality]||0)-(QL[a.quality]||0)))[0];
+}
+function cls(s){ if (s.kind!=='rec') return 's-gps'; return (s.strength==='strong'?'s-strong':'s-cond')+' q'+(QL[s.quality]||1); }
+function kindOf(it){ const l = lead(it); return l.kind!=='rec'?'g':(l.strength==='strong'?'s':'c'); }
+function passFilt(it){ return filt==='all' || (it.statements||[]).some(s=> filt==='g'?s.kind!=='rec':(s.kind==='rec'&&(filt==='s'?s.strength==='strong':s.strength==='conditional'))); }
+function fields(it){ return [pick(it,'question'),...(it.statements||[]).map(s=>lang==='ja'?(s.text_ja||s.text_en):s.text_en),...(pick(it,'summary')||[]),...(it.evidence||[]).map(e=>e[lang]||e.en),pick(it,'note'),it.question_en,...(it.statements||[]).map(s=>s.text_en)]; }
+const words = () => term.split(/\s+/).filter(Boolean);
+function hit(it){
+  if (!term) return true;
+  const ws = words(); const qn = term.match(/^q?(\d{1,2})$/i);
+  if (qn) return it.q===+qn[1];
+  const hay = fields(it).join(' ').toLowerCase();
+  return ws.every(w=>hay.includes(w));
+}
+function mark(text){
+  let h = esc(text); const ws = words().filter(w=>!/^q?\d{1,2}$/.test(w));
+  ws.forEach(w=>{ const e = esc(w).replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); h = h.replace(new RegExp('('+e+')(?![^<]*>)','gi'),'<mark>$1</mark>'); });
+  return h;
+}
+function snippet(it){
+  const ws = words(); if (!ws.length) return '';
+  const q = pick(it,'question').toLowerCase();
+  if (ws.every(w=>q.includes(w))) return '';
+  const f = fields(it).slice(1).find(t=>t && ws.some(w=>String(t).toLowerCase().includes(w)));
+  if (!f) return '';
+  const t = String(f), k = t.toLowerCase().indexOf(ws.find(w=>t.toLowerCase().includes(w)));
+  const a = Math.max(0,k-30), b = Math.min(t.length,k+70);
+  return (a?'…':'')+t.slice(a,b)+(b<t.length?'…':'');
+}
+
+function renderStatic(){
+  root.lang = lang;
+  root.querySelectorAll('[data-t]').forEach(el=>{ el.textContent = L(el.dataset.t); });
+  root.querySelectorAll('.lang button').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.lang===lang)));
+  const n = k => byQ.filter(it=>kindOf(it)===k).length;
+  $('tally').innerHTML = [[byQ.length,L('tq')],[n('s'),L('ts')],[n('c'),L('tc')],[n('g'),L('tg')]].map(([v,l])=>`<div><b>${v}</b><span>${esc(l)}</span></div>`).join('');
+  $('q').placeholder = L('ph');
+  $('chips').innerHTML = [['all','fAll'],['s','fS'],['c','fC'],['g','fG']].map(([k,l])=>`<button type="button" class="chip" data-f="${k}" aria-pressed="${filt===k}">${esc(L(l))}</button>`).join('');
+  $('foot').innerHTML = L('foot').map(p=>`<p>${p}</p>`).join('');
+  $('prev').textContent = '← '+L('prev'); $('next').textContent = L('next')+' →';
+  $('close').setAttribute('aria-label', L('close'));
+}
+const legendHTML = () => `<div class="legend"><span><i style="background:var(--q3)"></i>${esc(L('lgS'))}</span><span><i style="box-shadow:inset 0 0 0 3px var(--q3)"></i>${esc(L('lgC'))}</span><span><i class="s-gps"></i>${esc(L('lgG'))}</span><span><i style="background:linear-gradient(90deg,var(--q1),var(--q2),var(--q3),var(--q4))"></i>${esc(L('lgQ'))}</span></div>`;
+function cardHTML(it, withSnip){
+  const tags = [...new Set((it.statements||[]).map(st=>st.kind==='rec'?`${L(st.strength)} · ${L('q')[st.quality]||''}`:L('tg')))];
+  const sn = withSnip ? snippet(it) : '';
+  return `<button type="button" class="card" data-q="${it.q}"><span class="cell ${cls(lead(it))}" aria-hidden="true">${it.q}</span><p>${withSnip?mark(pick(it,'question')):esc(pick(it,'question'))}</p>${sn?`<p class="snip">${mark(sn)}</p>`:''}<span class="tags">${tags.map(t=>`<span>${esc(t)}</span>`).join('')}</span></button>`;
+}
+function render(){
+  let html = '', count = 0;
+  if (term){
+    const items = byQ.filter(it=>hit(it)&&passFilt(it)); count = items.length;
+    html += `<div class="homeh"><h2>${esc(L('res'))}</h2>${legendHTML()}</div>`;
+    DOMAINS.forEach(d=>{
+      const its = items.filter(it=>it.q>=d[1]&&it.q<=d[2]); if (!its.length) return;
+      html += `<section class="dom"><div class="domh"><em>${d[0]}</em><h3>${esc(dName(d))}</h3></div><div class="grid">${its.map(it=>cardHTML(it,true)).join('')}</div></section>`;
+    });
+    if (!items.length) html += `<p class="empty">${esc(L('none'))}</p>`;
+  } else if (view.v==='dom'){
+    const di = DOMAINS.findIndex(d=>d[0]===view.d), d = DOMAINS[di];
+    const items = byQ.filter(it=>it.q>=d[1]&&it.q<=d[2]&&passFilt(it)); count = items.length;
+    html += `<div class="crumb"><button type="button" class="back" data-go="home">← ${esc(L('back'))}</button></div>`;
+    html += `<section class="dom" style="padding-top:12px"><div class="domh"><em>${d[0]}</em><h3>${esc(dName(d))}</h3></div>`;
+    let lastSub = null, open = false;
+    items.forEach(it=>{
+      const s = subOf(it.q);
+      if (!open || s!==lastSub){ if (open) html += '</div>'; if (s) html += `<p class="sub">${esc(lang==='ja'?s[2]:s[3])}</p>`; html += '<div class="grid">'; open = true; lastSub = s; }
+      html += cardHTML(it,false);
+    });
+    if (open) html += '</div>';
+    if (!items.length) html += `<p class="empty">${esc(L('none'))}</p>`;
+    html += '</section>';
+    const pd = DOMAINS[di-1], nd = DOMAINS[di+1];
+    html += `<div class="dnav">${pd?`<button type="button" data-go="${pd[0]}"><span>← ${esc(L('pd'))}</span>${pd[0]} ${esc(dShort(pd))}</button>`:'<i></i>'}${nd?`<button type="button" class="nx" data-go="${nd[0]}"><span>${esc(L('nd'))} →</span>${nd[0]} ${esc(dShort(nd))}</button>`:''}</div>`;
+  } else {
+    count = byQ.filter(passFilt).length;
+    html += `<div class="homeh"><h2>${esc(L('maph'))}</h2>${legendHTML()}</div><div class="panels">`;
+    html += DOMAINS.map(d=>{
+      const its = byQ.filter(it=>it.q>=d[1]&&it.q<=d[2]);
+      const nOk = its.filter(passFilt).length;
+      return `<button type="button" class="panel" data-go="${d[0]}"><span class="pn"><em>${d[0]}</em><small>${esc(L('cqn')(filt==='all'?its.length:nOk))}</small></span><strong><span class="full">${esc(dName(d))}</span><span class="short">${esc(dShort(d))}</span></strong><span class="mini" aria-hidden="true">${its.map(it=>`<i class="${cls(lead(it))}${passFilt(it)?'':' dim'}"></i>`).join('')}</span></button>`;
+    }).join('') + '</div>';
+  }
+  $('list').innerHTML = html;
+  $('count').textContent = L('cnt')(count);
+}
+
+function stmtHTML(s){
+  const isRec = s.kind==='rec';
+  const qn = QL[s.quality]||0;
+  const meta = isRec ? `<span class="pill str">${esc(L(s.strength))}</span><span>${esc(L('ql'))}：${esc(L('q')[s.quality]||'')}</span><span class="meter" aria-hidden="true">${[1,2,3,4].map(i=>`<i class="${i<=qn?'f':''}"></i>`).join('')}</span>` : '';
+  const brk = t => String(t||'').replace(/\s+(?=(?:\(?(?:i{1,3}|iv|v|vi)[.)])\s)/g,'\n');
+  const txt = brk(lang==='ja' ? (s.text_ja||s.text_en) : s.text_en);
+  const orig = lang==='ja' && s.text_ja ? `<details class="orig"><summary>${esc(L('orig'))}</summary><p>${esc(brk(s.text_en))}</p></details>` : '';
+  return `<div class="stmt ${isRec?'q'+(qn||1):''}"><div class="k"><span class="pill kind">${esc(isRec?L('rec'):L('gps'))}</span>${meta}</div><p>${esc(txt)}</p>${orig}</div>`;
+}
+function fillSheet(idx){
+  cur = idx; const it = byQ[idx]; const d = domOf(it.q);
+  $('shmeta').textContent = `${d[0]} · ${dName(d)}`;
+  const sum = pick(it,'summary'), ev = it.evidence||[], note = pick(it,'note'), pt = pick(it,'patients');
+  $('shbody').innerHTML =
+    `<div class="sh-q"><span class="cell ${cls(lead(it))}">${it.q}</span><h4 id="shq">${esc(pick(it,'question'))}</h4></div>` +
+    (it.statements||[]).map(stmtHTML).join('') +
+    (sum&&sum.length ? `<h5>${esc(L('sum'))}</h5><div class="txt">${sum.map(p=>`<p>${esc(p)}</p>`).join('')}</div>` : '') +
+    (ev.length ? `<h5>${esc(L('ev'))}</h5><ul class="ev">${ev.map(e=>`<li>${esc(e[lang]||e.en)}</li>`).join('')}</ul>` : '') +
+    (note ? `<div class="note"><b>${esc(L('note'))}</b>${esc(note)}</div>` : '') +
+    (pt ? `<div class="note"><b>${esc(L('pt'))}</b>${esc(pt)}</div>` : '');
+  $('shbody').scrollTop = 0;
+  $('prev').disabled = idx===0; $('next').disabled = idx===byQ.length-1;
+}
+// WordPress iframe mode: no fixed overlay, the detail replaces the list inline and the parent page scrolls to it
+const EMBED = (()=>{ try { return window.self!==window.top; } catch(e){ return true; } })();
+const U = h => location.href.split('#')[0] + h;
+const tell = msg => { if (EMBED) try { window.parent.postMessage(msg,'*'); } catch(e){} };
+const yOf = el => el.getBoundingClientRect().top + window.scrollY;
+if (EMBED){ root.classList.add('embed'); $('main').firstElementChild.before($('sheet')); }
+function showSheet(){
+  const sh = $('sheet'), sc = $('scrim');
+  if (EMBED){ $('list').hidden = true; sh.hidden = false; sh.classList.add('on'); tell({appScroll:yOf(sh)-12}); return; }
+  if (!sh.hidden) return;
+  sh.hidden = false; sc.hidden = false;
+  requestAnimationFrame(()=>{ sh.classList.add('on'); sc.classList.add('on'); });
+  document.documentElement.style.overflow='hidden';
+  $('close').focus({preventScroll:true});
+}
+function hideSheet(){
+  const sh = $('sheet'), sc = $('scrim');
+  if (sh.hidden) return;
+  if (EMBED){ sh.hidden = true; sh.classList.remove('on'); $('list').hidden = false; const c = root.querySelector(`.card[data-q="${byQ[cur]?.q}"]`); tell({appScroll:c?yOf(c)-80:yOf($('main'))}); return; }
+  sh.classList.remove('on'); sc.classList.remove('on');
+  setTimeout(()=>{ sh.hidden = true; sc.hidden = true; }, 260);
+  document.documentElement.style.overflow='';
+  const card = root.querySelector(`.card[data-q="${byQ[cur]?.q}"]`); if (card) card.focus({preventScroll:true});
+}
+function toTop(){ if (EMBED){ if (inApp) tell({appScroll:yOf($('main'))}); return; } const r = $('main').getBoundingClientRect(); if (r.top < 0 || (view.v==='dom' && inApp)) $('main').scrollIntoView({block:'start'}); }
+
+// routing: '' home, #d-XI domain, #q42 question (shown over its domain)
+function route(){
+  const h = location.hash;
+  let m;
+  if ((m = h.match(/^#q(\d+)$/))){
+    const i = byQ.findIndex(it=>it.q===+m[1]);
+    if (i>=0){ if (!term && view.v!=='dom'){ view = {v:'dom', d:domOf(byQ[i].q)[0]}; render(); } fillSheet(i); showSheet(); (inApp && tell({appHash:location.hash})); return; }
+  }
+  hideSheet();
+  const nv = (m = h.match(/^#d-([IVX]+)$/)) && DOMAINS.some(d=>d[0]===m[1]) ? {v:'dom', d:m[1]} : {v:'home'};
+  const changed = nv.v!==view.v || nv.d!==view.d;
+  view = nv;
+  if (changed){ if (term){ term=''; $('q').value=''; } render(); toTop(); }
+  (inApp && tell({appHash:location.hash}));
+}
+function go(hash){ inApp = true; if (location.hash===hash) route(); else location.hash = hash; }
+function goHome(){ inApp = true; if (location.hash){ history.pushState(null,'',U('')); } route(); }
+
+root.addEventListener('click', e=>{
+  const l = e.target.closest('[data-lang]'); if (l){ lang = l.dataset.lang; try{localStorage.setItem('iap25-lang',lang);}catch(err){} renderStatic(); render(); if (!$('sheet').hidden) fillSheet(cur); return; }
+  const f = e.target.closest('[data-f]'); if (f){ filt = f.dataset.f; renderStatic(); render(); return; }
+  const g = e.target.closest('[data-go]'); if (g){ g.dataset.go==='home' ? goHome() : go('#d-'+g.dataset.go); return; }
+  const c = e.target.closest('[data-q]'); if (c && !c.closest('.sheet')){ go('#q'+c.dataset.q); }
+});
+$('q').addEventListener('input', e=>{ term = e.target.value.trim().toLowerCase(); render(); });
+$('q').addEventListener('keydown', e=>{ if (e.key==='Escape'){ e.target.value=''; term=''; render(); } });
+const closeSheet = () => { if (inApp && /^#q\d+$/.test(location.hash)) history.back(); else { const d = domOf(byQ[cur].q)[0]; history.replaceState(null,'',U(term?'':'#d-'+d)); route(); } };
+$('scrim').addEventListener('click', closeSheet);
+$('close').addEventListener('click', closeSheet);
+const step = n => { const i = cur+n; if (i<0||i>=byQ.length) return; fillSheet(i); history.replaceState(null,'',U('#q'+byQ[i].q)); (inApp && tell({appHash:location.hash})); if (EMBED) tell({appScroll:yOf($('sheet'))-12}); };
+$('prev').addEventListener('click', ()=>step(-1));
+$('next').addEventListener('click', ()=>step(1));
+document.addEventListener('keydown', e=>{
+  const typing = e.target.closest && e.target.closest('input,textarea,[contenteditable]');
+  if (!$('sheet').hidden){
+    if (e.key==='Escape') closeSheet();
+    else if (e.key==='ArrowRight' && !typing) step(1);
+    else if (e.key==='ArrowLeft' && !typing) step(-1);
+    return;
+  }
+  if (e.key==='/' && !typing){ e.preventDefault(); $('q').focus(); }
+});
+window.addEventListener('hashchange', route);
+window.addEventListener('popstate', ()=>{ if (!location.hash) route(); });
+renderStatic(); render(); route();
+if (EMBED){
+  let t = null;
+  const post = () => { clearTimeout(t); t = setTimeout(()=>tell({appHeight:Math.min(root.offsetHeight+24,60000)}),100); };
+  new ResizeObserver(post).observe(root); post();
+  window.addEventListener('message', e=>{
+    if (e.source!==window.parent || !e.data) return;
+    if (e.data.iapPing){ tell({appReady:1}); tell({appHeight:Math.min(root.offsetHeight+24,60000)}); return; }
+    if (typeof e.data.iapHash!=='string') return;
+    if (/^#(q\d+|d-[IVX]+)$/.test(e.data.iapHash) && e.data.iapHash!==location.hash){ history.replaceState(null,'',U(e.data.iapHash)); route(); }
+  });
+  tell({appReady:1});
+}
+}
+</script>

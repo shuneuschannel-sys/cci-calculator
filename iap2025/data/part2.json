@@ -1,0 +1,694 @@
+[
+ {
+  "q": 19,
+  "section": "VII",
+  "question_en": "Is systemic antibiotic prophylaxis effective in preventing infectious complications in AP?",
+  "question_ja": "急性膵炎において、全身的な抗菌薬の予防投与は感染性合併症の予防に有効か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "The use of antibiotic prophylaxis is not recommended for the prevention of infectious complications associated with AP.",
+    "text_ja": "急性膵炎に伴う感染性合併症の予防を目的とした抗菌薬の予防投与は推奨しない。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "重症化が予測される例や壊死性膵炎であっても、感染予防だけを目的に抗菌薬を投与する根拠はない。",
+   "メタ解析では予防投与で感染性膵壊死は減らなかった。死亡への影響を示唆する結果もあったが、RCTに限定すると差は消えており、質の低い研究の影響が疑われる。",
+   "日本からの報告でも重症例での有益性は示されていない。抗菌薬は感染が証明された、あるいは強く疑われる時点で開始するのが原則である（Q17、Q18参照）。"
+  ],
+  "summary_en": [
+   "Even in predicted severe or necrotizing AP, there is no basis for giving antibiotics solely to prevent infection.",
+   "A meta-analysis found that prophylaxis did not reduce infected pancreatic necrosis. A possible effect on mortality disappeared when only RCTs were analyzed, suggesting bias from lower quality studies.",
+   "A recent Japanese study also showed no benefit in severe AP. Antibiotics should start when infection is proven or strongly suspected (see Q17 and Q18)."
+  ],
+  "evidence": [
+   {
+    "en": "Meta-analysis (11 studies, 864 patients): prophylaxis did not reduce infected pancreatic necrosis, with a possible effect on all-cause mortality in necrotizing AP",
+    "ja": "メタ解析（11研究、864例）：予防投与は感染性膵壊死を減らさず、壊死性膵炎の全死亡には影響する可能性が示唆された"
+   },
+   {
+    "en": "Meta-analysis restricted to RCTs: no difference in mortality",
+    "ja": "RCTに限定したメタ解析：死亡率に差なし"
+   },
+   {
+    "en": "Recent Japanese study: no benefit of prophylactic antibiotics in severe AP",
+    "ja": "日本の最近の研究：重症急性膵炎における予防的抗菌薬の有益性なし"
+   }
+  ],
+  "note_ja": "高い質のエビデンスに基づく強い推奨である。重症例でも予防投与は行わない。",
+  "note_en": "This is a strong recommendation based on high quality evidence, and it applies to severe disease as well.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 20,
+  "section": "VII",
+  "question_en": "Are probiotics effective in preventing infectious complications?",
+  "question_ja": "プロバイオティクスは感染性合併症の予防に有効か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Probiotic use is not recommended to prevent infectious complications associated with AP.",
+    "text_ja": "急性膵炎に伴う感染性合併症の予防のためにプロバイオティクスを使用することは推奨しない。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "腸内細菌叢を調整して bacterial translocation を抑えるという理論的な期待はあるが、臨床的な効果は確認されていない。",
+   "最近のメタ解析では感染性膵壊死や感染症全体の減少は示されなかった。予測重症例を対象とした以前のRCTでは、プロバイオティクス群で腸管虚血による死亡が増加しており、安全性の懸念がある。"
+  ],
+  "summary_en": [
+   "Modulating gut flora to limit bacterial translocation is theoretically attractive, but no clinical benefit has been shown.",
+   "A recent meta-analysis found no reduction in infected necrosis or overall infections. An older RCT in predicted severe AP reported higher mortality from bowel ischemia with probiotics, raising a safety concern."
+  ],
+  "evidence": [
+   {
+    "en": "Meta-analysis of 13 RCTs: no reduction in infected pancreatic necrosis or total infections",
+    "ja": "13件のRCTのメタ解析：感染性膵壊死および感染症全体の減少なし"
+   },
+   {
+    "en": "Older RCT in predicted severe AP: increased mortality due to bowel ischemia with probiotics",
+    "ja": "予測重症例を対象とした以前のRCT：プロバイオティクス群で腸管虚血による死亡が増加"
+   }
+  ],
+  "note_ja": "有効性がないだけでなく有害事象の報告があるため、重症例での使用は避けるべきである。",
+  "note_en": "Beyond lack of efficacy, harm has been reported, so probiotics should be avoided particularly in severe disease.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 21,
+  "section": "VII",
+  "question_en": "Is selective gut decontamination effective in preventing infectious complications in AP?",
+  "question_ja": "急性膵炎において、選択的消化管除菌（SDD）は感染性合併症の予防に有効か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Selective gut decontamination is not recommended to prevent infectious complications.",
+    "text_ja": "感染性合併症の予防を目的とした選択的消化管除菌は推奨しない。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "急性膵炎での選択的消化管除菌のエビデンスは単一のRCTに限られる。",
+   "このRCTではグラム陰性菌による膵感染は減ったものの、全死亡には差がなかった。データが乏しく、日常診療として行う根拠は不十分である。"
+  ],
+  "summary_en": [
+   "Evidence for selective gut decontamination in AP comes from a single RCT.",
+   "That trial reduced Gram-negative pancreatic infections but did not change overall mortality. The data are too limited to support routine use."
+  ],
+  "evidence": [
+   {
+    "en": "Single RCT: selective decontamination reduced Gram-negative pancreatic infections, with no difference in overall mortality",
+    "ja": "単一のRCT：選択的消化管除菌でグラム陰性菌による膵感染は減少したが、全死亡に差はなかった"
+   }
+  ],
+  "note_ja": "エビデンスが単一試験のみのため条件付き推奨にとどまる。",
+  "note_en": "The recommendation is conditional because evidence rests on one trial.",
+  "patients_ja": "患者は、食欲不振、悪心、嘔吐、腹痛、腹部膨満などの症状が感染性合併症の手がかりになりうるので、医療者はこれらに注意してほしいと考えている。",
+  "patients_en": "Patients feel that symptoms such as anorexia, nausea, vomiting, abdominal pain and bloating may signal infectious complications and should prompt clinicians to consider infection."
+ },
+ {
+  "q": 22,
+  "section": "VIII",
+  "question_en": "When should oral feeding be started in patients with predicted non-severe pancreatitis, and what feed should be given?",
+  "question_ja": "非重症が予測される急性膵炎では、いつ経口摂取を開始し、どのような食事を与えるべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "In patients with predicted mild to moderate pancreatitis, oral feeding can be started as soon as possible when patients have an appetite and there is no vomiting. It is safe to start oral feeding with a regular, low-fat, solid diet.",
+    "text_ja": "軽症から中等症が予測される急性膵炎では、食欲があり嘔吐がなければ、できるだけ早期に経口摂取を開始してよい。経口摂取は通常の低脂肪固形食から開始しても安全である。",
+    "strength": "strong",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "血清酵素の正常化や腹痛の完全消失を待つ必要はない。食欲があり嘔吐がないことが再開の目安となる。",
+   "複数のメタ解析で、早期再開は腹痛の再燃を増やさず、合併症と入院期間を減らすことが示された。オピオイド鎮痛と組み合わせた即時の経口摂取も有効であり、医療費も抑えられる。",
+   "食形態については、流動食から段階的に上げる必要はない。軟らかい低脂肪食や固形食から始めても腹痛の再燃は増えず、入院期間が短縮した。"
+  ],
+  "summary_en": [
+   "There is no need to wait for normal enzymes or complete pain resolution. Appetite and absence of vomiting are the practical triggers for refeeding.",
+   "Several meta-analyses showed that early refeeding did not increase pain recurrence and reduced complications and length of stay. Immediate oral diet combined with opioid analgesia also worked well and lowered costs.",
+   "A stepwise start with clear liquids is unnecessary. Soft, low-fat or solid diets shortened hospital stay without more pain recurrence and appeared as safe as clear liquids."
+  ],
+  "evidence": [
+   {
+    "en": "Five meta-analyses and other studies on timing: early refeeding did not affect pain recurrence, decreased complications and shortened hospital stay",
+    "ja": "再開時期に関する5件のメタ解析と他の研究：早期再開は腹痛再燃に影響せず、合併症を減らし入院期間を短縮"
+   },
+   {
+    "en": "Conventional feeding: 16% pain relapse rate",
+    "ja": "従来型の食事再開：腹痛再燃率16%"
+   },
+   {
+    "en": "Three meta-analyses on feed type: soft, low-fat, hypocaloric or solid diet shortened hospital stay without more pain recurrence, as safe as clear liquid diet",
+    "ja": "食形態に関する3件のメタ解析：軟食、低脂肪食、低カロリー食または固形食は腹痛再燃を増やさず入院期間を短縮し、流動食と同等に安全"
+   }
+  ],
+  "note_ja": "対象は予測軽症から中等症である。重症例の栄養はQ23、Q24を参照する。",
+  "note_en": "This applies to predicted mild to moderate AP. For severe disease see Q23 and Q24.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 23,
+  "section": "VIII",
+  "question_en": "When should nutritional support be initiated, and what is the preferred route?",
+  "question_ja": "栄養療法はいつ開始すべきか、また望ましい投与経路は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Early enteral tube feeding, preferably within 72 hours of onset of AP, is recommended if patients cannot tolerate oral feeding.",
+    "text_ja": "経口摂取に耐えられない場合は、早期の経管経腸栄養を、できれば発症から72時間以内に開始することを推奨する。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "経腸栄養は静脈栄養より優先される。腸管の統合性を保ち、臓器不全、感染性膵壊死、入院期間、死亡を減らすためである。静脈栄養にはカテーテル敗血症、代謝・電解質異常、高血糖、腸管萎縮、細菌異常増殖などの問題がある。",
+   "開始時期については、入院24時間以内や48時間以内の経腸栄養開始で、死亡、臓器不全、感染、外科的介入が減るというメタ解析が複数ある。",
+   "一方、予測重症例を対象とした多施設RCTでは、早期の経鼻経腸栄養は72時間後の経口摂取開始に勝らず、オンデマンド群の多くは経管栄養を必要としなかった。まず経口摂取を試し、耐えられない場合に経管栄養へ進むのが現実的である。"
+  ],
+  "summary_en": [
+   "Enteral nutrition is preferred over parenteral nutrition because it maintains gut integrity and reduces organ failure, infected necrosis, length of stay and mortality. Parenteral nutrition carries risks such as catheter sepsis, metabolic and electrolyte disturbances, hyperglycemia, intestinal atrophy and bacterial overgrowth.",
+   "Regarding timing, several meta-analyses link enteral feeding started within 24 or 48 hours of admission to lower mortality, organ failure, infections and need for surgery.",
+   "However, a multicenter RCT in predicted severe AP found early nasoenteric feeding no better than an oral diet started after 72 hours, and most patients in the on-demand arm never needed tube feeding. A practical approach is to try oral intake first and move to tube feeding only if it fails."
+  ],
+  "evidence": [
+   {
+    "en": "Meta-analysis of 8 RCTs (165 patients): enteral nutrition within 24 hours lowered a combined endpoint of mortality, infected necrosis and organ failure (45% vs 19%, OR 0.44, 95% CI 0.2 to 0.96)",
+    "ja": "8件のRCT（165例）のメタ解析：24時間以内の経腸栄養開始で死亡、感染性膵壊死、臓器不全の複合エンドポイントが低下（45%対19%、OR 0.44、95%CI 0.2〜0.96）"
+   },
+   {
+    "en": "Multicenter RCT in predicted severe AP: early nasoenteric feeding not superior to oral diet after 72 hours, and 72 patients (69%) in the on-demand group tolerated oral diet",
+    "ja": "予測重症例の多施設RCT：早期経鼻経腸栄養は72時間後の経口摂取に勝らず、オンデマンド群の72例（69%）は経口摂取に耐えた"
+   },
+   {
+    "en": "Meta-analysis of 17 studies: enteral feeding before 48 hours associated with lower mortality (3.9 fold), sepsis and hospital stay",
+    "ja": "17研究のメタ解析：48時間以内の経腸栄養開始で死亡（3.9倍の差）、敗血症、入院期間が減少"
+   },
+   {
+    "en": "RCT of appetite-guided early enteral feeding in moderately severe or severe AP: feasible and shortened hospital stay",
+    "ja": "中等症から重症例での食欲に基づく早期経腸栄養のRCT：実施可能で入院期間を短縮"
+   }
+  ],
+  "note_ja": "「早期」の定義は研究によって24時間、48時間、72時間とばらつきがある。推奨文は72時間以内を目安としている。",
+  "note_en": "Definitions of early vary across studies (24, 48 or 72 hours). The recommendation uses 72 hours as the target.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 24,
+  "section": "VIII",
+  "question_en": "What is the indication for nasoenteric tube feeding in predicted severe AP?",
+  "question_ja": "重症が予測される急性膵炎において、経鼻経腸栄養の適応は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "In the case of insufficient oral intake during the first 72 hours of hospital admission, nasoenteric tube feeding is indicated in patients with predicted severe or established acute necrotizing pancreatitis.",
+    "text_ja": "予測重症または壊死性膵炎が確立した患者で、入院後72時間の経口摂取が不十分な場合は、経鼻経腸栄養の適応である。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "予測重症例でも経口摂取が可能で経管栄養を要しない患者は少なくない。そのため一律に経管栄養を行うのではなく、72時間の経過で判断する。",
+   "72時間を過ぎても経口摂取に耐えられない場合や、必要な栄養量を満たせない場合に経鼻経腸栄養を開始する。早期の経腸栄養は死亡、臓器不全、感染、外科的介入の減少と関連する。"
+  ],
+  "summary_en": [
+   "Many patients with predicted severe AP can eat and never need a feeding tube, so tube feeding should not be automatic. The decision is made over the first 72 hours.",
+   "If oral intake is not tolerated after 72 hours, or nutritional needs are not met, nasoenteric feeding is indicated. Early enteral feeding is linked to lower mortality, organ failure, infections and need for surgery."
+  ],
+  "evidence": [
+   {
+    "en": "Multicenter RCT: only 31% of patients with predicted severe AP required nasoenteric tube feeding",
+    "ja": "多施設RCT：予測重症例のうち経鼻経腸栄養を要したのは31%のみ"
+   },
+   {
+    "en": "Enteral feeding within 48 hours of admission: lower mortality, organ failure, local and systemic infections and need for surgical intervention",
+    "ja": "入院48時間以内の経腸栄養：死亡、臓器不全、局所および全身感染、外科的介入の必要性が減少"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 25,
+  "section": "VIII",
+  "question_en": "What type of enteral nutrition formulation should be used?",
+  "question_ja": "どのような経腸栄養剤を使用すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Polymeric enteral nutrition formulations are recommended for enteral tube feeding in patients with AP who do not tolerate oral intake.",
+    "text_ja": "経口摂取に耐えられない急性膵炎患者の経管経腸栄養には、半消化態（polymeric）栄養剤を推奨する。",
+    "strength": "conditional",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "経腸栄養剤には半消化態（標準）、消化態（semi-elemental）、成分栄養（elemental）、免疫賦活栄養剤がある。",
+   "メタ解析では消化態や成分栄養の優位性は示されず、半消化態は不耐、感染、死亡のいずれも同等で、より安価である。日本の大規模後ろ向き研究でも成分栄養剤に敗血症、死亡、コスト面の利点はなかった。",
+   "食物繊維添加の有用性は不明で、免疫賦活栄養やω3脂肪酸の補充はさらなる試験が必要であり現時点では推奨できない。"
+  ],
+  "summary_en": [
+   "Formulations include standard polymeric, semi-elemental, elemental and immunonutrition products.",
+   "Meta-analyses found no advantage of elemental or semi-elemental feeds. Polymeric feeds have similar rates of intolerance, infection and mortality at lower cost. A large Japanese retrospective study also found no benefit of an elemental diet for sepsis, mortality or cost.",
+   "The value of fiber enrichment is unclear, and immunonutrition or omega-3 supplementation needs further trials before it can be recommended."
+  ],
+  "evidence": [
+   {
+    "en": "Three meta-analyses: no evidence supporting elemental or semi-elemental formulations",
+    "ja": "3件のメタ解析：成分栄養や消化態栄養剤を支持するエビデンスなし"
+   },
+   {
+    "en": "Large Japanese retrospective study: no clinical advantage of elemental diet in sepsis risk, mortality or cost",
+    "ja": "日本の大規模後ろ向き研究：成分栄養剤に敗血症リスク、死亡、コスト面での臨床的利点なし"
+   }
+  ],
+  "note_ja": "日本の大規模後ろ向き研究でも、成分栄養剤に敗血症・死亡・費用の面での利点は示されなかった。より安価な半消化態栄養剤で十分とされる。",
+  "note_en": "A large retrospective Japanese study also found no advantage of an elemental diet for sepsis, mortality or cost. Cheaper polymeric formulas are sufficient.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 26,
+  "section": "VIII",
+  "question_en": "Should enteral tube feeding be administered via a nasojejunal or nasogastric route?",
+  "question_ja": "経管経腸栄養は経鼻空腸ルートと経鼻胃ルートのどちらで行うべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Enteral tube feeding can be administered via either the nasogastric or nasojejunal route in patients with AP.",
+    "text_ja": "急性膵炎患者の経管経腸栄養は、経鼻胃ルートと経鼻空腸ルートのいずれで行ってもよい。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "RCTのメタ解析では、経鼻胃栄養は経鼻空腸栄養と同等に安全かつ有効であり、感染、臓器不全、死亡に差はなかった。",
+   "経鼻胃管の方が留置は容易である。ただし嘔吐や胃の麻痺性イレウスで経鼻胃栄養に耐えられない患者もおり、その場合は経鼻空腸栄養を選ぶ。"
+  ],
+  "summary_en": [
+   "Meta-analyses of RCTs show nasogastric feeding to be as safe and effective as nasojejunal feeding, with no difference in infection, organ failure or mortality.",
+   "Nasogastric tubes are easier to place. Some patients cannot tolerate gastric feeding because of vomiting or gastric ileus, and these patients need nasojejunal feeding."
+  ],
+  "evidence": [
+   {
+    "en": "Six meta-analyses of RCTs: nasogastric feeding as safe and effective as nasojejunal feeding, with no significant difference in infection, organ failure or mortality",
+    "ja": "RCTの6件のメタ解析：経鼻胃栄養は経鼻空腸栄養と同等に安全かつ有効で、感染、臓器不全、死亡に有意差なし"
+   }
+  ],
+  "note_ja": "まず経鼻胃栄養で開始し、不耐の場合に経鼻空腸栄養へ切り替えるのが実際的である。",
+  "note_en": "In practice, start with nasogastric feeding and switch to nasojejunal feeding if it is not tolerated.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 27,
+  "section": "VIII",
+  "question_en": "When should parenteral nutrition be used in AP?",
+  "question_ja": "急性膵炎において、静脈栄養はいつ使用すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Parenteral nutrition should be administered to patients with AP if enteral nutrition cannot meet nutritional goals during the course of the disease.",
+    "text_ja": "経過中に経腸栄養で栄養目標を達成できない場合に、急性膵炎患者に静脈栄養を行うべきである。",
+    "strength": "strong",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "RCT、メタ解析、批判的レビューのいずれも、重症度を問わず経腸栄養が静脈栄養より優れ、感染、臓器不全、死亡を減らすことを示している。重症例に限ったRCTでも結果は同様である。",
+   "静脈栄養は、経口や経管栄養で目標に届かない場合、または腸閉塞、腹部コンパートメント症候群（ACS）、遷延する麻痺性イレウス、腸間膜虚血など経腸栄養が禁忌となる合併症がある場合に限って開始する。",
+   "急性膵炎に特化した栄養目標のエビデンスはなく、ICU患者のエネルギーと蛋白の一般的指針を用いる。多くの患者は経口か経腸で必要量を満たせるため、入院後1週間以内に静脈栄養を始める必要は通常ない。"
+  ],
+  "summary_en": [
+   "RCTs, meta-analyses and a critical review consistently show enteral nutrition to be superior to parenteral nutrition across all severity grades, reducing infection, organ failure and mortality. RCTs in severe AP gave similar results.",
+   "Parenteral nutrition should be started only when goals cannot be met orally or enterally, or when complications contraindicate enteral feeding, such as bowel obstruction, abdominal compartment syndrome, prolonged paralytic ileus or mesenteric ischemia.",
+   "There is no AP specific evidence on nutritional targets, so general ICU energy and protein guidelines apply. Because most patients can meet needs orally or enterally, parenteral nutrition is usually not needed in the first week of admission."
+  ],
+  "evidence": [
+   {
+    "en": "Multiple RCTs, three meta-analyses and a critical review: enteral nutrition superior to parenteral nutrition, reducing infection, organ failure and mortality across severity grades",
+    "ja": "複数のRCT、3件のメタ解析、批判的レビュー：重症度を問わず経腸栄養は静脈栄養より優れ、感染、臓器不全、死亡を減少"
+   },
+   {
+    "en": "RCTs in severe AP: parenteral nutrition consistently less effective than enteral nutrition despite methodological heterogeneity",
+    "ja": "重症例のRCT：方法論的なばらつきはあるものの、静脈栄養は一貫して経腸栄養より劣る"
+   }
+  ],
+  "note_ja": "静脈栄養は経腸栄養の代替ではなく補完として位置づけられる。",
+  "note_en": "Parenteral nutrition is a supplement to, not a substitute for, enteral nutrition.",
+  "patients_ja": "患者は栄養療法を最も重要な事項の一つと考え、この領域に6つの設問が設けられたことを歓迎している。栄養は回復と生活の再建に欠かせないとみなしている。",
+  "patients_en": "Patients consider nutritional support among the most important topics and welcome the six questions on it, viewing nutrition as essential to recovery and rebuilding their lives."
+ },
+ {
+  "q": 28,
+  "section": "IX",
+  "question_en": "What is the indication for early Endoscopic Retrograde Cholangiopancreatography (ERCP) and endoscopic sphincterotomy (ES) within 72 hours in the course of acute biliary pancreatitis?",
+  "question_ja": "胆石性膵炎の経過中、72時間以内の早期ERCPおよび内視鏡的乳頭括約筋切開術（ES）の適応は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Early ERCP with ES within 72 hours is not recommended in the course of predicted mild biliary pancreatitis without acute cholangitis.",
+    "text_ja": "急性胆管炎を伴わない予測軽症の胆石性膵炎では、72時間以内の早期ERCP/ESは推奨しない。",
+    "strength": "strong",
+    "quality": "high"
+   },
+   {
+    "kind": "rec",
+    "text_en": "Early ERCP/ES is not recommended in predicted severe acute biliary pancreatitis without acute cholangitis.",
+    "text_ja": "急性胆管炎を伴わない予測重症の胆石性膵炎では、早期ERCP/ESは推奨しない。",
+    "strength": "strong",
+    "quality": "moderate"
+   },
+   {
+    "kind": "rec",
+    "text_en": "Early ERCP/ES is recommended in patients with acute biliary pancreatitis and acute cholangitis.",
+    "text_ja": "急性胆管炎を合併した胆石性膵炎では、早期ERCP/ESを推奨する。",
+    "strength": "strong",
+    "quality": "high"
+   },
+   {
+    "kind": "rec",
+    "text_en": "ERCP/ES may be done to prevent recurrence of pancreatitis if cholecystectomy cannot be performed during the same hospital admission.",
+    "text_ja": "同一入院中に胆嚢摘出術を行えない場合は、膵炎再発予防のためにERCP/ESを行ってもよい。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "胆石性膵炎でのERCPの目的は、総胆管結石の除去のためのES、胆管炎時の胆道減圧、胆道閉塞時のステント留置である。ここでの早期ERCPは発症24〜72時間以内の施行を指す。",
+   "胆管炎を伴わない場合、早期ERCPは死亡、臓器不全、膵壊死を改善しない。胆管炎のない胆石性膵炎を対象としたRCTでも、24時間以内の緊急ERCP/ESは転帰を改善しなかったが、胆管炎の発生は減少した。",
+   "SIRSを伴う急性膵炎では胆管炎の診断が難しい点に注意が必要である。胆管炎があれば早期ERCP/ESの適応となる。胆嚢摘出術を同一入院中に行えない高齢者や併存疾患の多い患者では、再発予防のESが選択肢となる。"
+  ],
+  "summary_en": [
+   "In biliary AP, ERCP aims to perform sphincterotomy for stone extraction, decompress the bile duct in cholangitis and place a stent when there is biliary obstruction. Early ERCP here means within 24 to 72 hours of presentation.",
+   "Without cholangitis, early ERCP does not improve mortality, organ failure or necrosis. In an RCT of gallstone AP without cholangitis, urgent ERCP/ES within 24 hours did not improve outcomes, although it lowered the rate of cholangitis.",
+   "Diagnosing cholangitis can be difficult when SIRS is present. When cholangitis is present, early ERCP/ES is indicated. For patients who cannot have cholecystectomy during the same admission, sphincterotomy is an option to prevent recurrence."
+  ],
+  "evidence": [
+   {
+    "en": "RCT of urgent ERCP within 24 hours in gallstone AP without cholangitis: no improvement in outcomes, but cholangitis 2% vs 10% with conservative treatment",
+    "ja": "胆管炎のない胆石性膵炎で24時間以内の緊急ERCPを検討したRCT：転帰の改善なし。ただし胆管炎は2%対10%（保存的治療）"
+   },
+   {
+    "en": "In the same RCT, 41% of patients randomized to conservative treatment underwent ERCP/ES during the same admission",
+    "ja": "同RCTで保存的治療群の41%が同一入院中にERCP/ESを受けた"
+   },
+   {
+    "en": "EUS-guided strategy reserving urgent ERCP for patients with bile duct stones: no benefit in the absence of cholangitis",
+    "ja": "総胆管結石例のみに緊急ERCPを行うEUSガイド戦略：胆管炎がなければ有益性なし"
+   }
+  ],
+  "note_ja": "胆管炎の有無が早期ERCPの判断の分岐点である。Table 1の語句には綴りの誤り（recurrecne）があり、本文の表記を採用した。",
+  "note_en": "Presence of cholangitis is the key decision point for early ERCP. Table 1 contains a typo (recurrecne), so the body text wording is used here.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 29,
+  "section": "IX",
+  "question_en": "When should ERCP/ES be performed for a common bile duct stone in the setting of acute biliary pancreatitis without cholangitis?",
+  "question_ja": "胆管炎を伴わない胆石性膵炎で総胆管結石がある場合、ERCP/ESはいつ行うべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "In patients with acute biliary pancreatitis without cholangitis, elective ERCP/ES is indicated when a common bile duct stone is identified on imaging such as EUS or MRCP.",
+    "text_ja": "胆管炎を伴わない胆石性膵炎では、EUSやMRCPなどの画像検査で総胆管結石が確認された場合に待機的ERCP/ESの適応となる。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "肝胆道系酵素、腹部超音波、CTによる総胆管結石の検出能は低い。総胆管結石が疑われる場合はEUSかMRCPを行う。",
+   "胆石性膵炎の患者は総胆管結石の中等度リスクに相当するため、一次画像で結石が明らかでなければ、胆嚢摘出術の前にMRCP、EUS、術中胆道造影による追加評価が必要となりうる。",
+   "総胆管結石の存在だけでは早期ERCPの根拠にならない。確認された結石には待機的にERCP/ESで対応する。"
+  ],
+  "summary_en": [
+   "Liver tests, transabdominal ultrasound and CT have poor sensitivity for common bile duct stones. EUS or MRCP should be used when choledocholithiasis is suspected.",
+   "Patients with biliary AP carry at least intermediate risk of choledocholithiasis, so further imaging (MRCP, EUS or intraoperative cholangiography) may be needed before cholecystectomy unless first line imaging has already shown a stone.",
+   "A bile duct stone alone does not justify early ERCP. A confirmed stone is managed with elective ERCP/ES."
+  ],
+  "evidence": [
+   {
+    "en": "Liver chemistries, transabdominal ultrasound and CT: poor sensitivity for confirming common bile duct stones, so EUS or MRCP is preferred",
+    "ja": "肝機能検査、腹部超音波、CT：総胆管結石の確認には感度が低く、EUSまたはMRCPが望ましい"
+   }
+  ],
+  "note_ja": "本文の推奨文は箇条書きの短い表現で、Table 1の表記（胆管炎を伴わない胆石性膵炎という条件を含む）を採用した。",
+  "note_en": "The body text gives a shorter bullet, so the fuller Table 1 wording (which specifies biliary AP without cholangitis) is used.",
+  "patients_ja": "患者は、胆嚢摘出術の適応がない場合のERCP/ESの時期について明確にしてほしいと述べている。Q28は入院72時間以内の適応を扱っており、胆嚢摘出術が困難な患者ではERCP/ESは通常その後、できれば同一入院中に行うのが適切である。",
+  "patients_en": "Patients asked for clarity on ERCP/ES timing when they are not suitable for cholecystectomy. Q28 covers the first 72 hours, and in patients unfit for cholecystectomy ERCP/ES is usually better done later, preferably during the same admission."
+ },
+ {
+  "q": 30,
+  "section": "X",
+  "question_en": "What is the management of sterile acute necrotizing pancreatitis in the early phase?",
+  "question_ja": "早期の無菌性壊死性膵炎はどのように管理すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Conservative management is recommended for sterile acute necrotizing pancreatitis in the early phase.",
+    "text_ja": "早期の無菌性壊死性膵炎には保存的治療を推奨する。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "壊死性膵炎の治療は発症1週以降も基本的に支持療法である。壊死の大部分（最大80%）は無菌のまま経過する。鎮痛、栄養療法、臓器不全例のICU管理が中心となる。",
+   "早期の画像所見は臨床経過と相関せず予後予測にも役立たない。ソマトスタチン、オクトレオチド、ガベキサートなどの抗分泌薬や蛋白分解酵素阻害薬の有効性は、持続動注を含め確認されていない。",
+   "発症2〜4週は主に壊死巣の感染に注意して経過観察する時期である。早期の壊死巣は被包化されておらず有効なドレナージが難しく、過去の手術成績では死亡率が高かった。"
+  ],
+  "summary_en": [
+   "Management of necrotizing AP remains supportive beyond the first week. Most necrosis (up to 80%) stays sterile. Analgesia, nutrition and ICU support for organ failure are the mainstay.",
+   "Early imaging findings do not correlate with the clinical course or predict outcome. Antisecretory drugs and protease inhibitors (somatostatin, octreotide, gabexate mesilate), including continuous regional arterial infusion, have no confirmed benefit.",
+   "Weeks 2 to 4 are a period of watchful observation, mainly for infection of necrosis. Early collections are not walled off and are hard to drain, and earlier surgical series for sterile necrosis showed high mortality."
+  ],
+  "evidence": [
+   {
+    "en": "Necrosis remains sterile in most patients (up to 80%)",
+    "ja": "壊死の大部分（最大80%）は無菌のまま経過"
+   },
+   {
+    "en": "Antisecretory drugs and protease inhibitors, including continuous regional arterial infusion: benefit not confirmed",
+    "ja": "抗分泌薬および蛋白分解酵素阻害薬（持続動注を含む）：有効性は確認されていない"
+   },
+   {
+    "en": "Earlier surgical studies in sterile necrotizing AP: high mortality",
+    "ja": "無菌性壊死に対する過去の外科治療の研究：高い死亡率"
+   }
+  ],
+  "note_ja": "蛋白分解酵素阻害薬の持続動注（CRAI）などの特異的治療は、本ガイドラインでは有効性が確認されていないとされる。",
+  "note_en": "Specific therapies such as continuous regional arterial infusion (CRAI) of protease inhibitors are considered unproven in this guideline.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 31,
+  "section": "X",
+  "question_en": "How should infected necrotizing pancreatitis be diagnosed?",
+  "question_ja": "感染性壊死性膵炎はどのように診断すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "A diagnosis of infected necrotizing pancreatitis should be established based on a combination of clinical, serologic, and radiological findings. Routine use of fine needle aspiration (FNA) to confirm infected necrotizing pancreatitis is not recommended.",
+    "text_ja": "感染性壊死性膵炎の診断は、臨床所見、血清学的所見、画像所見を組み合わせて行うべきである。感染性壊死性膵炎の確認のためにルーチンで穿刺吸引（FNA）を行うことは推奨しない。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "発症7〜10日を過ぎても改善しない、悪化する、新たな発熱、白血球増多、プロカルシトニン上昇、敗血症の所見がある場合に感染を疑う。",
+   "ゴールドスタンダードはCTまたは超音波ガイド下FNAによる培養であるが、偽陰性や偽陽性があり、穿刺による感染持ち込みの危険もあるためルーチンには行わない。広域抗菌薬に反応しない場合や多剤耐性菌、真菌感染が疑われる場合に限って考慮する。",
+   "CTで壊死巣内のガス像は特異度が高いが感度は中等度である。プロカルシトニンは有用だが、急性膵炎患者の最大20%に膵外感染（菌血症、肺炎、カテーテル感染、尿路感染）が起こるため、炎症マーカー上昇の解釈では膵外感染を除外する必要がある。"
+  ],
+  "summary_en": [
+   "Infection should be suspected when a patient with necrosis fails to improve or deteriorates after 7 to 10 days, or develops new fever, rising leukocytes, raised procalcitonin or sepsis.",
+   "FNA with culture under CT or ultrasound guidance is the gold standard, but false negative and false positive results and the risk of introducing infection argue against routine use. It can be considered when there is no response to broad-spectrum antibiotics or when multidrug-resistant bacterial or fungal infection is suspected.",
+   "Gas in the necrotic collection on CT is highly specific but only moderately sensitive. Procalcitonin is useful, but up to 20% of AP patients develop extrapancreatic infections (bloodstream, pneumonia, catheter, urinary tract), which must be excluded when interpreting inflammatory markers."
+  ],
+  "evidence": [
+   {
+    "en": "Routine FNA: false-negative rate 20 to 29% and false-positive results 4 to 10%",
+    "ja": "ルーチンのFNA：偽陰性20〜29%、偽陽性4〜10%"
+   },
+   {
+    "en": "Serum procalcitonin cut-off 3.5 ng/mL: sensitivity 90% and specificity 89% for infected necrosis",
+    "ja": "血清プロカルシトニン カットオフ3.5 ng/mL：感染性膵壊死に対し感度90%、特異度89%"
+   },
+   {
+    "en": "Gas bubbles in (peri)pancreatic necrotic collection: high specificity, moderate sensitivity",
+    "ja": "膵および膵周囲壊死巣内のガス像：特異度は高く、感度は中等度"
+   },
+   {
+    "en": "Up to 20% of AP patients develop extrapancreatic infections",
+    "ja": "急性膵炎患者の最大20%に膵外感染が発生"
+   }
+  ],
+  "note_ja": "壊死巣内のガスは消化管との瘻孔によっても生じるため、ガス像の解釈には注意が必要である。",
+  "note_en": "Gas in a collection can also result from a fistula with the gastrointestinal tract, so it should be interpreted with care.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 32,
+  "section": "X",
+  "question_en": "What should be the initial optimal treatment for suspected infected necrotizing pancreatitis?",
+  "question_ja": "感染性壊死性膵炎が疑われる場合、初期の最適な治療は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "The initial management of infected necrotizing pancreatitis should be medical ‘conservative first’ (non-interventional) treatment, ensuring optimal nutritional supplementation and intravenous administration of broad-spectrum antibiotics.",
+    "text_ja": "感染性壊死性膵炎の初期管理は、十分な栄養補給と広域抗菌薬の静脈内投与を確保したうえで、内科的な「保存的治療優先」（非介入）とすべきである。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "感染が疑われても初期治療は保存的に行い、多くの症例はこれで改善する。壊死巣が被包化される発症3〜4週以降まで保存的治療を続け、その後に内視鏡的、経皮的、外科的なドレナージを検討する。",
+   "ここでいう「保存的」は外科的ネクロセクトミーを避けるという意味で用いられることが多く、ネクロセクトミーを伴わないドレナージなどの低侵襲介入を含みうる。集中治療、抗菌薬、栄養療法の組み合わせで、感染性膵壊死疑い例の約3分の2が手術を要さず低い死亡率で治療できる。",
+   "即時ドレナージと延期ドレナージを比較したRCTでは主要評価項目に差はなく、早期群で処置回数が多かった。延期群では一部が抗菌薬のみで治癒した。"
+  ],
+  "summary_en": [
+   "Initial treatment of suspected infected necrosis is conservative, and many cases resolve this way. Conservative care should continue until the collection walls off, usually after 3 to 4 weeks, when endoscopic, percutaneous or surgical drainage can be considered.",
+   "In this setting conservative often means avoiding surgical necrosectomy and may include minimally invasive drainage without necrosectomy. Intensive care, antimicrobials and nutrition, with or without drainage, can succeed in about two thirds of patients with suspected infected necrosis, with low mortality.",
+   "An RCT comparing immediate with postponed drainage found similar primary outcomes, with more procedures in the early group. Some patients in the postponed group were cured with antibiotics alone."
+  ],
+  "evidence": [
+   {
+    "en": "RCT of immediate drainage (within 24 hours of diagnosis) vs postponed drainage (over 4 weeks): similar comprehensive complication index, more procedures in the immediate group",
+    "ja": "即時ドレナージ（診断後24時間以内）と延期ドレナージ（4週以降）のRCT：comprehensive complication indexは同等、即時群で処置回数が多い"
+   },
+   {
+    "en": "Same RCT: necrosectomy required in 51% (immediate) vs 22% (postponed), and 39% of the postponed group treated with antibiotics alone",
+    "ja": "同RCT：ネクロセクトミー施行は即時群51%対延期群22%、延期群の39%は抗菌薬のみで治癒"
+   },
+   {
+    "en": "Conservative strategy with or without drainage: successful in about two thirds of suspected infected necrosis with low mortality",
+    "ja": "ドレナージの有無を問わない保存的戦略：感染性膵壊死疑い例の約3分の2で成功し、死亡率は低い"
+   }
+  ],
+  "note_ja": "介入の適応と時期はQ36〜Q38で扱われる。全身状態が悪化する場合は早期介入も検討される。",
+  "note_en": "Indications and timing of intervention are covered in Q36 to Q38. Earlier intervention may be considered if the patient deteriorates.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 33,
+  "section": "X",
+  "question_en": "What is the role of antibiotic therapy in suspected infected necrotizing pancreatitis?",
+  "question_ja": "感染性壊死性膵炎が疑われる場合、抗菌薬治療の役割は何か？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Broad-spectrum antibiotic therapy should be administered initially in patients with suspected infected necrotizing pancreatitis.",
+    "text_ja": "感染性壊死性膵炎が疑われる患者には、初期治療として広域抗菌薬を投与すべきである。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "抗菌薬投与の時期を直接検討した研究はないが、感染は予後を悪化させるため、Surviving Sepsisガイドラインに準じて感染性壊死を疑った時点でできるだけ早く開始する。",
+   "第3、第4世代セフェム、カルバペネム、ウレイドペニシリン、キノロンは腸内細菌に有効で膵組織への移行もよい。選択は地域の感受性データに基づき、微生物の専門家と相談して行う。培養結果が得られたら感受性に応じて変更する。",
+   "1剤か2剤かを示す前向き研究はないが、緑膿菌が疑われる場合を除き単剤の広域抗菌薬が一般に推奨される。プロカルシトニンに基づく投与調整は抗菌薬使用を減らしうるが、中等症から重症例での適用にはさらなる研究が必要である。"
+  ],
+  "summary_en": [
+   "No study has directly examined antibiotic timing, but infection worsens outcome, so following the Surviving Sepsis guidelines antibiotics should start as soon as infected necrosis is suspected.",
+   "Third and fourth generation cephalosporins, carbapenems, ureidopenicillins and quinolones cover gut bacteria and penetrate the pancreas. Choice should reflect local susceptibility data in consultation with microbiologists, and therapy should be adjusted to culture results.",
+   "Prospective data on one versus two agents are lacking. A single broad-spectrum agent is generally preferred unless Pseudomonas is suspected. Procalcitonin guided therapy may reduce antibiotic use, but more research is needed before applying it to moderate to severe AP."
+  ],
+  "evidence": [
+   {
+    "en": "Single-center RCT of 260 patients with mostly mild AP: procalcitonin guidance reduced antibiotic use from 63% to 45% without increasing infection or harm",
+    "ja": "主に軽症例260例の単施設RCT：プロカルシトニンに基づく管理で抗菌薬使用が63%から45%へ減少し、感染や有害事象は増えなかった"
+   }
+  ],
+  "note_ja": "Q19の予防投与否定とは異なり、感染が疑われる段階での早期治療的投与を求める立場である。",
+  "note_en": "Unlike the rejection of prophylaxis in Q19, this statement calls for early therapeutic antibiotics once infection is suspected.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 34,
+  "section": "X",
+  "question_en": "What is the role of antifungal therapy in infected necrotizing pancreatitis?",
+  "question_ja": "感染性壊死性膵炎において抗真菌薬治療の役割は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Prophylactic and empirical administration of antifungal agents for infected necrotizing pancreatitis is not recommended.",
+    "text_ja": "感染性壊死性膵炎に対する抗真菌薬の予防投与および経験的投与は推奨しない。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "壊死性膵炎では侵襲性真菌感染が起こりやすく、予後不良と関連する。一方、長期の経皮ドレナージ後などでは定着（colonization）も多く、侵襲性感染との区別が必要である。Candida colonization indexは検証されておらず、投与判断は多くの因子を考慮して行う。",
+   "抗菌薬治療とドレナージ、ネクロセクトミーを行っても改善しない重症例では、真菌培養が陰性でも補助療法として抗真菌薬を考慮しうる。カンジダ症を疑う場合の初期薬はエキノキャンディン系が望ましい。",
+   "真菌感染が証明された場合はドレナージやネクロセクトミーによる感染源コントロールを行い、感受性に基づいて薬剤を選ぶ。投与期間は確立していない。予防投与は耐性真菌の出現を招き死亡を増やす可能性があるため行わない。"
+  ],
+  "summary_en": [
+   "Invasive fungal infection is common in necrotizing AP and is linked to poor outcomes. Colonization is also frequent, for example after prolonged percutaneous drainage, and must be distinguished from invasive infection. The Candida colonization index has not been validated, so decisions must weigh several factors.",
+   "Antifungal therapy may be considered as an adjunct in critically ill patients who do not respond to antibiotics, drainage and necrosectomy, even with negative fungal cultures. An echinocandin is the preferred initial agent for suspected candidiasis.",
+   "Proven fungal infection requires source control by drainage or necrosectomy and drug selection by susceptibility. Treatment duration is not well defined. Prophylaxis is not indicated because it may select resistant fungi and increase mortality."
+  ],
+  "evidence": [
+   {
+    "en": "Meta-analysis of 22 studies (2151 patients with necrotizing AP): mean incidence of fungal infection 26.6%, with higher in-hospital mortality (OR 3.95, 95% CI 2.6 to 5.8)",
+    "ja": "22研究（壊死性膵炎2151例）のメタ解析：真菌感染の平均発生率26.6%、院内死亡が高い（OR 3.95、95%CI 2.6〜5.8）"
+   }
+  ],
+  "note_ja": "推奨しないのは予防投与と経験的投与のルーチン使用であり、治療抵抗性の重症例では抗真菌薬の追加を個別に検討する。",
+  "note_en": "What is discouraged is routine prophylactic or empirical use. In refractory critically ill patients, adding an antifungal can be considered case by case.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 35,
+  "section": "X",
+  "question_en": "How should failure of medical conservative therapy for infected necrotizing pancreatitis be defined?",
+  "question_ja": "感染性壊死性膵炎に対する内科的保存的治療の不成功はどのように定義すべきか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Failure of medical conservative therapy should be defined if, despite the application of broad-spectrum or targeted antibiotic therapy and supportive therapy, the clinical condition of patients with suspected infected necrotizing pancreatitis does not improve (persistent fever and leukocytosis) or worsens with the development of sepsis.",
+    "text_ja": "広域または標的抗菌薬治療と支持療法を行っても、感染性壊死性膵炎が疑われる患者の臨床状態が改善しない（発熱と白血球増多の持続）、または敗血症の発症により悪化する場合に、内科的保存的治療の不成功と定義する。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "全身状態が安定した感染性膵壊死では抗菌薬を継続し、可能であれば介入を少なくとも4週間遅らせる。一方、敗血症と進行性の（多）臓器不全を伴い急速に悪化する患者もあり、この場合は介入しても死亡率が高い。",
+   "保存的治療の不成功を一定期間内に予測できる画像所見や血清マーカーは現時点でない。体温、白血球数、CRPまたはプロカルシトニン、臓器機能を定期的に評価する。",
+   "新規または持続する発熱、頻脈、白血球数の増加、プロカルシトニン上昇、臓器不全は感染の持続を示す。最大限の保存的治療でも悪化する場合は、全身状態とCTによるドレナージ可能性の評価をもとに、ドレナージやネクロセクトミーへのステップアップを判断する。"
+  ],
+  "summary_en": [
+   "In stable patients with infected necrosis, antibiotics should continue and intervention should be delayed for at least 4 weeks if possible. Some patients deteriorate quickly with sepsis and progressive (multi) organ failure, and mortality remains high despite intervention.",
+   "No imaging or serological marker currently predicts failure of conservative treatment within a defined period. Temperature, leukocyte count, CRP or procalcitonin, and organ function should be monitored regularly.",
+   "New or persistent fever, tachycardia, rising leukocyte count, increasing procalcitonin and organ dysfunction indicate persistent infection. If the patient worsens despite maximal conservative therapy, step-up to drainage and necrosectomy is decided on clinical status and CT assessment of whether the collections can be drained."
+  ],
+  "evidence": [
+   {
+    "en": "No radiologic or serologic marker predicts failure of conservative therapy within a defined period",
+    "ja": "保存的治療の不成功を一定期間内に予測する画像や血清マーカーは存在しない"
+   },
+   {
+    "en": "Indicators of persistent infection: new or persistent fever, tachycardia, rising leukocyte count, increased procalcitonin and organ dysfunction",
+    "ja": "感染持続の指標：新規または持続する発熱、頻脈、白血球数増加、プロカルシトニン上昇、臓器不全"
+   }
+  ],
+  "note_ja": "この定義はstep-up approachへ移行する判断の基準となる。介入の詳細はQ36以降を参照する。",
+  "note_en": "This definition is the trigger for moving to the step-up approach. See Q36 onward for intervention details.",
+  "patients_ja": "患者は、本ガイドラインが可能な限り丁寧かつ効果的な管理を目指していることを評価し、適切な場合には保存的治療を選ぶ方針を歓迎している。",
+  "patients_en": "Patients praise the effort to ensure care that is as considerate and effective as possible, and welcome conservative management when it is appropriate."
+ }
+]
