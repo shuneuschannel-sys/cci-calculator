@@ -49,3 +49,32 @@ embed = frag.split("\n", 2)[2]  # drop <title> and claude meta
     "<!-- IAP 2025 急性膵炎ガイドライン 解説ブラウザ（EUS channel）: WordPress のカスタムHTMLブロックに丸ごと貼り付け -->\n"
     + embed.replace("__ROOTCLASS__", "lightonly"), encoding="utf-8")
 print(f"built {len(items)} items, {len(data_js)//1024} KB data")
+
+# WordPress (iframe srcdoc) version, following the wordpress-embed skill:
+# paste wordpress-iframe.txt into the block editor's Code editor.
+import html as html_module
+doc = standalone.replace('<div id="iap25" class="">', '<div id="iap25" class="lightonly">', 1)
+doc = doc.replace("@media(prefers-color-scheme:dark){html,body{background:#0a1222}}", "")
+wrapper = (
+    '<!-- wp:html -->\n'
+    '<div id="iap25-wrap" style="width:100%;overflow:hidden;">\n'
+    '<iframe id="iap25-frame" title="IAP 2025 急性膵炎ガイドライン" srcdoc="' + html_module.escape(doc, quote=True) + '" '
+    'width="100%" height="1600" frameborder="0" scrolling="no" '
+    'style="border:none;width:100%;display:block;overflow:hidden;"></iframe>\n'
+    '</div>\n'
+    '<script>(function(){'
+    'var f=document.getElementById("iap25-frame");if(!f)return;'
+    'window.addEventListener("message",function(e){'
+    'if(e.source!==f.contentWindow||!e.data)return;var d=e.data;'
+    'if(d.appReady&&location.hash)f.contentWindow.postMessage({iapHash:location.hash},"*");'
+    'if(d.appHeight)f.style.height=d.appHeight+"px";'
+    'if(typeof d.appScroll==="number"){var y=f.getBoundingClientRect().top+window.pageYOffset+d.appScroll-110;window.scrollTo({top:Math.max(0,y),behavior:"smooth"});}'
+    'if(typeof d.appHash==="string"&&/^(#(q[0-9]+|d-[IVX]+))?$/.test(d.appHash)){try{history.replaceState(history.state,"",location.pathname+location.search+d.appHash);}catch(x){}}'
+    '});'
+    'var ping=function(){try{f.contentWindow.postMessage({iapPing:1},"*");}catch(x){}};'
+    'ping();f.addEventListener("load",ping);'
+    '})();</script>\n'
+    '<!-- /wp:html -->\n'
+)
+(HERE / "wordpress-iframe.txt").write_text(wrapper, encoding="utf-8")
+print(f"wordpress-iframe.txt {len(wrapper)//1024} KB")

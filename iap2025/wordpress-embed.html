@@ -14,6 +14,7 @@
 :root[data-theme=dark] #iap25{color-scheme:dark}
 #iap25.lightonly{color-scheme:light}
 #iap25,#iap25 *{box-sizing:border-box;min-width:0}
+#iap25 [hidden]{display:none!important}
 #iap25{background:var(--bg);color:var(--ink);font:16px/1.7 "Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;overflow-x:clip;-webkit-font-smoothing:antialiased}
 #iap25 button{font:inherit;color:inherit}
 #iap25 .pad{padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
@@ -132,6 +133,11 @@
 #iap25 .sh-nav button:hover:not(:disabled){border-color:var(--accent)}
 #iap25 .sh-nav button:disabled{opacity:.35;cursor:default}
 #iap25 .sh-nav .nx{text-align:right}
+#iap25.embed .bar{position:static;backdrop-filter:none}
+#iap25.embed .sheet{position:relative;inset:auto;width:auto;max-width:1240px;margin:8px auto 24px;transform:none;box-shadow:none;border:1px solid var(--line);border-radius:14px;display:block;transition:none;z-index:auto}
+#iap25.embed .sh-top{padding-top:12px}
+#iap25.embed .sh-body{overflow:visible}
+#iap25.embed .sh-nav{padding-bottom:12px}
 @media(max-width:900px){#iap25 .head{grid-template-columns:minmax(0,1fr)}#iap25 .panel strong{font-size:15px}}
 @media(max-width:600px){#iap25 .tally{grid-template-columns:repeat(4,auto);gap:4px 18px}#iap25 .about{margin:14px 0 0;max-width:46em;font-size:14px;line-height:1.7;opacity:.78;padding-left:12px;border-left:2px solid color-mix(in srgb,var(--bandInk) 35%,transparent)}
 #iap25 .lead{font-size:15px}#iap25 .about{font-size:13px}#iap25 .lang{margin-bottom:12px}#iap25 .top{padding-top:22px}#iap25 .panels{gap:8px}#iap25 .panel{padding:12px 10px;min-height:112px;border-radius:12px}#iap25 .panel .full{display:none}#iap25 .panel .short{display:inline}#iap25 .panel strong{font-size:14px}#iap25 .panel small{font-size:13px}#iap25 .mini i{width:9px;height:9px;border-radius:2px}#iap25 .mini{gap:2px}#iap25 .kbdh{display:none}#iap25 .sh-body{padding:18px 16px 24px}#iap25 .chip{padding:6px 11px}}
@@ -334,8 +340,15 @@ function fillSheet(idx){
   $('shbody').scrollTop = 0;
   $('prev').disabled = idx===0; $('next').disabled = idx===byQ.length-1;
 }
+// WordPress iframe mode: no fixed overlay, the detail replaces the list inline and the parent page scrolls to it
+const EMBED = (()=>{ try { return window.self!==window.top; } catch(e){ return true; } })();
+const U = h => location.href.split('#')[0] + h;
+const tell = msg => { if (EMBED) try { window.parent.postMessage(msg,'*'); } catch(e){} };
+const yOf = el => el.getBoundingClientRect().top + window.scrollY;
+if (EMBED){ root.classList.add('embed'); $('main').firstElementChild.before($('sheet')); }
 function showSheet(){
   const sh = $('sheet'), sc = $('scrim');
+  if (EMBED){ $('list').hidden = true; sh.hidden = false; sh.classList.add('on'); tell({appScroll:yOf(sh)-12}); return; }
   if (!sh.hidden) return;
   sh.hidden = false; sc.hidden = false;
   requestAnimationFrame(()=>{ sh.classList.add('on'); sc.classList.add('on'); });
@@ -345,12 +358,13 @@ function showSheet(){
 function hideSheet(){
   const sh = $('sheet'), sc = $('scrim');
   if (sh.hidden) return;
+  if (EMBED){ sh.hidden = true; sh.classList.remove('on'); $('list').hidden = false; const c = root.querySelector(`.card[data-q="${byQ[cur]?.q}"]`); tell({appScroll:c?yOf(c)-80:yOf($('main'))}); return; }
   sh.classList.remove('on'); sc.classList.remove('on');
   setTimeout(()=>{ sh.hidden = true; sc.hidden = true; }, 260);
   document.documentElement.style.overflow='';
   const card = root.querySelector(`.card[data-q="${byQ[cur]?.q}"]`); if (card) card.focus({preventScroll:true});
 }
-function toTop(){ const r = $('main').getBoundingClientRect(); if (r.top < 0 || (view.v==='dom' && inApp)) $('main').scrollIntoView({block:'start'}); }
+function toTop(){ if (EMBED){ if (inApp) tell({appScroll:yOf($('main'))}); return; } const r = $('main').getBoundingClientRect(); if (r.top < 0 || (view.v==='dom' && inApp)) $('main').scrollIntoView({block:'start'}); }
 
 // routing: '' home, #d-XI domain, #q42 question (shown over its domain)
 function route(){
@@ -358,16 +372,17 @@ function route(){
   let m;
   if ((m = h.match(/^#q(\d+)$/))){
     const i = byQ.findIndex(it=>it.q===+m[1]);
-    if (i>=0){ if (!term && view.v!=='dom'){ view = {v:'dom', d:domOf(byQ[i].q)[0]}; render(); } fillSheet(i); showSheet(); return; }
+    if (i>=0){ if (!term && view.v!=='dom'){ view = {v:'dom', d:domOf(byQ[i].q)[0]}; render(); } fillSheet(i); showSheet(); (inApp && tell({appHash:location.hash})); return; }
   }
   hideSheet();
   const nv = (m = h.match(/^#d-([IVX]+)$/)) && DOMAINS.some(d=>d[0]===m[1]) ? {v:'dom', d:m[1]} : {v:'home'};
   const changed = nv.v!==view.v || nv.d!==view.d;
   view = nv;
   if (changed){ if (term){ term=''; $('q').value=''; } render(); toTop(); }
+  (inApp && tell({appHash:location.hash}));
 }
 function go(hash){ inApp = true; if (location.hash===hash) route(); else location.hash = hash; }
-function goHome(){ inApp = true; if (location.hash){ history.pushState(null,'',location.pathname+location.search); } route(); }
+function goHome(){ inApp = true; if (location.hash){ history.pushState(null,'',U('')); } route(); }
 
 root.addEventListener('click', e=>{
   const l = e.target.closest('[data-lang]'); if (l){ lang = l.dataset.lang; try{localStorage.setItem('iap25-lang',lang);}catch(err){} renderStatic(); render(); if (!$('sheet').hidden) fillSheet(cur); return; }
@@ -377,10 +392,10 @@ root.addEventListener('click', e=>{
 });
 $('q').addEventListener('input', e=>{ term = e.target.value.trim().toLowerCase(); render(); });
 $('q').addEventListener('keydown', e=>{ if (e.key==='Escape'){ e.target.value=''; term=''; render(); } });
-const closeSheet = () => { if (inApp && /^#q\d+$/.test(location.hash)) history.back(); else { const d = domOf(byQ[cur].q)[0]; history.replaceState(null,'',term?location.pathname+location.search:'#d-'+d); route(); } };
+const closeSheet = () => { if (inApp && /^#q\d+$/.test(location.hash)) history.back(); else { const d = domOf(byQ[cur].q)[0]; history.replaceState(null,'',U(term?'':'#d-'+d)); route(); } };
 $('scrim').addEventListener('click', closeSheet);
 $('close').addEventListener('click', closeSheet);
-const step = n => { const i = cur+n; if (i<0||i>=byQ.length) return; fillSheet(i); history.replaceState(null,'','#q'+byQ[i].q); };
+const step = n => { const i = cur+n; if (i<0||i>=byQ.length) return; fillSheet(i); history.replaceState(null,'',U('#q'+byQ[i].q)); (inApp && tell({appHash:location.hash})); if (EMBED) tell({appScroll:yOf($('sheet'))-12}); };
 $('prev').addEventListener('click', ()=>step(-1));
 $('next').addEventListener('click', ()=>step(1));
 document.addEventListener('keydown', e=>{
@@ -396,5 +411,17 @@ document.addEventListener('keydown', e=>{
 window.addEventListener('hashchange', route);
 window.addEventListener('popstate', ()=>{ if (!location.hash) route(); });
 renderStatic(); render(); route();
+if (EMBED){
+  let t = null;
+  const post = () => { clearTimeout(t); t = setTimeout(()=>tell({appHeight:Math.min(root.offsetHeight+24,60000)}),100); };
+  new ResizeObserver(post).observe(root); post();
+  window.addEventListener('message', e=>{
+    if (e.source!==window.parent || !e.data) return;
+    if (e.data.iapPing){ tell({appReady:1}); tell({appHeight:Math.min(root.offsetHeight+24,60000)}); return; }
+    if (typeof e.data.iapHash!=='string') return;
+    if (/^#(q\d+|d-[IVX]+)$/.test(e.data.iapHash) && e.data.iapHash!==location.hash){ history.replaceState(null,'',U(e.data.iapHash)); route(); }
+  });
+  tell({appReady:1});
+}
 }
 </script>
