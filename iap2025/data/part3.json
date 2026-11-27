@@ -1,0 +1,806 @@
+[
+ {
+  "q": 36,
+  "section": "XI",
+  "question_en": "What are the indications for intervention in acute necrotizing pancreatitis?",
+  "question_ja": "急性壊死性膵炎における介入の適応は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Common indications for intervention (either radiological, endoscopic, or surgical) in acute necrotizing pancreatitis are: i. Clinical suspicion of, or documented, infected necrotizing pancreatitis with clinical deterioration, preferably when the necrotic collection has become walled off. ii. Prolonged symptomatic sterile walled-off necrosis, e.g., abdominal pain, gastrointestinal luminal or biliary obstruction, or nutritional failure, even without signs of infection. iii. Less common indications for intervention are pancreatic hemorrhage, and bowel ischemia and fistula.",
+    "text_ja": "急性壊死性膵炎における介入（放射線学的、内視鏡的、外科的のいずれか）の一般的な適応は以下のとおりである。i. 臨床的に感染性膵壊死が疑われる、または確認され、臨床的に増悪している場合。可能であれば壊死性貯留が被包化してから行う。ii. 遷延する有症状の無菌性被包化壊死（WON）。例として腹痛、消化管内腔や胆道の閉塞、栄養障害などで、感染徴候がなくても適応となる。iii. 頻度は低いが、膵出血、腸管虚血および瘻孔も介入の適応である。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "壊死性膵炎の治療は保存的治療、内視鏡、経皮的手技、外科を組み合わせた多職種連携が基本である。抗菌薬に反応しない感染性膵壊死は介入の明確な適応となる。",
+   "無菌性WONでも、大きな貯留による胃排出路閉塞、膵頭部腫大による閉塞性黄疸、経口摂取不良による栄養障害、体重減少、全身倦怠の遷延などがあれば介入を考える。前向きコホートでは、こうした「持続する不調」を示す例は発症後6〜8週で介入が必要になることが多いと示唆されている。",
+   "まれな適応として出血、腸管虚血、消化管瘻があり、膵胸膜瘻や膵性腹水は非外科的介入の対象となる。感染の有無ではなく、臨床経過と症状で判断する姿勢が求められる。"
+  ],
+  "summary_en": [
+   "Necrotizing pancreatitis is managed by a multidisciplinary team combining conservative, endoscopic, percutaneous and surgical options. Infected necrosis that does not respond to antibiotics is a clear indication for intervention.",
+   "Sterile WON also warrants intervention when it causes gastric outlet obstruction, obstructive jaundice, nutritional failure, weight loss or persistent unwellness. Prospective cohorts suggest that such persistently unwell patients often need intervention around 6 to 8 weeks after onset.",
+   "Rarer indications include hemorrhage, bowel ischemia and fistula, while pancreato-pleural fistula and pancreatic ascites are handled non-surgically. Decisions rest on clinical course and symptoms, not on infection status alone."
+  ],
+  "evidence": [
+   {
+    "en": "Observational study (n=639): about 1% of patients with necrotizing pancreatitis had obstructive symptoms requiring intervention during the index admission",
+    "ja": "観察研究（n=639）：壊死性膵炎の約1%が初回入院中に閉塞症状を呈し介入を要した"
+   },
+   {
+    "en": "Prospective cohort studies: persistently unwell patients with necrotizing pancreatitis probably need intervention 6 to 8 weeks after onset",
+    "ja": "前向きコホート研究：持続的に不調な壊死性膵炎患者は発症後6〜8週で介入を要する可能性が高い"
+   }
+  ],
+  "note_ja": "感染の確定は必須ではなく、臨床的疑いと増悪があれば介入を検討する。無菌性でも症状が持続すれば適応となる点に注意。",
+  "note_en": "Confirmed infection is not mandatory. Clinical suspicion with deterioration suffices, and symptomatic sterile WON is also an indication.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 37,
+  "section": "XI",
+  "question_en": "What is the optimal timing of intervention for suspected or confirmed infected necrotizing pancreatitis?",
+  "question_ja": "感染が疑われる、または確認された壊死性膵炎に対する介入の最適なタイミングはいつか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Interventional treatment should be delayed in patients with suspected or confirmed infected necrotizing pancreatitis, if possible, to allow for the collection to become 'walled-off' (Walled off necrosis, WON) with better demarcation and liquefaction of the necrosis, which generally takes around 4 weeks.",
+    "text_ja": "感染が疑われる、または確認された壊死性膵炎では、可能であれば介入治療を遅らせ、貯留が被包化（被包化壊死：WON）し、壊死の境界が明瞭化し液状化するのを待つべきである。これには通常約4週間を要する。",
+    "strength": "strong",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "介入は壊死が被包化され液状化した時期、すなわちWONの段階まで待つのが原則である。被包化が進むとドレナージやネクロセクトミーが安全かつ有効に行いやすくなる。",
+   "WON形成には通常約4週を要するが、多くの症例ではそれより早く被包化し、有効なドレナージが可能となることもある。",
+   "一方で臨床的増悪のため早期介入（多くはカテーテルドレナージ）が必要な症例もあり、一律に4週を待つことはできない。詳細はQ38を参照。"
+  ],
+  "summary_en": [
+   "The principle is to postpone intervention until the necrosis is encapsulated and liquefied, that is, the WON stage. Encapsulation makes drainage and necrosectomy safer and more effective.",
+   "WON usually takes about 4 weeks to form, although many collections encapsulate earlier and can be drained effectively before that.",
+   "Some patients deteriorate and need earlier intervention, usually catheter drainage, so the 4 week rule cannot be applied rigidly. See Q38."
+  ],
+  "evidence": [
+   {
+    "en": "Current evidence supports deferring intervention until wall formation and liquefaction (WON stage)",
+    "ja": "現時点のエビデンスは、壁形成と液状化（WON期）まで介入を遅らせることを支持する"
+   }
+  ],
+  "note_ja": "本文の推奨は「約4週」、Table 1では「3〜4週」と記載されている。",
+  "note_en": "The body text says about 4 weeks, whereas Table 1 says 3 to 4 weeks.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 38,
+  "section": "XI",
+  "question_en": "Can subgroups of patients with necrotizing pancreatitis be defined that require early intervention?",
+  "question_ja": "早期介入を要する壊死性膵炎の患者サブグループを定義できるか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Early (<4 weeks) intervention such as transluminal or percutaneous drainage may be appropriate for patients with suspected or confirmed infected necrotizing pancreatitis who have failed conservative medical management (including antibiotics), provided they have at least partial encapsulation of the necrotic collections.",
+    "text_ja": "感染が疑われる、または確認された壊死性膵炎で、抗菌薬を含む保存的内科治療が奏効しない患者では、壊死性貯留が少なくとも部分的に被包化されていれば、経消化管的または経皮的ドレナージなどの早期（4週未満）介入が適切な場合がある。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "介入はWON形成まで待つのが理想だが、発症3週以内に43%で被包化がみられ、感染も発症2週以内に約4分の1で生じる。持続性または新規の臓器不全を伴う感染性膵壊死では、4週まで待てないことがある。",
+   "こうした例では全身状態を安定させるための早期介入が必要となり、低侵襲手技の有用性が示されている。早期介入の手段は経皮的ドレナージか内視鏡的経消化管ドレナージであり、ネクロセクトミーは状態が安定するまで延期するのが望ましい。",
+   "壊死や感染の有無にかかわらず、出血、消化管穿孔、腸管虚血などの腹腔内カタストロフィーは即時の介入を要する。"
+  ],
+  "summary_en": [
+   "Waiting for WON is ideal, but 43% of collections show encapsulation within the first 3 weeks, and infection develops within 2 weeks of onset in about a quarter of patients. In those with persistent or new organ failure due to infected necrosis, waiting until 4 weeks may not be feasible.",
+   "Early intervention may then be needed to stabilize the patient, and minimally invasive procedures have proven useful. Early intervention should be percutaneous or endoscopic transmural drainage, and necrosectomy should still be deferred until the patient stabilizes.",
+   "Intra-abdominal catastrophes such as hemorrhage, perforated viscus or ischemic bowel require immediate intervention regardless of necrosis or infection."
+  ],
+  "evidence": [
+   {
+    "en": "Encapsulation (wall formation) seen in 43% of patients within the first 3 weeks",
+    "ja": "発症3週以内に43%で被包化（壁形成）がみられる"
+   },
+   {
+    "en": "Infection of necrotic collections occurs within 2 weeks of onset in about a quarter of patients",
+    "ja": "壊死性貯留の感染は約4分の1の患者で発症2週以内に生じる"
+   }
+  ],
+  "note_ja": "早期介入はドレナージにとどめ、ネクロセクトミーは安定化後に行う。",
+  "note_en": "Limit early intervention to drainage and defer necrosectomy until stabilization.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 39,
+  "section": "XI",
+  "question_en": "What is the role of abdominal paracentesis drainage (APD) in acute necrotizing pancreatitis?",
+  "question_ja": "急性壊死性膵炎における腹腔穿刺ドレナージ（APD）の役割は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Abdominal paracentesis drainage (APD) may be done in patients with severe AP with abdominal or pelvic fluid (ascites) in the acute stage.",
+    "text_ja": "急性期に腹腔内または骨盤内の液体（腹水）を伴う重症急性膵炎患者では、腹腔穿刺ドレナージ（APD）を行ってもよい。",
+    "strength": "conditional",
+    "quality": "moderate"
+   }
+  ],
+  "summary_ja": [
+   "洗浄の有無にかかわらず、腹腔ドレナージをルーチンに行う適応はない。",
+   "相対的な適応は、発症2週以内に膵および膵周囲の強い炎症により、アミラーゼや蛋白に富む炎症性滲出液が腹腔内に漏出し、無菌性貯留や腹水を形成した症例である。穿刺や持続カテーテルドレナージにより炎症性メディエーターを除去し、全身炎症を軽減できる可能性がある。",
+   "後ろ向きコホート研究と、3件のRCTを含むメタアナリシスで、中等症から重症例における早期APDの有益性が示されている。"
+  ],
+  "summary_en": [
+   "There is no indication for routine peritoneal drainage, with or without lavage.",
+   "A relative indication is marked pancreatic and peripancreatic inflammation within the first 2 weeks, with leakage of amylase-rich and protein-rich exudate into the peritoneal cavity forming sterile collections or ascites. Paracentesis or continuous catheter drainage may remove inflammatory mediators and ameliorate systemic inflammation.",
+   "Several retrospective cohorts and a meta-analysis that included 3 RCTs showed benefit of early APD in moderate to severe AP."
+  ],
+  "evidence": [
+   {
+    "en": "Meta-analysis including 3 RCTs plus retrospective cohorts: beneficial effects of early APD in moderate to severe AP",
+    "ja": "3件のRCTを含むメタアナリシスと後ろ向きコホート研究：中等症から重症急性膵炎で早期APDの有益性"
+   }
+  ],
+  "note_ja": "対象は急性期の腹水を伴う重症例に限られ、ルーチンの腹腔洗浄やドレナージは推奨されない。",
+  "note_en": "APD is limited to severe AP with ascites in the acute stage. Routine peritoneal drainage or lavage is not recommended.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 40,
+  "section": "XI",
+  "question_en": "What is the optimal interventional strategy (percutaneous, minimally invasive retroperitoneal, endoscopic, laparoscopic, or open surgery) for suspected or confirmed infected necrotizing pancreatitis?",
+  "question_ja": "感染が疑われる、または確認された壊死性膵炎に対する最適な介入戦略（経皮的、低侵襲後腹膜的、内視鏡的、腹腔鏡的、開腹手術）は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "The step-up approach consisting of initial antibiotics, then percutaneous drainage or endoscopic transluminal drainage followed, if necessary, by minimally invasive necrosectomy via the retroperitoneal route or per-oral endoscopic necrosectomy is recommended for suspected or confirmed infected necrotizing pancreatitis.",
+    "text_ja": "感染が疑われる、または確認された壊死性膵炎には、まず抗菌薬を投与し、次に経皮的ドレナージまたは内視鏡的経消化管ドレナージを行い、必要に応じて後腹膜経路による低侵襲ネクロセクトミーまたは経口的内視鏡的ネクロセクトミーへ進むstep-up approachが推奨される。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "感染性膵壊死の治療は、早期の外科的ネクロセクトミーから、遅延させた低侵襲のstep-up approachへと移行した。感染が疑われればまず支持療法、栄養、適切な抗菌薬による保存的治療を行い、「待機、ドレナージ、デブリードマン」の順に段階的に進める。",
+   "経皮的または内視鏡的ドレナージのみで40〜60%が治癒し、ネクロセクトミーを回避できる。オランダの多施設RCTでも、ドレナージ単独で解決した割合は内視鏡的step-up群43%、外科的step-up群51%であった。ただし壊死量の評価法が統一されておらず、データには不均一性がある。",
+   "開腹手術は低侵襲手技が無効または適応外の患者や、消化管穿孔、腸管虚血などの急性病態に限定される。"
+  ],
+  "summary_en": [
+   "Management of infected necrosis has shifted from early surgical necrosectomy to a delayed, minimally invasive step-up strategy. Conservative care with support, nutrition and antibiotics comes first, followed by delay, drainage and then debridement only if needed.",
+   "Percutaneous or endoscopic drainage alone resolves 40 to 60% of infected collections. In a Dutch multicenter RCT, drainage alone sufficed in 43% of the endoscopic and 51% of the surgical step-up arm. The data are heterogeneous because necrosis extent is not reported in a standardized way.",
+   "Open surgery is reserved for failure of or ineligibility for less invasive techniques and for acute problems such as perforated viscus or ischemic bowel."
+  ],
+  "evidence": [
+   {
+    "en": "Drainage alone (percutaneous or endoscopic) is sufficient in 40 to 60% of patients with infected necrotic collections",
+    "ja": "経皮的または内視鏡的ドレナージ単独で感染性壊死性貯留の40〜60%が治癒"
+   },
+   {
+    "en": "Dutch multicenter RCT (n=98): endoscopic step-up (n=51) vs minimally invasive surgical step-up (n=47), resolution with drainage alone 43% vs 51%",
+    "ja": "オランダ多施設RCT（n=98）：内視鏡的step-up（n=51）対低侵襲外科的step-up（n=47）、ドレナージ単独での治癒は43%対51%"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 41,
+  "section": "XI",
+  "question_en": "Which drainage modality (percutaneous or endoscopic transluminal) should be the first line for suspected or confirmed infected necrotizing pancreatitis?",
+  "question_ja": "感染が疑われる、または確認された壊死性膵炎の第一選択となるドレナージ法（経皮的か内視鏡的経消化管的か）はどれか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Either percutaneous catheter or endoscopic transluminal drainage is recommended for treating patients with suspected or confirmed infected necrotizing pancreatitis, depending on the location of infected necrotic collections and available expertise.",
+    "text_ja": "感染が疑われる、または確認された壊死性膵炎の治療には、感染性壊死性貯留の部位と施設の専門性に応じて、経皮的カテーテルドレナージまたは内視鏡的経消化管ドレナージのいずれかが推奨される。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "経皮的カテーテルドレナージ（PCD）と内視鏡的経消化管ドレナージはいずれもWONに対する第一選択の非外科的手技である。選択は部位、壁の成熟度、貯留の数、施設の専門性で決まる。",
+   "内視鏡の利点は内瘻化で外瘻を避けられること。PCDの利点は普及度が高く、後腹膜経路で左右の腹部や骨盤に到達でき、複数本の留置や洗浄が可能なことである。胃や十二指腸に近い網嚢の貯留は内視鏡、結腸より背側の傍結腸溝や骨盤の貯留はPCDの適応となる。",
+   "2件のRCTでは内視鏡的step-upと低侵襲外科的step-upの成功率は同等だったが、内視鏡群で入院期間が短く膵瘻が少なかった。多発性や広範な貯留では両者を組み合わせることも多い。"
+  ],
+  "summary_en": [
+   "PCD and endoscopic transluminal drainage are both first-line non-surgical options for WON. The choice depends on location, wall maturity, number of collections and local expertise.",
+   "Endoscopy provides internal drainage and avoids external fistulas. PCD is widely available, reaches both sides of the abdomen and pelvis through the retroperitoneum, and allows multiple catheters and flushing. Lesser sac collections near the stomach and duodenum suit endoscopy, while retrocolic paracolic and pelvic collections need PCD.",
+   "Two RCTs found similar success for endoscopic and minimally invasive surgical step-up, but the endoscopic route gave shorter hospital stay and fewer pancreatic fistulas. Multiple or extensive collections often need a combined approach."
+  ],
+  "evidence": [
+   {
+    "en": "Two RCTs: endoscopic vs minimally invasive surgical step-up, similar success, shorter hospital stay and less pancreatic fistula with endoscopy",
+    "ja": "2件のRCT：内視鏡的step-upと低侵襲外科的step-upで成功率は同等、内視鏡群で入院期間短縮と膵瘻減少"
+   },
+   {
+    "en": "Meta-analysis of 3 RCTs (n=184): endoscopic step-up reduced new-onset organ failure and pancreatic fistula",
+    "ja": "3件のRCTのメタアナリシス（n=184）：内視鏡的step-upで新規臓器不全と膵瘻が減少"
+   }
+  ],
+  "note_ja": "両アプローチが可能な貯留では内視鏡が優先されるが、広範な壊死では複数手技の併用が必要になる。",
+  "note_en": "Endoscopy is preferred when both routes are feasible, but extensive necrosis often requires combined procedures.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 42,
+  "section": "XI",
+  "question_en": "What type of stent (multiple plastic or LAMS) should be used for endoscopic transluminal drainage of walled-off necrosis?",
+  "question_ja": "被包化壊死（WON）の内視鏡的経消化管ドレナージにはどのステント（複数のプラスチックステントかLAMSか）を用いるべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Multiple plastic stents or LAMS can be used for endoscopic transluminal drainage of walled-off necrosis. However, LAMS may be preferred in those with infected WON or if the extent of necrosis is >30 % of the WON.",
+    "text_ja": "WONの内視鏡的経消化管ドレナージには、複数のプラスチックステントまたはLAMSを使用できる。ただし、感染性WONや、壊死がWONの30%を超える場合はLAMSが優先されうる。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "従来は7〜10 Frの両端ピッグテール型プラスチックステント（DPPS）を複数留置していたが、固形壊死物のドレナージに優れ、LAMS越しの直接内視鏡的ネクロセクトミーが可能なLAMSが普及した。",
+   "観察研究のメタアナリシスではLAMSで必要なネクロセクトミー回数が少なかったが、2件のRCTでは差がなかった。一方、28研究2974例のネットワークメタアナリシスではLAMSが複数DPPSに優った。感染性WONや壊死成分が30%を超える例ではLAMSが選ばれる。",
+   "LAMSは壊死物で閉塞することがあり、LAMS内にDPPSを同軸留置すると閉塞と感染のリスクが下がる。LAMS抜去後にDPPSを留置すると再発が減る。"
+  ],
+  "summary_en": [
+   "Multiple 7 to 10 F double pigtail plastic stents (DPPS) were the traditional choice, but LAMS have gained popularity because they drain solid debris better and allow direct endoscopic necrosectomy through the stent.",
+   "A meta-analysis of observational studies suggested fewer necrosectomy sessions with large-caliber metal stents, while two RCTs found no difference. A network meta-analysis of 28 studies with 2974 patients favored LAMS over multiple DPPS. LAMS are preferred for infected WON or when necrotic debris exceeds 30% of the WON.",
+   "LAMS may occlude with debris. A coaxial DPPS through the LAMS lowers occlusion and infection, and placing a DPPS after LAMS removal lowers recurrence."
+  ],
+  "evidence": [
+   {
+    "en": "Network meta-analysis (28 studies, n=2974): LAMS superior to multiple DPPS",
+    "ja": "ネットワークメタアナリシス（28研究、n=2974）：LAMSは複数DPPSより優れる"
+   },
+   {
+    "en": "Two RCTs: no difference in number of necrosectomy sessions between LAMS and plastic stents",
+    "ja": "2件のRCT：LAMSとプラスチックステントでネクロセクトミー回数に差なし"
+   },
+   {
+    "en": "Meta-analysis (9 studies, n=709): coaxial DPPS through LAMS reduced stent occlusion and infection, overall adverse events unchanged",
+    "ja": "メタアナリシス（9研究、n=709）：LAMS内同軸DPPSでステント閉塞と感染が減少、全有害事象は差なし"
+   },
+   {
+    "en": "Meta-analysis of 3 RCTs: DPPS after LAMS removal lowered recurrence without changing reintervention",
+    "ja": "3件のRCTのメタアナリシス：LAMS抜去後のDPPS留置で再発が減少、再介入は差なし"
+   }
+  ],
+  "note_ja": "本文は「LAMS may be preferred」、Table 1は「LAMS should be preferred」と表現が異なる。",
+  "note_en": "The body text reads 'LAMS may be preferred', whereas Table 1 reads 'LAMS should be preferred'.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 43,
+  "section": "XI",
+  "question_en": "What are the indications for necrosectomy in patients who are managed with step-up approach for acute necrotizing pancreatitis?",
+  "question_ja": "step-up approachで管理されている急性壊死性膵炎患者におけるネクロセクトミーの適応は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "During the step-up approach, necrosectomy is recommended in: i. Patients who continue to have persistent fever or signs of sepsis despite optimal utilization of sensitive antibiotics and adequate drainage (either percutaneous or endoscopic). ii. Patients with infected necrotizing pancreatitis who fail to improve clinically despite adequate antibiotic treatment and cannot undergo drainage either percutaneously or endoscopically.",
+    "text_ja": "step-up approachの過程で、ネクロセクトミーは以下の場合に推奨される。i. 感受性のある抗菌薬の最適な使用と適切なドレナージ（経皮的または内視鏡的）にもかかわらず、発熱や敗血症徴候が持続する患者。ii. 適切な抗菌薬治療にもかかわらず臨床的に改善せず、経皮的にも内視鏡的にもドレナージができない感染性膵壊死患者。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "抗菌薬と十分なドレナージで改善しなければ、次の段階はネクロセクトミーである。膵実質壊死が50%を超える広範な貯留や固形壊死物が多い貯留では、ドレナージ単独の成功率は低い。",
+   "PCDはカテーテルのサイズアップ、追加留置、洗浄、出納の厳密な管理などを積極的に行うと成功率が上がる。感染制御の指標は解熱、プロカルシトニン、CRP、白血球数の低下、臓器不全の改善である。新規または増悪する臓器不全はstep-upの判断基準として使われてきた。",
+   "PCDで初期に改善しても、発熱が続き栄養状態が悪化する例ではネクロセクトミーの判断が難しい。患者の全身状態と栄養状態、step-up治療への耐容性を常に評価する。ネクロセクトミーは壊死が被包化し液状化する発症4週以降に行うと、境界が明瞭で出血合併症が少ない。"
+  ],
+  "summary_en": [
+   "If infection is not controlled by antibiotics and adequate drainage, necrosectomy is the next step. Drainage is less likely to succeed in extensive collections with more than 50% parenchymal necrosis or large amounts of solid debris.",
+   "Proactive PCD management with upsizing, extra catheters, irrigation and strict input and output monitoring improves success. Infection control is judged by resolution of fever, falling procalcitonin, CRP and leukocyte count, and reversal of organ failure. New or worsening organ failure has served as a trigger to step up.",
+   "Patients who improve initially after PCD but remain febrile and nutritionally compromised are a gray zone. Clinical and nutritional status and tolerance of the step-up pathway should guide decisions. Necrosectomy beyond 4 weeks, when necrosis is walled off and liquefied, offers clearer demarcation and fewer bleeding complications."
+  ],
+  "evidence": [
+   {
+    "en": "Drainage less likely to succeed with >50% pancreatic parenchymal necrosis and large amounts of necrotic debris",
+    "ja": "膵実質壊死が50%超で壊死物が多い場合、ドレナージ単独は成功しにくい"
+   },
+   {
+    "en": "Studies including a meta-analysis support postponing necrosectomy beyond 4 weeks from onset",
+    "ja": "メタアナリシスを含む研究で、ネクロセクトミーを発症4週以降に延期する利点が示されている"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 44,
+  "section": "XI",
+  "question_en": "What interventional necrosectomy strategy should be chosen for infected necrotizing pancreatitis?",
+  "question_ja": "感染性膵壊死に対してどのネクロセクトミー戦略を選択すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "The following interventional necrosectomy strategy should be chosen for infected necrotizing pancreatitis: i. Minimally invasive approaches are preferred to open approaches and recommended for necrosectomy once the (peri) pancreatic necrotic collection is walled-off. ii. Minimally invasive retroperitoneal pancreatic necrosectomy is recommended through the PCD tract in patients who have undergone percutaneous drainage using a retroperitoneal route. iii. Per-oral endoscopic necrosectomy is recommended in patients who have undergone endoscopic transluminal drainage. iv. Trans-gastric surgical necrosectomy (laparoscopic or open) is also an effective single-stage procedure ensuring wide stoma with durable internal drainage in patients with WON mainly localized to the lesser sac. v. Open debridement is rarely indicated and should be reserved for patients with predominantly solid collections and other intra-abdominal complications such as bowel fistula.",
+    "text_ja": "感染性膵壊死には以下のネクロセクトミー戦略を選択すべきである。i. 膵および膵周囲の壊死性貯留が被包化した後のネクロセクトミーには、開腹より低侵襲アプローチが優先され推奨される。ii. 後腹膜経路で経皮的ドレナージを受けた患者では、PCD瘻孔を通じた低侵襲後腹膜的膵ネクロセクトミーが推奨される。iii. 内視鏡的経消化管ドレナージを受けた患者では、経口的内視鏡的ネクロセクトミーが推奨される。iv. 主に網嚢に限局するWONでは、経胃的外科的ネクロセクトミー（腹腔鏡下または開腹）も、広い吻合口により持続的な内瘻化が得られる有効な一期的手術である。v. 開腹デブリードマンの適応はまれであり、主に固形成分からなる貯留や、消化管瘻などの腹腔内合併症を伴う患者に限るべきである。",
+    "strength": "strong",
+    "quality": "high"
+   }
+  ],
+  "summary_ja": [
+   "開腹ネクロセクトミー、特に早期の手術は予後不良である。低侵襲ネクロセクトミーは炎症反応を抑え、新規臓器不全、集中治療の必要性、死亡率を低下させる。手技の選択は貯留の種類、数、部位、全身状態、チームの経験と資源で決まり、先行したドレナージの経路を利用するのが基本である。",
+   "左前腎傍腔経路でPCDを行った例では、瘻孔を30 Frまで拡張して内視鏡や腎盂鏡で行う後腹膜的ネクロセクトミーやVARDに進む。PCD瘻孔を使う経皮的内視鏡的ネクロセクトミー（PEN）は鎮静と局所麻酔で施行できる。VARDは他の低侵襲手技より死亡率が高い傾向がある。EUS下ドレナージ後は直接内視鏡的ネクロセクトミーを行い、全体として内視鏡アプローチが第一選択、次いで後腹膜アプローチとなる。",
+   "網嚢に限局し胃後壁を圧排するWONでは、経胃的外科的ネクロセクトミーにより一期的に壊死をほぼ除去でき、胆石例では胆嚢摘出も同時に行える。開腹ネクロセクトミーは出血や消化管瘻を伴う複雑例や緊急時に限られる。"
+  ],
+  "summary_en": [
+   "Open necrosectomy, especially early, carries poor outcomes. Minimally invasive necrosectomy reduces the inflammatory response, new-onset organ failure, ICU need and mortality. The technique depends on collection type, number and site, the patient's condition and team expertise, and it usually follows the tract of the preceding drainage.",
+   "After left anterior pararenal PCD, the tract can be dilated to 30 Fr for retroperitoneal necrosectomy with an endoscope or nephroscope, or for VARD. Percutaneous endoscopic necrosectomy (PEN) through the PCD tract can be done under sedation and local anesthesia. VARD appears to carry higher mortality than other less invasive options. After EUS-guided drainage, direct endoscopic necrosectomy follows, and overall endoscopy is the method of choice followed by the retroperitoneal route.",
+   "For WON confined to the lesser sac and bulging into the posterior gastric wall, transgastric surgical necrosectomy removes nearly all necrosis in a single stage and allows simultaneous cholecystectomy in gallstone cases. Open necrosectomy is kept for complex cases with bleeding or bowel fistula and for emergencies."
+  ],
+  "evidence": [
+   {
+    "en": "RCT (n=70): upfront endoscopic necrosectomy (n=37) vs endoscopic step-up (n=33), significantly fewer reinterventions with upfront necrosectomy in stable patients",
+    "ja": "RCT（n=70）：早期内視鏡的ネクロセクトミー（n=37）対内視鏡的step-up（n=33）、安定例では早期ネクロセクトミーで再介入回数が有意に減少"
+   },
+   {
+    "en": "Series of 178 selected WON cases: 96% treated by single-stage transgastric surgical necrosectomy, mortality 2%, morbidity 38%, concurrent cholecystectomy in 57% of biliary cases",
+    "ja": "選択された178例のWON：96%が一期的経胃的外科的ネクロセクトミーで治療、死亡率2%、合併症率38%、胆石性の57%で胆嚢摘出を同時施行"
+   },
+   {
+    "en": "Open necrosectomy after 28 days from onset: about 10% mortality, rising above 50% with multiple risk factors",
+    "ja": "発症28日以降の開腹ネクロセクトミー：死亡率約10%、複数のリスク因子があると50%超"
+   }
+  ],
+  "note_ja": "ネクロセクトミーは可能なら発症4〜6週まで遅らせる。早期ネクロセクトミーは状態が安定し、貯留の境界が明瞭な例に限る。",
+  "note_en": "Necrosectomy should ideally wait until 4 to 6 weeks after onset. Upfront necrosectomy is only for stable patients with well-demarcated collections.",
+  "patients_ja": "患者側からは、壊死性膵炎で4週間治療せずに待つ理由を本人と家族に必ず説明してほしいという声が強い。説明がないと強い不安を生み、適切な治療を受けていないと誤解されかねない。",
+  "patients_en": "Patients stress that the reason for waiting up to 4 weeks without intervention must be explained to them and their families. Without explanation the delay causes great anxiety and may look like inadequate care."
+ },
+ {
+  "q": 45,
+  "section": "XII",
+  "question_en": "How to define intra-abdominal hypertension and abdominal compartment syndrome?",
+  "question_ja": "腹腔内圧上昇（IAH）と腹部コンパートメント症候群（ACS）はどのように定義されるか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Intra-abdominal hypertension (IAH) is defined by sustained or repeated elevation in Intra-abdominal pressure (IAP) of ≥12 mmHg. Abdominal compartment syndrome (ACS) is defined as a sustained IAP of >20 mmHg (with or without abdominal arterial perfusion pressure <60 mmHg) that is associated with new onset or progressive organ dysfunction.",
+    "text_ja": "腹腔内圧上昇（IAH）は、腹腔内圧（IAP）が12 mmHg以上に持続的または反復的に上昇した状態と定義される。腹部コンパートメント症候群（ACS）は、IAPが20 mmHgを超えて持続し（腹部灌流圧60 mmHg未満の有無を問わない）、新規発症または進行性の臓器障害を伴う状態と定義される。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "腹腔内圧の上昇は腹腔内臓器の灌流を低下させ、腸管虚血と細菌トランスロケーションを促進しうる。",
+   "実験的重症急性膵炎では、持続する高IAPが肺障害を増悪させ、腎機能と心機能を低下させる。定義は世界腹部コンパートメント症候群学会（WSACS）の基準に基づく。"
+  ],
+  "summary_en": [
+   "Raised intra-abdominal pressure reduces perfusion of abdominal organs and may contribute to intestinal ischemia and bacterial translocation.",
+   "In experimental severe AP, sustained high IAP worsens lung injury and impairs renal and cardiovascular function. The definitions follow the World Society of Abdominal Compartment Syndrome (WSACS)."
+  ],
+  "evidence": [
+   {
+    "en": "Experimental severe AP: sustained high IAP increases lung injury and decreases renal and cardiovascular function",
+    "ja": "実験的重症急性膵炎：持続する高IAPは肺障害を増悪させ、腎機能と心血管機能を低下させる"
+   }
+  ],
+  "note_ja": "本文ではIAHを「≥12 mmHg」、Table 1では「>12 mmHg」と記載している。",
+  "note_en": "The body defines IAH as IAP ≥12 mmHg, whereas Table 1 shows >12 mmHg.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 46,
+  "section": "XII",
+  "question_en": "Should IAP be measured routinely in AP?",
+  "question_ja": "急性膵炎では腹腔内圧（IAP）をルーチンに測定すべきか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "It is recommended to measure IAP in patients with severe AP. If IAP is >12 mmHg, the IAP should be monitored periodically in patients with severe AP.",
+    "text_ja": "重症急性膵炎ではIAPの測定が推奨される。IAPが12 mmHgを超える場合は、定期的にIAPをモニタリングすべきである。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "IAHは急性膵炎の17%に生じ、重症例ではさらに高頻度である。病初期に発症し、臓器障害と死亡に相関する。",
+   "IAHとACSの診断には客観的な測定が必要で、WSACSガイドラインに従い、最大25 mLの滅菌生理食塩水を注入して膀胱内圧として測定する。ただし、IAPの測定自体が死亡率を改善するという明確なエビデンスはない。"
+  ],
+  "summary_en": [
+   "IAH develops in 17% of AP patients and more often in severe disease. It appears early and correlates with organ dysfunction and death.",
+   "Diagnosis requires objective measurement, done via the urinary bladder with a maximal instillation of 25 mL sterile saline as in the WSACS guidelines. There is no definite evidence that measuring IAP itself improves mortality."
+  ],
+  "evidence": [
+   {
+    "en": "IAH develops in 17% of patients with AP, more often in severe disease",
+    "ja": "IAHは急性膵炎の17%に発生し、重症例ではさらに多い"
+   },
+   {
+    "en": "WSACS method: bladder pressure with maximal instillation of 25 mL sterile saline",
+    "ja": "WSACSの方法：最大25 mLの滅菌生理食塩水を注入して膀胱内圧を測定"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 47,
+  "section": "XII",
+  "question_en": "How should patients with AP and IAH be treated?",
+  "question_ja": "急性膵炎とIAHを有する患者はどのように治療すべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Patients with IAH should be treated with percutaneous catheter drainage of ascites and fluid collections, adequate pain relief, enteral decompression with nasogastric or rectal tubes, and avoidance of a positive cumulative fluid balance.",
+    "text_ja": "IAHを有する患者には、腹水および液体貯留の経皮的カテーテルドレナージ、十分な鎮痛、経鼻胃管や直腸管による腸管減圧、累積水分バランスがプラスにならないようにする管理を行うべきである。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "これらの治療はWSACSのコンセンサスガイドラインで提案されている非手術的手段である。",
+   "急性期の腹水に対する経皮的カテーテルドレナージによるIAPの低下は約2 mmHgとわずかだが、ACSで腹水が多い例ではより大きな効果が期待できる。もっとも、ドレナージを要するほどの腹水はAPとIAHを有する患者の半数未満にしかみられない。",
+   "初期輸液後は累積水分バランスのプラスを避ける。重症急性膵炎とACSでは早期の持続的静静脈血液濾過がIAP低下に有効な可能性があるが、臨床的利益を示すRCTはない。"
+  ],
+  "summary_en": [
+   "These measures are the non-operative options proposed in the WSACS consensus guidelines.",
+   "Percutaneous drainage of ascites early in AP lowers IAP only modestly, by about 2 mmHg, but the effect can be greater in ACS with substantial ascites. Drainable ascites, however, is present in fewer than half of patients with AP and IAH.",
+   "After initial resuscitation, a positive cumulative fluid balance should be avoided. Early continuous veno-venous hemofiltration may lower IAP in severe AP with ACS, but randomized evidence of clinical benefit is lacking."
+  ],
+  "evidence": [
+   {
+    "en": "Percutaneous catheter drainage of ascites in early AP: modest IAP decrease of about 2 mmHg",
+    "ja": "急性期の腹水に対する経皮的カテーテルドレナージ：IAP低下は約2 mmHgとわずか"
+   },
+   {
+    "en": "Substantial ascites for drainage present in fewer than half of patients with AP and IAH",
+    "ja": "ドレナージ可能な量の腹水はAPとIAHを有する患者の半数未満"
+   }
+  ],
+  "note_ja": "過剰輸液はIAHの誘因となるため、初期輸液後の水分バランス管理が要となる。",
+  "note_en": "Fluid overload drives IAH, so fluid balance after initial resuscitation is central.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 48,
+  "section": "XII",
+  "question_en": "Should surgical decompression be used for the treatment of ACS?",
+  "question_ja": "ACSの治療に外科的減圧を用いるべきか？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Surgical decompression may be considered to treat ACS if a patient has worsening organ dysfunctions and non-operative modalities have failed.",
+    "text_ja": "臓器障害が増悪し、非手術的治療が奏効しない場合は、ACSの治療として外科的減圧を考慮してもよい。",
+    "strength": "conditional",
+    "quality": "very low"
+   }
+  ],
+  "summary_ja": [
+   "虚血性合併症と死亡を防ぐためACSには迅速な対応が必要である。初期治療は非手術的に行うが、IAPが下がらず臓器障害が進行すれば外科的減圧を考慮する。",
+   "後ろ向き研究ではACSを伴う急性膵炎の死亡率は49%であったが、早期に外科的減圧を行った例では18%であった。悪化するACS患者で腸管虚血を除外する確実な方法は開腹のみである。",
+   "開放腹部は腸管皮膚瘻や巨大腹壁瘢痕ヘルニアのリスクがあり、一時的閉腹で管理する。持続的筋膜牽引を併用した陰圧閉鎖療法が筋膜閉鎖率が最も高く瘻孔率が最も低い。他の膵または膵周囲合併症がないACSでの開腹はかえって有害となりうる。"
+  ],
+  "summary_en": [
+   "ACS needs prompt treatment to prevent ischemic complications and death. Initial therapy is non-operative, but decompression is considered when IAP does not fall and organ dysfunction progresses.",
+   "In retrospective studies, AP with ACS had a mortality of 49%, versus 18% with early surgical decompression. Laparotomy is the only definite way to exclude intestinal ischemia in a deteriorating patient.",
+   "An open abdomen risks entero-atmospheric fistula and giant ventral hernia and should be managed with temporary closure. Negative pressure wound therapy with continuous fascial traction gives the highest delayed fascial closure and lowest fistula rate. Laparotomy in ACS without another pancreatic or peripancreatic complication may be harmful."
+  ],
+  "evidence": [
+   {
+    "en": "Retrospective studies: mortality of AP with ACS 49%, 18% with early surgical decompression",
+    "ja": "後ろ向き研究：ACSを伴う急性膵炎の死亡率49%、早期外科的減圧例では18%"
+   },
+   {
+    "en": "Open abdomen: negative pressure wound therapy with continuous fascial traction achieves the highest delayed fascial closure and lowest fistula rate",
+    "ja": "開放腹部：持続的筋膜牽引併用の陰圧閉鎖療法で遅延筋膜閉鎖率が最も高く、瘻孔率が最も低い"
+   }
+  ],
+  "note_ja": "ガイドライン作成委員のうち1名（JN）がこの推奨に反対意見を表明している。",
+  "note_en": "One panel member (JN) disagreed with this recommendation.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 49,
+  "section": "XII",
+  "question_en": "What is the best way to treat bleeding complications associated with AP?",
+  "question_ja": "急性膵炎に伴う出血性合併症の最善の治療法は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Angioembolization is recommended to treat arterial pseudoaneurysms and other arterial bleeding complications in patients with AP.",
+    "text_ja": "急性膵炎患者の動脈性仮性動脈瘤およびその他の動脈性出血性合併症の治療には、血管塞栓術が推奨される。",
+    "strength": "strong",
+    "quality": "low"
+   },
+   {
+    "kind": "rec",
+    "text_en": "Percutaneous embolization with thrombin or gelfoam and glue under ultrasound guidance or surgical management can be used when angioembolization is not possible or unsuccessful.",
+    "text_ja": "血管塞栓術が不可能または不成功の場合は、超音波ガイド下のトロンビンまたはゼルフォームと接着剤による経皮的塞栓術、あるいは外科的治療を用いてよい。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "急性膵炎の出血性合併症は0.5〜1.2%とまれだが致死的である。動脈性出血の約60%は仮性動脈瘤、20%は仮性動脈瘤を伴わない仮性嚢胞内出血、20%は小血管からの出血による。仮性動脈瘤は脾動脈（35〜50%）に最も多く、次いで胃十二指腸動脈と膵十二指腸動脈である。",
+   "診断は造影3相CTが第一選択で、DSAも用いられる。治療の第一選択は血管塞栓術で、コイル塞栓の成功率は88〜100%と高い。カテーテルが到達できない場合は超音波ガイド下の直接穿刺塞栓術やEUS下塞栓術が選択肢となる。",
+   "非外科的止血が失敗した場合、特に壊死性膵炎例では早期手術を行う。びまん性静脈性出血では約3分の1でパッキングを伴う開腹ネクロセクトミーが必要となる。動脈性出血の死亡率は11〜38%で、ショック、手術の必要性、壊死性膵炎が死亡のリスク因子である。"
+  ],
+  "summary_en": [
+   "Bleeding complicates 0.5 to 1.2% of AP but is life-threatening. About 60% of arterial bleeding comes from pseudoaneurysms, 20% from hemorrhage into pseudocysts without pseudoaneurysm and 20% from small vessels. The splenic artery is the most common site (35 to 50%), followed by gastroduodenal and pancreaticoduodenal arteries.",
+   "Triple-phase contrast CT is the imaging method of choice, with DSA as an alternative. Angioembolization is first-line, and coil embolization succeeds in 88 to 100% of cases. Ultrasound-guided percutaneous or EUS-guided embolization helps when the vessel cannot be catheterized.",
+   "When non-surgical methods fail, early surgery is advised, especially with necrotizing pancreatitis. About a third of patients with diffuse venous ooze need open necrosectomy with packing. Mortality of arterial bleeding is 11 to 38%, and shock, need for surgery and necrotizing pancreatitis are risk factors."
+  ],
+  "evidence": [
+   {
+    "en": "Prospective study (n=363): 9% developed pancreatic hemorrhage at a median of 59 days, risk factors persistent organ failure (HR 2.3), large-bore >20 Fr initial catheter (HR 3.9), >50% necrosis (HR 3.1)",
+    "ja": "前向き研究（n=363）：9%が中央値59日で膵出血を発症、リスク因子は持続性臓器不全（HR 2.3）、初回20 Fr超の太径カテーテル（HR 3.9）、50%超の壊死（HR 3.1）"
+   },
+   {
+    "en": "Hemorrhage in patients with PCD reported in 4 to 16%",
+    "ja": "PCD施行例の出血は4〜16%と報告"
+   },
+   {
+    "en": "Angioembolization with microcoils successful in 88 to 100% of cases",
+    "ja": "マイクロコイルによる血管塞栓術の成功率は88〜100%"
+   },
+   {
+    "en": "Mortality of arterial bleeding complications in AP 11 to 38%",
+    "ja": "急性膵炎の動脈性出血性合併症の死亡率は11〜38%"
+   }
+  ],
+  "note_ja": "太径カテーテルによる初回ドレナージは出血のリスク因子である。",
+  "note_en": "Large-bore catheters for initial drainage are a risk factor for hemorrhage.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 50,
+  "section": "XII",
+  "question_en": "How can splanchnic venous (SVT) thrombosis in AP be diagnosed?",
+  "question_ja": "急性膵炎における内臓静脈血栓症（SVT）はどのように診断するか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Contrast-enhanced computed tomography (CECT) is the most appropriate test to diagnose splanchnic venous thrombosis in AP.",
+    "text_ja": "急性膵炎における内臓静脈血栓症の診断には、造影CT（CECT）が最も適切な検査である。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "SVTの診断と範囲の評価は主に造影CTに依存する。ドプラ超音波、CT、MRIの診断精度を比較した前向き研究はない。",
+   "膵炎に伴うSVTの頻度は1〜24%と幅があり、前向きコホートの事後解析では432例中97例（22%）に発生した。リスク因子は広範な壊死、感染性膵壊死、再発性急性膵炎、喫煙、高トリグリセリド血症である。",
+   "SVTは画像で偶然見つかることが多いが、門脈閉塞による肝不全、上腸間膜静脈閉塞による小腸虚血、左側門脈圧亢進症による胃静脈瘤出血など重大な帰結をもたらすことがある。SVT予防目的の抗凝固療法に関する前向き試験はない。"
+  ],
+  "summary_en": [
+   "Diagnosis and extent of SVT rely mainly on contrast CT. No prospective study has compared Doppler ultrasound, CT and MRI.",
+   "Reported incidence ranges from 1% to 24%, and in a post-hoc analysis of a prospective cohort 97 of 432 patients (22%) developed SVT. Risk factors include extensive necrosis, infected necrosis, recurrent AP, smoking and hypertriglyceridemia.",
+   "SVT is often incidental but can cause hepatic failure from portal vein occlusion, small bowel ischemia from superior mesenteric vein occlusion, or variceal bleeding from gastric varices. No prospective trials address prophylactic anticoagulation."
+  ],
+  "evidence": [
+   {
+    "en": "Incidence of pancreatitis-induced SVT 1% to 24%",
+    "ja": "膵炎関連SVTの頻度は1〜24%"
+   },
+   {
+    "en": "Post-hoc analysis of a prospective cohort: SVT in 97 of 432 patients (22%)",
+    "ja": "前向きコホートの事後解析：432例中97例（22%）にSVT"
+   }
+  ],
+  "note_ja": "",
+  "note_en": "",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 51,
+  "section": "XII",
+  "question_en": "What is the best way to treat splanchnic venous thrombosis associated with AP?",
+  "question_ja": "急性膵炎に伴う内臓静脈血栓症の最善の治療法は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Anticoagulation is not recommended in patients with isolated splenic vein thrombosis. Anticoagulation may be used in more extensive venous thrombosis involving portal or mesenteric vein.",
+    "text_ja": "孤立性脾静脈血栓症の患者には抗凝固療法は推奨されない。門脈や腸間膜静脈に及ぶより広範な静脈血栓症では抗凝固療法を用いてもよい。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "急性膵炎に伴うSVTに対する予防的または治療的抗凝固療法を支持する決定的なエビデンスはない。早期発見で側副血行路がなければ全例に抗凝固を行うべきとする報告もある。",
+   "孤立性脾静脈血栓症では、膵炎の消退や周囲貯留のドレナージに伴い抗凝固なしでも再開通率が高いため、抗凝固は不要である。",
+   "16研究698例のシステマティックレビューとメタアナリシスでは、抗凝固による再開通率は44.3%であったが、出血リスクがやや増加し、生存などのアウトカムに差はなかった。門脈や腸間膜静脈に及ぶ例に限って抗凝固を検討する。"
+  ],
+  "summary_en": [
+   "There is no definitive evidence supporting prophylactic or therapeutic anticoagulation for SVT in AP. One study proposed anticoagulation for all early-detected SVT without collaterals.",
+   "Isolated splenic vein thrombosis does not need anticoagulation, as recanalization is frequent once pancreatitis resolves or adjacent collections are drained.",
+   "A systematic review and meta-analysis of 16 studies with 698 patients showed a recanalization rate of 44.3% with anticoagulation, a marginal rise in bleeding, and no difference in survival or other outcomes. Anticoagulation should be reserved for thrombosis extending to the portal or mesenteric veins."
+  ],
+  "evidence": [
+   {
+    "en": "Systematic review and meta-analysis (16 studies, n=698): recanalization 44.3% with anticoagulation, marginally higher bleeding risk, no difference in survival",
+    "ja": "システマティックレビューとメタアナリシス（16研究、n=698）：抗凝固で再開通率44.3%、出血リスクはやや増加、生存に差なし"
+   }
+  ],
+  "note_ja": "出血リスクを考慮し、孤立性脾静脈血栓では抗凝固を行わない。",
+  "note_en": "Given the bleeding risk, isolated splenic vein thrombosis should not be anticoagulated.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 52,
+  "section": "XII",
+  "question_en": "What are the incidence and most common sites of bowel fistulas in AP?",
+  "question_ja": "急性膵炎における消化管瘻の頻度と好発部位は何か？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Bowel fistula may occur in 10-15 % of patients with acute necrotizing pancreatitis. The most common sites of bowel fistula are the colon and duodenum, followed by the stomach and small intestine.",
+    "text_ja": "消化管瘻は急性壊死性膵炎患者の10〜15%に発生しうる。最も多い部位は結腸と十二指腸で、次いで胃と小腸である。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "急性膵炎における消化管瘻の頻度と形態は研究により異なるが、壊死性膵炎の1割強にみられる。",
+   "部位は結腸と十二指腸が多く、結腸瘻が最多とする報告もある。リスク因子は広範な壊死、感染性膵壊死、血管血栓症、経皮的カテーテルによる医原性損傷である。"
+  ],
+  "summary_en": [
+   "The incidence and pattern of bowel fistula vary across studies but affect a little over 10% of patients with necrotizing pancreatitis.",
+   "The colon and duodenum are the most common sites, with some series reporting the colon as most frequent. Risk factors include extensive necrosis, infected necrosis, vascular thrombosis and percutaneous catheter-related iatrogenic injury."
+  ],
+  "evidence": [
+   {
+    "en": "Retrospective study (n=344): bowel fistula in 52 patients (15.1%)",
+    "ja": "後ろ向き研究（n=344）：52例（15.1%）に消化管瘻"
+   },
+   {
+    "en": "Cohort (n=928): bowel fistula in 119 patients (12.8%), colonic fistula 60.5% of all fistulas",
+    "ja": "コホート（n=928）：119例（12.8%）に消化管瘻、そのうち結腸瘻が60.5%"
+   },
+   {
+    "en": "Prospective cohort (n=896): GI perforation or fistula in 16%, stomach 14%, duodenum 35%, small intestine 11%, colon 40%",
+    "ja": "前向きコホート（n=896）：16%に消化管穿孔または瘻、胃14%、十二指腸35%、小腸11%、結腸40%"
+   }
+  ],
+  "note_ja": "経皮的カテーテルによる医原性損傷もリスク因子であり、ドレーン留置時に注意する。",
+  "note_en": "Percutaneous catheters can cause iatrogenic fistulas, so care is needed during drain placement.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 53,
+  "section": "XII",
+  "question_en": "When should bowel fistulas be suspected in AP?",
+  "question_ja": "急性膵炎ではどのような場合に消化管瘻を疑うべきか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "Bowel fistulas should be suspected if there is worsening infection, gastrointestinal bleeding, or percutaneous drain showing intestinal/feculent material. Gas in or around the pancreas may also be due to a bowel perforation or fistula.",
+    "text_ja": "感染の増悪、消化管出血、経皮的ドレーンからの腸内容や便汁の排出がある場合は消化管瘻を疑うべきである。膵内または膵周囲のガス像も消化管穿孔や瘻孔によることがある。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "消化管瘻は無症状で偶然見つかることもあるが、症状が出るのは通常後期である。WONが大きい患者ほど瘻孔を生じやすい。",
+   "瘻孔は感染の増悪、消化管出血、新規臓器不全の原因となる。特に結腸瘻は膵液体貯留の感染を起こし、新規または増悪する敗血症として現れる。",
+   "CTでの貯留内のガス像やドレーンからの便汁排出が手がかりとなる。上部消化管瘻は内視鏡で、下部消化管瘻はCTやドレーンからの造影で診断できる。"
+  ],
+  "summary_en": [
+   "Bowel fistula may be asymptomatic and incidental, but symptoms usually appear late. Patients with large WON may be more prone to it.",
+   "Fistulas can cause worsening infection, GI bleeding and new organ failure. Colonic fistula in particular infects pancreatic fluid collections and presents as new or worsening sepsis.",
+   "Gas bubbles in collections on CT or feculent drain output are clues. Upper GI fistula can be diagnosed endoscopically, and lower GI fistula by CT or contrast study through the drain."
+  ],
+  "evidence": [
+   {
+    "en": "Pooled analysis (n=97): median interval from symptom onset to detection of colonic fistula 25 days (range 1 to 55)",
+    "ja": "プール解析（n=97）：症状出現から結腸瘻診断までの期間中央値25日（範囲1〜55日）"
+   }
+  ],
+  "note_ja": "感染性膵壊死の経過中のガス像は必ずしも感染によるものではなく、瘻孔も鑑別に挙げる。",
+  "note_en": "Gas in a collection is not always due to infection, and fistula belongs in the differential.",
+  "patients_ja": "",
+  "patients_en": ""
+ },
+ {
+  "q": 54,
+  "section": "XII",
+  "question_en": "What is the optimal strategy for treating bowel fistulas associated with AP?",
+  "question_ja": "急性膵炎に伴う消化管瘻の最適な治療戦略は何か？",
+  "statements": [
+   {
+    "kind": "rec",
+    "text_en": "Upper gastrointestinal fistula do not require treatment and may be beneficial by providing internal drainage of PFCs, they usually close spontaneously over time.",
+    "text_ja": "上部消化管瘻は治療を要さず、膵液体貯留の内瘻化として有益な場合もある。通常は時間とともに自然閉鎖する。",
+    "strength": "conditional",
+    "quality": "low"
+   },
+   {
+    "kind": "rec",
+    "text_en": "For colonic fistula, conservative management with control of infection may suffice, but surgical treatment is required if there are signs of persistent or worsening infection or peritonitis or fecal discharge from a peripancreatic collection.",
+    "text_ja": "結腸瘻では感染制御を伴う保存的治療で十分な場合もあるが、感染の持続や増悪、腹膜炎、膵周囲貯留からの便汁排出がみられる場合は外科的治療が必要である。",
+    "strength": "conditional",
+    "quality": "low"
+   }
+  ],
+  "summary_ja": [
+   "胃瘻や十二指腸瘻などの上部消化管瘻の多くは経過中に自然閉鎖する。感染性膵壊死121例のコホートでは10例に十二指腸瘻が生じ、うち9例が感染制御のみで自然閉鎖した。",
+   "結腸瘻は十分なドレナージと栄養療法による保存的治療が第一選択で、手術はバックアップとなる。報告により手術率は大きく異なり、保存的に管理できる例も多い。",
+   "持続または増悪する感染、腹膜炎、貯留からの便汁排出があれば、回腸瘻や人工肛門造設などの外科的治療を行う。"
+  ],
+  "summary_en": [
+   "Most upper GI fistulas, such as gastric and duodenal fistulas, close spontaneously. In a cohort of 121 patients with infected necrosis, 10 developed duodenal fistula and 9 closed spontaneously with infection control.",
+   "For colonic fistula, conservative treatment with adequate drainage and nutritional support is first choice, with surgery as backup. Reported surgery rates vary widely, and many patients can be managed conservatively.",
+   "Persistent or worsening infection, peritonitis or feculent discharge from a collection calls for surgery such as ileostomy or colostomy."
+  ],
+  "evidence": [
+   {
+    "en": "Cohort of 121 infected necrosis patients: 10 duodenal fistulas, 9 closed spontaneously with infection control",
+    "ja": "感染性膵壊死121例のコホート：十二指腸瘻10例、うち9例が感染制御で自然閉鎖"
+   },
+   {
+    "en": "Pooled analysis (n=97): 36 developed colonic fistula, only 9 needed surgery for it",
+    "ja": "プール解析（n=97）：36例が結腸瘻を発症、手術を要したのは9例のみ"
+   },
+   {
+    "en": "Study of 72 patients with colonic fistula and infected necrosis: 47 (65%) ileostomy or colostomy, 25 (35%) conservative",
+    "ja": "結腸瘻と感染性膵壊死の72例：47例（65%）が回腸瘻または人工肛門、25例（35%）が保存的治療"
+   },
+   {
+    "en": "Another study: 59% of patients with colonic fistula required surgery",
+    "ja": "別の研究：結腸瘻患者の59%が手術を要した"
+   }
+  ],
+  "note_ja": "本文の推奨は「do not require treatment」、Table 1は「generally do not require treatment」と表現が異なる。",
+  "note_en": "The body text says upper GI fistulas 'do not require treatment', whereas Table 1 says they 'generally do not require treatment'.",
+  "patients_ja": "患者側からは、まれな合併症も含めて本人と家族に十分な情報提供をしてほしいという要望がある。救命のための処置に集中するあまり、何をするのかの説明が後回しにならないよう求めている。",
+  "patients_en": "Patients ask that they and their families be properly informed about complications and their management. Rarer, life-threatening complications should not lead clinicians to skip explaining what is planned."
+ },
+ {
+  "q": 55,
+  "section": "XIII",
+  "question_en": "Do the criteria for the diagnosis of AP in children differ from those for adults?",
+  "question_ja": "小児の急性膵炎の診断基準は成人と異なるか？",
+  "statements": [
+   {
+    "kind": "gps",
+    "text_en": "The criteria for diagnosing AP in children are the same as in adults, but these criteria may be less accurate in children.",
+    "text_ja": "小児の急性膵炎の診断基準は成人と同じであるが、小児ではこれらの基準の精度が低い可能性がある。",
+    "strength": null,
+    "quality": null
+   }
+  ],
+  "summary_ja": [
+   "小児でも成人と同じく3項目中2項目を満たせば急性膵炎と診断する。ただし小児特有の注意点がある。",
+   "腹痛は主症状として成人ほど一般的ではなく、報告により29〜100%と幅がある。3歳未満では腹痛を呈したのは29%のみで、不機嫌を腹痛の代替とみなしても46%にとどまった。発熱が主訴となる例もある。",
+   "リパーゼとアミラーゼは発達とともに発現が増えるため乳児では低値である。このため標準的な診断基準を小児、特に乳幼児に適用すると精度が下がる可能性がある。"
+  ],
+  "summary_en": [
+   "As in adults, AP in children is diagnosed when two of three criteria are met, but there are caveats.",
+   "Abdominal pain is less consistently the main symptom, ranging from 29% to 100% across reports. Among children under 3 years only 29% presented with abdominal pain, and counting irritability as a surrogate raised this only to 46%. Fever may be the presenting complaint.",
+   "Lipase and amylase have a developmental expression pattern and are low in infancy. Standard criteria may therefore be less accurate in children, especially infants."
+  ],
+  "evidence": [
+   {
+    "en": "Abdominal pain as predominant symptom in children ranges from 29% to 100%",
+    "ja": "小児で腹痛が主症状となる割合は29〜100%"
+   },
+   {
+    "en": "Children under 3 years: abdominal pain in 29%, 46% if irritability counted as pain, 43% in another study",
+    "ja": "3歳未満：腹痛は29%、不機嫌を含めても46%、別の研究では43%"
+   },
+   {
+    "en": "Fever was the presenting complaint in 40% of young children",
+    "ja": "年少児の40%で発熱が主訴"
+   }
+  ],
+  "note_ja": "乳幼児では膵酵素が生理的に低値であり、酵素値のみで否定しない。",
+  "note_en": "Pancreatic enzymes are physiologically low in infants, so normal values do not exclude AP.",
+  "patients_ja": "",
+  "patients_en": ""
+ }
+]

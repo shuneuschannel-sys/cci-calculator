@@ -1,0 +1,778 @@
+[
+  {
+    "q": 1,
+    "section": "I",
+    "question_en": "How should a diagnosis of acute pancreatitis be made?",
+    "question_ja": "急性膵炎の診断はどのように行うべきか",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Acute pancreatitis (AP) should be diagnosed based on the fulfillment of two out of three criteria: (i) clinical- acute upper abdominal pain, (ii) biochemical- elevated pancreatic enzymes (serum lipase or amylase concentration >3 times upper limit of normal) and (iii) imaging- features of acute pancreatic inflammation with or without necrosis on abdominal imaging, typically computed tomography (CT) or ultrasonography (USG).",
+        "text_ja": "急性膵炎（AP）は、3項目のうち2項目を満たすことで診断すべきである。(i) 臨床所見：急性の上腹部痛、(ii) 生化学所見：膵酵素上昇（血清リパーゼまたはアミラーゼが基準値上限の3倍超）、(iii) 画像所見：腹部画像検査（通常はCTまたは超音波検査）で壊死の有無を問わず急性膵炎症の所見を認める。",
+        "strength": "strong",
+        "quality": "low"
+      }
+    ],
+    "summary_ja": [
+      "改訂アトランタ分類と同じ「3項目中2項目」の診断基準を踏襲している。慢性膵炎の急性増悪も同じ基準を満たしうるため、背景に慢性膵炎がないかを意識して鑑別する。",
+      "膵酵素の「基準値上限の3倍」というカットオフには限界がある。3倍未満でも急性膵炎は否定できず、3倍超でも膵外の原因で上昇することがある。Cochraneレビューでは、この閾値での感度はアミラーゼ0.72、リパーゼ0.79、特異度は0.93と0.89であった。",
+      "膵酵素は3〜5日で低下し、リパーゼのほうが長く高値を保つ。酵素値は臨床経過と相関しないため、経時的に追跡する意味はない。",
+      "画像では、超音波は膵の評価には感度が低いが胆道系の評価として必須である。造影CTは診断に最も適するが全例に必要ではない。MRIは経過後半の局所合併症評価で有用となる。"
+    ],
+    "summary_en": [
+      "The two out of three rule follows the revised Atlanta classification. An acute flare of chronic pancreatitis can also meet these criteria, so underlying chronic disease should be kept in mind.",
+      "The enzyme cut-off of three times the upper limit of normal is imperfect. Lower values do not exclude AP, and higher values can arise from non-pancreatic causes. In a Cochrane review, sensitivity at this threshold was 0.72 for amylase and 0.79 for lipase, with specificity of 0.93 and 0.89.",
+      "Enzyme levels fall over 3 to 5 days, lipase staying high longer. They do not track the clinical course and should not be followed serially.",
+      "Ultrasound has poor sensitivity for the pancreas but is mandatory to look for a biliary cause. CECT is the best diagnostic scan yet is not needed in every patient. MRI is mainly useful later for complications."
+    ],
+    "evidence": [
+      {
+        "en": "Cochrane systematic review of serum amylase and lipase (>3x ULN): sensitivity 0.72 (amylase) and 0.79 (lipase), specificity 0.93 and 0.89",
+        "ja": "血清アミラーゼ・リパーゼ（基準値上限3倍超）のCochraneレビュー：感度はアミラーゼ0.72、リパーゼ0.79、特異度は0.93と0.89"
+      },
+      {
+        "en": "At a median AP prevalence of 22.6 %, false positive rates were 26 % (amylase) and 32 % (lipase), and false negative rates 8 % and 7 %",
+        "ja": "急性膵炎の有病率中央値22.6%の条件で、偽陽性率はアミラーゼ26%、リパーゼ32%、偽陰性率は8%と7%"
+      }
+    ],
+    "note_ja": "酵素値の推移で重症度や経過を判断しないこと。全例に診断目的のCTを撮る必要はない。",
+    "note_en": "Do not use serial enzyme levels to judge severity or course. Diagnostic CT is not required in every patient.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 2,
+    "section": "I",
+    "question_en": "What should be done during hospitalization to determine the etiology of AP?",
+    "question_ja": "入院中に急性膵炎の成因を明らかにするために何を行うべきか",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "During hospitalization, the etiology of AP should be determined using a detailed history of previous episode(s) of acute pancreatitis, gallstone disease, alcohol intake, medication intake, known hypertriglyceridemia, trauma, recent invasive procedures such as endoscopic retrograde cholangiopancreatography (ERCP), and family history of pancreatic disease(s). Laboratory tests for liver function tests, calcium and triglycerides, and abdominal USG of the gallbladder and biliary system should be performed.",
+        "text_ja": "入院中に、急性膵炎の既往、胆石症、飲酒、服薬、既知の高トリグリセリド血症、外傷、ERCPなど最近の侵襲的処置、膵疾患の家族歴について詳細な病歴を聴取し、急性膵炎の成因を明らかにすべきである。肝機能、カルシウム、トリグリセリドの血液検査と、胆嚢および胆道系の腹部超音波検査を行うべきである。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "成因の特定は再発予防に直結する。最多は胆石で、46研究・234万人超を対象としたメタアナリシスでは急性膵炎の最大42%を占めた。アルコール性は研究対象集団によって約25〜40%である。",
+      "発症48時間以内のALT>150 U/Lは胆石性膵炎に対して陽性的中率85%超を示す。肝機能異常があるのに超音波で胆嚢が正常な場合は、回復後にEUSで胆道微小結石の有無を確認する。",
+      "入院中に成因が特定できず特発性とされる例は約20%ある。喫煙が急性膵炎のリスクを高めることも2つのシステマティックレビューで示されている。"
+    ],
+    "summary_en": [
+      "Finding the cause is the key to preventing recurrence. Gallstones are the leading cause, up to 42 % of AP in a meta-analysis of 46 studies with over 2.3 million patients. Alcohol accounts for roughly 25 to 40 % depending on the population.",
+      "An ALT above 150 U/L within 48 hours of onset has a positive predictive value over 85 % for gallstone pancreatitis. If liver tests are abnormal but ultrasound shows a normal gallbladder, EUS after recovery is advised to look for biliary microlithiasis.",
+      "About 20 % of cases remain without a clear cause during admission and are labelled idiopathic. Two systematic reviews show that smoking raises the risk of AP."
+    ],
+    "evidence": [
+      {
+        "en": "Systematic review and meta-analysis of 46 studies (2,341,007 patients, 36 countries): gallstones cause up to 42 % of AP",
+        "ja": "46研究（2,341,007例、36か国）のシステマティックレビュー・メタアナリシス：胆石が急性膵炎の最大42%を占める"
+      },
+      {
+        "en": "ALT >150 U/L within 48 hours of symptom onset: PPV >85 % for gallstone-induced pancreatitis",
+        "ja": "発症48時間以内のALT>150 U/L：胆石性膵炎の陽性的中率85%超"
+      },
+      {
+        "en": "Alcohol-related AP accounts for about 25-40 % of cases, and about 20 % are idiopathic",
+        "ja": "アルコール性は約25〜40%、特発性は約20%"
+      }
+    ],
+    "note_ja": "胆嚢が正常に見えても肝機能異常があれば胆道微小結石を疑い、回復後のEUSを検討する。",
+    "note_en": "Abnormal liver tests with a normal-looking gallbladder should prompt EUS after recovery to look for microlithiasis.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 3,
+    "section": "I",
+    "question_en": "What further investigations are indicated in patients after a first or second attack of idiopathic AP?",
+    "question_ja": "特発性急性膵炎の初回または2回目の発作後に、どのような追加検査が適応となるか",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "A repeat transabdominal ultrasound should be performed in patients with idiopathic AP after discharge. If this does not confirm an etiology, an endoscopic ultrasonography (EUS) should be performed. If the EUS does not reveal an etiology, an MRI with MRCP should be done.",
+        "text_ja": "特発性急性膵炎の患者では、退院後に経腹壁超音波検査を再度行うべきである。それで成因が確認できなければEUSを行うべきである。EUSでも成因が明らかにならなければ、MRCPを含むMRIを行うべきである。",
+        "strength": "strong",
+        "quality": "moderate"
+      },
+      {
+        "kind": "rec",
+        "text_en": "Genetic testing should be considered if the etiology remains unidentified, especially after a recurrent episode.",
+        "text_ja": "成因が特定できない場合、特に再発後には遺伝子検査を考慮すべきである。",
+        "strength": "conditional",
+        "quality": "low"
+      }
+    ],
+    "summary_ja": [
+      "特発性とされた例の多くに胆道微小結石や慢性膵炎が隠れている。EUSとMRI/MRCPは互いに補完的だが、胆道疾患と慢性膵炎の検出ではEUSが優れ、膵胆管の解剖学的異常の検出ではMRIが優れる。",
+      "特発性急性膵炎416例を含む5研究のレビューでは、EUSの診断率は32〜88%であった。直接比較した7研究（249例）では診断率はEUS 64%、MRCP 34%であった。一方で陰性のEUSでも胆道原因は完全には否定できない。",
+      "膵管癒合不全などの解剖学的異常は関連が示されているが因果関係は確立しておらず、単独原因というより補助因子と考えられる。50歳超（家族歴などのリスクがあればより若年でも）で明らかな原因がない場合は、膵癌除外のため造影CTまたはMRIとEUSを行う。",
+      "特発性再発性膵炎では最大66%に遺伝子変異が見つかるとされ、特に若年者では遺伝カウンセリングへの紹介を考慮する。"
+    ],
+    "summary_en": [
+      "Many idiopathic cases hide biliary microlithiasis or chronic pancreatitis. EUS and MRI/MRCP are complementary. EUS is better for biliary disease and chronic pancreatitis, and MRI for anatomical variants of the ducts.",
+      "In a review of 5 studies with 416 idiopathic patients, EUS found a cause in 32 to 88 %. In 7 head-to-head studies (249 patients) the yield was 64 % for EUS and 34 % for MRCP. A negative EUS still does not fully exclude a biliary cause.",
+      "Anatomical variants such as pancreas divisum are associated with AP but causality is unproven, so they are more likely co-factors. Patients over 50 (or younger with risk factors such as family history) without an obvious cause should have CECT or MRI plus EUS to exclude malignancy.",
+      "Up to 66 % of idiopathic recurrent cases carry a genetic mutation, so referral for genetic counselling is worth considering, especially in younger patients."
+    ],
+    "evidence": [
+      {
+        "en": "Systematic review of 5 studies (416 idiopathic AP patients): EUS diagnostic yield 32-88 % for microlithiasis or chronic pancreatitis",
+        "ja": "5研究（特発性急性膵炎416例）のシステマティックレビュー：微小結石または慢性膵炎に対するEUSの診断率32〜88%"
+      },
+      {
+        "en": "Systematic review of 34 studies: pooled sensitivity EUS 60 %, secretin MRCP 43 %, MRCP 24 %",
+        "ja": "34研究のシステマティックレビュー：統合感度はEUS 60%、セクレチンMRCP 43%、MRCP 24%"
+      },
+      {
+        "en": "7 studies directly comparing EUS with MRI/MRCP (249 patients): diagnostic yield 64 % vs 34 %",
+        "ja": "EUSとMRI/MRCPを直接比較した7研究（249例）：診断率64%対34%"
+      },
+      {
+        "en": "Up to 66 % of presumed idiopathic recurrent AP cases have a genetic mutation identified",
+        "ja": "特発性とされた再発性急性膵炎の最大66%で遺伝子変異が同定される"
+      }
+    ],
+    "note_ja": "検査の順序は経腹壁超音波の再検、EUS、MRI/MRCPの段階的アプローチである。50歳超では膵癌の除外を忘れない。",
+    "note_en": "The work-up is stepwise: repeat transabdominal ultrasound, then EUS, then MRI/MRCP. In patients over 50, remember to exclude pancreatic cancer.",
+    "patients_ja": "患者は成因、経過、検査、治療について各段階で説明を受けることを重視し、MRIのような低侵襲な選択肢を含めた話し合いを望んでいる。遺伝子検査は保険加入などへの影響があるため、十分な説明と選択の機会が必要であり、遺伝性の場合は膵癌リスクとスクリーニングについても話し合うべきとしている。",
+    "patients_en": "Patients want to be informed about cause, course, tests and treatment at each step and to discuss options, including less invasive tests such as MRI. Genetic testing needs counselling and a real choice because it can affect insurance or mortgages, and hereditary cases should be told about pancreatic cancer risk and screening."
+  },
+  {
+    "q": 4,
+    "section": "II",
+    "question_en": "What is the most appropriate marker to predict severe acute pancreatitis within 48 hours of onset of AP?",
+    "question_ja": "急性膵炎発症48時間以内に重症急性膵炎を予測する最も適切なマーカーは何か",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Systemic inflammatory response syndrome (SIRS) at admission and persistent SIRS at 48 hours from the onset of abdominal pain, either alone or in combination with a high C-reactive protein (CRP) or Interleukin-6 (IL-6), should be used to predict severe AP.",
+        "text_ja": "入院時の全身性炎症反応症候群（SIRS）と腹痛発症から48時間時点での持続するSIRSを、単独で、または高値のCRPもしくはIL-6と組み合わせて、重症急性膵炎の予測に用いるべきである。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "入院時に中等症以上や重症への進展を高い陽性的中率で予測できる方法は現時点で存在しない。SIRSは感度・特異度が高いが陽性的中率は低く、改訂アトランタ分類の重症は48時間超の臓器不全で定義されるため、発症48時間以内の予測は本質的に難しい。",
+      "181研究・29バイオマーカーのメタアナリシスでは、IL-6（>50 pg/ml）の感度87%、特異度88%はCRP（>150 mg/l）やAPACHE-II（8以上）を上回った。IL-6>160 pg/mlを加えると、持続SIRSの陽性的中率が56%から85%に改善した。",
+      "スコアリングでは、APACHE IIが死亡予測で最も高いAUC（0.91）を示した。HAPSは重症の除外に、HAPS、SIRS、BISAPはいずれも多臓器不全の除外に高い陰性的中率（98%超）を示した。",
+      "高齢（65歳以上）、重い併存症（Charlson併存疾患指数3以上）、BMI>25、内臓脂肪の多さ、高トリグリセリド血症は重症化の危険因子である。"
+    ],
+    "summary_en": [
+      "No tool reliably predicts moderately severe or severe AP at admission with a high positive predictive value. SIRS is sensitive and specific but has a low PPV, and because severe AP is defined by organ failure lasting over 48 hours, prediction within the first 48 hours is inherently hard.",
+      "In a meta-analysis of 181 studies on 29 biomarkers, IL-6 above 50 pg/ml had 87 % sensitivity and 88 % specificity, outperforming CRP above 150 mg/l and APACHE-II of 8 or more. Adding IL-6 above 160 pg/ml raised the PPV of persistent SIRS from 56 % to 85 %.",
+      "Among scores, APACHE II had the highest AUC for mortality (0.91). HAPS helps rule out severe AP, and HAPS, SIRS and BISAP all had negative predictive values above 98 % for excluding multiple organ failure.",
+      "Age 65 or older, a Charlson comorbidity index of 3 or more, BMI above 25, high visceral fat and hypertriglyceridemia are risk factors for severe disease."
+    ],
+    "evidence": [
+      {
+        "en": "Meta-analysis of 181 studies (29 biomarkers): IL-6 >50 pg/ml sensitivity 87 %, specificity 88 %, vs CRP >150 mg/l 53 % and 82 %, APACHE-II >=8 72 % and 76 %",
+        "ja": "181研究（29バイオマーカー）のメタアナリシス：IL-6>50 pg/mlは感度87%、特異度88%。CRP>150 mg/lは53%と82%、APACHE-II 8以上は72%と76%"
+      },
+      {
+        "en": "IL-6 >160 pg/ml improved the PPV of persistent SIRS for severe AP from 56 % to 85 %",
+        "ja": "IL-6>160 pg/mlの併用で、持続SIRSによる重症予測の陽性的中率が56%から85%に改善"
+      },
+      {
+        "en": "Meta-analysis of 30 studies (5988 patients): APACHE II had the highest AUC for mortality (0.91, 95 % CI 0.88-0.93)",
+        "ja": "30研究（5988例）のメタアナリシス：死亡予測のAUCはAPACHE IIが最高（0.91、95%CI 0.88〜0.93）"
+      },
+      {
+        "en": "Prospective multicenter study (1544 cases): HAPS, SIRS and BISAP had NPV >98 % for ruling out multiple organ failure",
+        "ja": "前向き多施設研究（1544例）：HAPS、SIRS、BISAPはいずれも多臓器不全除外の陰性的中率98%超"
+      }
+    ],
+    "note_ja": "SIRSは簡便でベッドサイドで繰り返し評価できる点が利点である。陽性的中率が低いため、CRPやIL-6と組み合わせて解釈する。",
+    "note_en": "SIRS is simple and can be reassessed at the bedside. Because its PPV is low, interpret it together with CRP or IL-6.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 5,
+    "section": "II",
+    "question_en": "What is the best strategy to predict the outcome of AP during hospitalization?",
+    "question_ja": "入院中に急性膵炎の転帰を予測する最良の方法は何か",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Persistent (>48 hours) organ failure is the most important clinical determinant of the outcome of AP in terms of mortality and should be used for predicting outcomes.",
+        "text_ja": "持続性（48時間超）臓器不全は、死亡率の観点から急性膵炎の転帰を左右する最も重要な臨床的決定因子であり、転帰の予測に用いるべきである。",
+        "strength": "strong",
+        "quality": "high"
+      }
+    ],
+    "summary_ja": [
+      "急性膵炎の転帰予測は動的かつ多面的な過程である。大規模コホートでは、持続性臓器不全を伴う例の死亡率は39〜42%に達する。",
+      "重症度と転帰は主に臓器不全で決まり、改訂アトランタ分類も持続性臓器不全で重症を定義している。持続性臓器不全は膵壊死やその感染と関連する。",
+      "感染性膵壊死は合併症、入院期間、インターベンションの必要性を増やすが、臓器不全を伴わなければそれ自体で死亡率を上げるわけではない。"
+    ],
+    "summary_en": [
+      "Outcome prediction in AP is dynamic and multidimensional. In large cohorts, mortality with persistent organ failure is 39 to 42 %.",
+      "Severity and outcome are driven mainly by organ failure, which is why the revised Atlanta classification defines severe AP by persistent organ failure. Persistent organ failure is linked to necrosis and infected necrosis.",
+      "Infected necrotizing pancreatitis increases morbidity, hospital stay and the need for intervention, but by itself does not raise mortality unless organ failure is present."
+    ],
+    "evidence": [
+      {
+        "en": "Large cohorts: mortality of 39-42 % in patients with persistent organ failure",
+        "ja": "大規模コホート：持続性臓器不全例の死亡率は39〜42%"
+      },
+      {
+        "en": "Infected necrotizing pancreatitis without organ failure increases morbidity and length of stay but not mortality",
+        "ja": "臓器不全を伴わない感染性膵壊死は、合併症と入院期間を増やすが死亡率は上げない"
+      }
+    ],
+    "note_ja": "入院後は臓器不全の有無と持続時間を経時的に評価することが転帰予測の中心となる。",
+    "note_en": "After admission, serial assessment of whether organ failure is present and how long it lasts is the core of outcome prediction.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 6,
+    "section": "II",
+    "question_en": "What are the indications for the transfer of a patient with AP to a high-volume center?",
+    "question_ja": "急性膵炎患者をhigh-volume centerへ転送する適応は何か",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "If expertise is not available in the local setting, transfer of a patient to a high-volume center is recommended for patients with organ failure or infected necrotizing pancreatitis.",
+        "text_ja": "自施設に専門的な診療能力がない場合、臓器不全または感染性膵壊死を伴う患者はhigh-volume centerへの転送が推奨される。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "病状は急速に進行しうる一方、転送自体にもリスクがあるため、転送の判断は慎重に行う。転送は予防的転送と反応的転送に分けて考えるとよい。",
+      "予防的転送は、持続SIRSなど重症化が予測され、自施設の設備や専門性が不足していて悪化リスクが高い患者で考慮する。初期治療に反応しない患者は、多職種の専門性を持つ三次施設への転送を検討する。",
+      "反応的転送は、臓器不全や、自施設では行えない侵襲的治療を要する感染性膵壊死などの合併症が生じた場合に考慮する。米国のデータではhigh-volume center（年間118例以上）の死亡リスクは25%低かった。地域の三次・二次施設のネットワーク構築が適切な判断を助ける。"
+    ],
+    "summary_en": [
+      "The disease can progress quickly, yet transfer carries its own risk, so the decision must be careful. Transfer can be thought of as prophylactic or reactive.",
+      "Prophylactic transfer suits patients predicted to have severe AP, for example with persistent SIRS, at high risk of deterioration where local resources or expertise are lacking. Patients who do not respond to initial treatment should be considered for a tertiary center with multidisciplinary expertise.",
+      "Reactive transfer is for organ failure or complications such as infected necrosis needing interventions unavailable locally. In US data, high-volume centers (118 or more cases per year) had a 25 % lower risk of death. Regional networks of tertiary and secondary centers can support these decisions."
+    ],
+    "evidence": [
+      {
+        "en": "US Nationwide Inpatient Sample: AP patients at high-volume centers (>=118 cases/year) had a 25 % lower risk of death",
+        "ja": "米国Nationwide Inpatient Sample：high-volume center（年間118例以上）では死亡リスクが25%低い"
+      },
+      {
+        "en": "Large national study: older age, male sex, lower income, non-teaching hospital, gallstone pancreatitis, need for surgical intervention and severe AP predicted transfer to large centers",
+        "ja": "大規模全国研究：高齢、男性、低所得、非教育病院、胆石性膵炎、外科的介入の適応、重症急性膵炎が大規模施設への転送の予測因子"
+      }
+    ],
+    "note_ja": "予後スコアは転送判断の参考になる。地域の多職種ネットワークの整備が望ましい。",
+    "note_en": "Prognostic scores can help the decision. Establishing regional multidisciplinary networks is encouraged.",
+    "patients_ja": "患者は重症化が予測された場合に最善の医療を受けられる保証を求めている。早期に飲食できるかどうかにも関心が高く、高トリグリセリド血症関連の膵炎では必要以上に絶食が続いたという経験もある。施設間の早期かつ繰り返しの連携による確実な転送体制と、その受け入れ能力の確保を求めている。",
+    "patients_en": "Patients want assurance of the best possible care when severe AP is predicted. They care about being allowed to eat early, some having fasted longer than needed in hypertriglyceridemia-associated AP. They ask for early, repeated liaison between centers so transfer happens reliably, and for enough capacity in the system."
+  },
+  {
+    "q": 7,
+    "section": "III",
+    "question_en": "What is the indication and timing of the initial CT assessment in AP?",
+    "question_ja": "急性膵炎における初回CT評価の適応とタイミングは何か",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Initial CT assessment in AP should be done if there is (i) diagnostic uncertainty and (ii) failure to respond to conservative treatment or clinical deterioration. The optimal timing for initial conventional CT to assess severity is at least 72-96 hours after the onset of symptoms.",
+        "text_ja": "急性膵炎の初回CT評価は、(i) 診断が不確実な場合、(ii) 保存的治療に反応しない場合または臨床的に悪化した場合に行うべきである。重症度評価のための初回の通常CTの至適時期は、症状発現から少なくとも72〜96時間後である。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "造影CTは診断と重症度予測に正確であるが、48時間以内の早期ルーチンCTは推奨されない。理由は3つある。早期CTが臨床転帰を改善する根拠がない、CTスコアは臨床スコアより重症度・予後予測に優れない、膵および膵周囲壊死の全容は発症72〜96時間以降でないと明らかにならない。",
+      "したがってCTSIや改訂CTSIによる重症度評価のCTはこの時期以降に行う。",
+      "一方、急性腹症で診断が不確かな場合は、腸管虚血、急性胆嚢炎、外傷性膵損傷、癌関連膵炎、血管緊急症、腸閉塞や穿孔の除外のために早期CTが役立つ。"
+    ],
+    "summary_en": [
+      "Contrast-enhanced CT is accurate for diagnosis and severity, but routine CT within 48 hours is not recommended for three reasons. Early CT has not been shown to improve outcomes, CT scores are not better than clinical scores for prognosis, and the full extent of necrosis appears only after 72 to 96 hours.",
+      "CT for severity grading with CTSI or modified CTSI should therefore be done after that window.",
+      "Early CT remains useful when the diagnosis is uncertain in an acute abdomen, to exclude bowel ischemia, acute cholecystitis, traumatic pancreatic injury, cancer-related pancreatitis, vascular emergencies, or bowel obstruction and perforation."
+    ],
+    "evidence": [
+      {
+        "en": "No evidence that early CT improves clinical outcome or that early detection of necrosis changes treatment",
+        "ja": "早期CTが臨床転帰を改善する、または壊死の早期検出が治療を変えるという根拠はない"
+      },
+      {
+        "en": "CT scoring systems are not superior to clinical scoring systems for predicting prognosis and severity",
+        "ja": "CTスコアは予後・重症度予測において臨床スコアに優らない"
+      }
+    ],
+    "note_ja": "入院時の「とりあえずCT」は避ける。重症度評価目的のCTは発症72〜96時間以降に撮る。",
+    "note_en": "Avoid reflex CT at admission. Time CT for severity grading to at least 72 to 96 hours after onset.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 8,
+    "section": "III",
+    "question_en": "What is the indication for follow-up cross-sectional imaging with CT or MRI?",
+    "question_ja": "CTまたはMRIによる経過観察の断層画像検査の適応は何か",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "A follow-up CECT should be done when invasive intervention is considered for local complications or there is clinical deterioration in patients with AP.",
+        "text_ja": "急性膵炎患者において、局所合併症に対する侵襲的治療を検討する場合、または臨床的悪化がある場合には、経過観察の造影CTを行うべきである。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "毎週のような定期的フォローアップCTを支持する根拠はない。多くの合併症は臨床評価で疑えるため、造影CTは侵襲的治療を考える時点か、保存的治療で改善しない時点で行う。",
+      "仮性動脈瘤は出血まで臨床的に明らかにならないことがあるが、頻度が低いため定期CTの理由にはならない。",
+      "CTは液体主体の貯留内の壊死を検出しにくく、仮性嚢胞と被包化壊死（WON）の区別には発症3〜4週後のMRIが必要となることがある。ヨード造影剤アレルギーや腎不全がある場合もT2強調像で造影なしに壊死を評価できるMRIが有用である。灌流CTやdual-energy CTは早期に膵壊死を予測しうるが、転帰改善への寄与は不明である。"
+    ],
+    "summary_en": [
+      "There is no evidence for routine follow-up CT, for example weekly. Most complications can be suspected clinically, so CECT is reserved for when intervention is considered or the patient fails to improve.",
+      "Arterial pseudoaneurysm may stay silent until it bleeds, but it is uncommon and does not justify routine scanning.",
+      "CT is poor at detecting necrosis within fluid-predominant collections, and MRI 3 to 4 weeks after onset may be needed to separate pseudocyst from walled-off necrosis. MRI also helps with contrast allergy or renal failure, since T2-weighted images show necrosis without gadolinium. Perfusion or dual-energy CT may predict necrosis early, but its effect on outcomes is unknown."
+    ],
+    "evidence": [
+      {
+        "en": "Routine (e.g., weekly) follow-up CT lacks supporting evidence",
+        "ja": "毎週などの定期的フォローアップCTを支持する根拠はない"
+      },
+      {
+        "en": "MRI at least 3-4 weeks after onset may be required to distinguish pseudocyst from walled-off necrosis",
+        "ja": "仮性嚢胞と被包化壊死の鑑別には発症3〜4週以降のMRIが必要なことがある"
+      }
+    ],
+    "note_ja": "フォローアップ画像は「治療方針を変えるとき」に撮る。被曝や造影剤の負担も考慮する。",
+    "note_en": "Repeat imaging when it may change management. Consider radiation and contrast burden.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 9,
+    "section": "III",
+    "question_en": "What is the optimal CT and MR protocol to detect local complications?",
+    "question_ja": "局所合併症を検出するための最適なCTおよびMRのプロトコルは何か",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "To detect local complications, it is recommended to perform a multidetector CT with thin collimation and slice thickness (i.e., 2 mm or less) during the pancreatic and portal venous phases (i.e., 50-70 s delay) after giving 100-150 ml of non-ionic intravenous contrast material at a rate of 3 ml/s. Only a portal venous phase (mono-phasic) CT is generally sufficient to assess fluid collections with or without necrosis during follow-up. If a pseudoaneurysm is suspected, dynamic CT or arterial phase contrast CT should be added.",
+        "text_ja": "局所合併症の検出には、非イオン性造影剤100〜150 mlを3 ml/sで静注した後、膵実質相と門脈相（遅延50〜70秒）で、薄いコリメーションとスライス厚（2 mm以下）のマルチディテクターCTを撮影することが推奨される。経過観察で壊死の有無を問わず液体貯留を評価するには、通常は門脈相のみ（単相）のCTで十分である。仮性動脈瘤が疑われる場合はダイナミックCTまたは動脈相造影CTを追加すべきである。",
+        "strength": null,
+        "quality": null
+      },
+      {
+        "kind": "gps",
+        "text_en": "For MRI, the recommendation is to perform axial FS-T2W and FS-T1W scanning, intravenous gadolinium contrast may be required if the MRI is being done instead of a contrast-enhanced CT. If an MRI is done to delineate necrotic and liquefied components of fluid collections, an axial FS-T2W sequence should suffice.",
+        "text_ja": "MRIでは、軸位断の脂肪抑制T2強調像および脂肪抑制T1強調像の撮影が推奨され、造影CTの代わりにMRIを行う場合はガドリニウム造影剤の静注が必要となることがある。液体貯留内の壊死成分と液状成分の描出を目的とする場合は、軸位断の脂肪抑制T2強調像で十分である。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "CTとMRIの撮像法は文献によりばらつきが大きく、専用の放射線学的ガイドラインはない。膵実質相と門脈相はいずれも生存膵と非生存膵の区別に十分である。",
+      "出血、仮性動脈瘤、腸間膜虚血が疑われる場合は多相撮影が必要となる。膵壊死は造影CTで1 cm²超の非造影域で、CT値が30〜50 HU未満または造影による上昇が15 HU未満の領域とされる。急性腎障害では単純CTも選択肢となる。",
+      "T2強調MRIは、仮性嚢胞と壊死を含む貯留（急性壊死性貯留、WON）の区別やドレナージ前の壊死量の評価が必要な場合、また被曝を避けたい若年患者で勧められる。"
+    ],
+    "summary_en": [
+      "CT and MRI protocols vary widely and no dedicated radiology guideline exists. Both pancreatic and portal venous phases are adequate to separate viable from non-viable tissue.",
+      "A multiphase protocol is needed for suspected hemorrhage, pseudoaneurysm or mesenteric ischemia. Necrosis is defined as a non-enhancing area over 1 cm² with attenuation below 30 to 50 HU or an increase below 15 HU after contrast. Non-contrast CT is an option in acute renal failure.",
+      "T2-weighted MRI is advised when pseudocysts must be separated from necrotic collections or necrosis quantified before drainage, and in young patients because of radiation."
+    ],
+    "evidence": [
+      {
+        "en": "Pancreatic necrosis on CECT: non-enhancing area >1 cm² with CT value <30-50 HU or <15 HU increase after contrast",
+        "ja": "造影CTでの膵壊死：1 cm²超の非造影域で、CT値30〜50 HU未満または造影後の上昇15 HU未満"
+      },
+      {
+        "en": "Multiphase protocol indications: hemorrhage, arterial pseudoaneurysm, mesenteric ischemia",
+        "ja": "多相撮影の適応：出血、動脈性仮性動脈瘤、腸間膜虚血"
+      }
+    ],
+    "note_ja": "経過観察は門脈相の単相CTで十分なことが多く、被曝を抑えられる。",
+    "note_en": "Follow-up can usually use a single portal venous phase, which limits radiation.",
+    "patients_ja": "患者は初回CTのタイミングについて明確な説明を求めている。診断目的なら入院当日にCTを撮ることがあるが、重症度評価には発症後少なくとも72〜96時間を要し、臨床的悪化時には後で追加撮影が必要となりうる点を伝えるべきとしている。",
+    "patients_en": "Patients want the timing of the first CT explained. A scan for diagnosis may be done on the day of admission, but severity assessment needs at least 72 to 96 hours after onset, and further scans may be needed if they deteriorate."
+  },
+  {
+    "q": 10,
+    "section": "IV",
+    "question_en": "What is the preferred fluid type to use for fluid therapy in AP?",
+    "question_ja": "急性膵炎の輸液療法に用いるべき輸液の種類は何か",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Lactated Ringer's solution should be used for fluid therapy in patients with AP.",
+        "text_ja": "急性膵炎患者の輸液療法には乳酸リンゲル液を用いるべきである。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "乳酸リンゲル液（LR）と生理食塩液を比較したRCTは6本あるが、多くは単施設の小規模試験である。",
+      "複数のメタアナリシスで、LRは重症度、ICU入室、局所合併症の低下と関連していた。個々の試験の結果は一致せず、多くは臨床的に重要なエンドポイントを検出する検出力がなかったため、大規模多施設試験が望まれる。",
+      "最近のRCTでは、バランス型多電解質液は生理食塩液と比べて血中クロール値が低く、SIRSが少なかった。生理食塩液の大量投与による高クロール血症を避ける意味でも、晶質液はバランス型が基本である。"
+    ],
+    "summary_en": [
+      "Six fully published RCTs compared lactated Ringer's with normal saline, most of them small and single-center.",
+      "Several meta-analyses link LR with lower severity, fewer ICU admissions and fewer local complications. Individual trial results conflicted and most lacked power for clinically relevant endpoints, so large multicenter trials are still needed.",
+      "A recent RCT found that a balanced multi-electrolyte solution gave lower chloride levels and less SIRS than saline, supporting balanced crystalloids as the default."
+    ],
+    "evidence": [
+      {
+        "en": "Six full-published RCTs of LR vs normal saline, mostly small single-center studies",
+        "ja": "LRと生理食塩液を比較した6本のRCT（多くは単施設小規模）"
+      },
+      {
+        "en": "Meta-analyses: LR associated with lower severity, ICU admission and local complications",
+        "ja": "メタアナリシス：LRは重症度、ICU入室、局所合併症の低下と関連"
+      },
+      {
+        "en": "RCT of balanced multi-electrolyte solution vs normal saline: lower chloride levels and less SIRS with the balanced solution",
+        "ja": "バランス型多電解質液と生理食塩液のRCT：バランス型で血中クロール低値、SIRS減少"
+      }
+    ],
+    "note_ja": "",
+    "note_en": "",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 11,
+    "section": "IV",
+    "question_en": "What is the optimal fluid infusion strategy for fluid therapy in AP?",
+    "question_ja": "急性膵炎の輸液療法における最適な輸液戦略は何か",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "A moderate fluid infusion rate of 1.5 ml/kg/h is recommended. A fluid bolus is recommended if the patient has hypovolemia or hypotension at presentation. Additional fluids may be given depending on hematocrit and clinical signs of hypovolemia.",
+        "text_ja": "1.5 ml/kg/hの中等量の輸液速度が推奨される。来院時に循環血液量減少または低血圧がある場合はボーラス輸液が推奨される。ヘマトクリットと循環血液量減少の臨床徴候に応じて追加輸液を行ってもよい。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "輸液速度を比較したRCTは6本ある。1993年アトランタ分類で重症とされた患者を対象とした2本では、積極的輸液のほうが転帰が悪かった。SIRS改善に差がなかった試験や、発症24時間以降の登録で差がなかった試験もある。軽症例（n=60）で積極的輸液が臨床改善を早めたというオープンラベル試験もある。",
+      "最も新しい国際多施設オープンラベルRCTは、重症化の基準を持たない全急性膵炎を対象に、積極的輸液（20 mL/kgボーラス後3 mL/kg/h）と中等量輸液（1.5 mL/kg/h、循環血液量減少時に10 mL/kgボーラス）を比較した。n=249で早期中止となり、体液過剰は21%対6%（p<0.01）と積極的輸液群で多く、主要評価項目の中等症・重症への進展に有意差はなかった。",
+      "軽症では毛細血管の機能が保たれる一方、重症では毛細血管漏出が起こりうるため、重症予測例ではより慎重な輸液が必要である。積極的輸液は膵壊死や臓器不全を防がず、むしろ転帰悪化と関連する。",
+      "輸液は救命（ショック時のボーラス）、最適化（慎重に滴定）、安定化（維持のみ）、減量（体液過剰時の負のバランス）の4相で考えるとよい。"
+    ],
+    "summary_en": [
+      "Six RCTs have tested infusion rates. Two trials in severe AP defined by the 1993 Atlanta criteria found worse outcomes with aggressive fluids. Another showed no difference in SIRS reduction, and one enrolling after 24 hours found no difference. An open-label trial in mild AP (n = 60) found faster improvement with aggressive fluids.",
+      "The latest international multicenter open-label RCT compared aggressive fluids (20 mL/kg bolus then 3 mL/kg/h) with moderate fluids (1.5 mL/kg/h, 10 mL/kg bolus if hypovolemic) in all-comers without baseline severity criteria. It stopped early at n = 249 because fluid overload occurred in 21 % vs 6 % (p < 0.01), with no significant difference in progression to moderate-severe AP.",
+      "Capillary function is preserved in mild AP, but severe AP may cause capillary leak, so fluids must be more guarded in predicted severe disease. Aggressive fluids do not prevent necrosis or organ failure and are linked to worse outcomes.",
+      "Fluid therapy can be framed in four phases: rescue with boluses in shock, cautious optimization, stabilization with maintenance only, and de-escalation with a negative balance if overloaded."
+    ],
+    "evidence": [
+      {
+        "en": "International multicenter open-label RCT, stopped early (n = 249): aggressive (20 mL/kg bolus + 3 mL/kg/h) vs moderate (1.5 mL/kg/h) fluids, fluid overload 21 % vs 6 % (p < 0.01), no significant difference in moderate-severe AP",
+        "ja": "国際多施設オープンラベルRCT、早期中止（n=249）：積極的輸液（20 mL/kgボーラス＋3 mL/kg/h）対中等量輸液（1.5 mL/kg/h）、体液過剰21%対6%（p<0.01）、中等症・重症への進展に有意差なし"
+      },
+      {
+        "en": "Two RCTs in severe AP (1993 Atlanta definition): worse outcomes with aggressive fluid therapy",
+        "ja": "重症急性膵炎（1993年アトランタ分類）を対象とした2本のRCT：積極的輸液で転帰悪化"
+      },
+      {
+        "en": "Open-label RCT in mild AP (n = 60): aggressive fluids led to faster clinical improvement",
+        "ja": "軽症急性膵炎のオープンラベルRCT（n=60）：積極的輸液で臨床改善が早い"
+      }
+    ],
+    "note_ja": "かつて主流だった大量輸液から、中等量輸液への明確な方針転換である。専門家1名（JN）が具体的な輸液速度の推奨に異論を示している。",
+    "note_en": "This marks a clear shift from aggressive to moderate fluid resuscitation. One expert (JN) disagreed with recommending a specific infusion rate.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 12,
+    "section": "IV",
+    "question_en": "How should response to optimal fluid therapy be measured?",
+    "question_ja": "最適な輸液療法への反応はどのように評価すべきか",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "Both clinical signs and laboratory parameters should be considered when assessing fluid status. A mean arterial pressure between 65 and 85 mm Hg (8.7-11.3 kPa), a urine output ≥0.5 ml/kg/h, a blood urea nitrogen (BUN) < 20 mg/dL (or blood urea <40), and a hematocrit <44 % are reasonable targets which may reflect adequate fluid status. Invasive monitoring should be reserved for patients in an intensive care unit setting.",
+        "text_ja": "体液状態の評価には臨床徴候と検査値の両方を考慮すべきである。平均動脈圧65〜85 mmHg（8.7〜11.3 kPa）、尿量0.5 ml/kg/h以上、BUN<20 mg/dL（または血中尿素<40）、ヘマトクリット<44%は、適切な体液状態を反映しうる妥当な目標値である。侵襲的モニタリングはICUの患者に限定すべきである。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "入院患者の体液評価は難しく、単一の指標では複数指標の組み合わせに及ばない。心拍数100/分未満、平均動脈圧65〜85 mmHg、尿量0.5 ml/kg/h超、BUN<20 mg/dL、脱水や体液過剰の徴候がないことが臨床的な目標となる。",
+      "多施設観察研究ではBUNが転帰予測因子であり、入院時ヘマトクリット44%以上と24時間でのBUN上昇の組み合わせは、重症例のモニタリングで他の検査値より優れていた。",
+      "侵襲的モニタリングは、血行動態が不安定で輸液負荷の利益と害が不確かなICU患者に限る。中心静脈圧は輸液反応性の指標として不良である。重症壊死性膵炎では胸腔内血液容量係数が中心静脈圧やヘマトクリットより正確だった。超音波による下大静脈径と呼吸性変動、肺エコーも有用である。腹腔内圧上昇は特に人工呼吸中に偽陰性の原因となる。"
+    ],
+    "summary_en": [
+      "Fluid status is hard to judge, and no single parameter matches a combination. Reasonable clinical targets are heart rate below 100/min, MAP 65 to 85 mm Hg, urine output above 0.5 ml/kg/h, BUN below 20 mg/dL, and no signs of dehydration or overload.",
+      "Multicenter observational studies show BUN predicts outcome, and admission hematocrit of 44 % or more plus a rise in BUN at 24 hours outperformed other laboratory parameters in severe disease.",
+      "Invasive monitoring belongs in the ICU, for unstable patients in whom further volume has uncertain benefit. Central venous pressure predicts fluid responsiveness poorly. In severe necrotizing pancreatitis, intrathoracic blood volume index was more accurate than CVP and hematocrit. Bedside ultrasound of the IVC and lung is helpful. Abdominal hypertension can give false negative readings, especially on a ventilator."
+    ],
+    "evidence": [
+      {
+        "en": "Admission hematocrit >=44 % plus a rise in BUN at 24 hours outperformed other laboratory parameters in monitoring severe disease",
+        "ja": "入院時ヘマトクリット44%以上と24時間時点のBUN上昇の組み合わせは、重症例のモニタリングで他の検査値より優れる"
+      },
+      {
+        "en": "Observational study in severe necrotizing pancreatitis: intrathoracic blood volume index more accurate than CVP and hematocrit for cardiac index assessment",
+        "ja": "重症壊死性膵炎の観察研究：心係数評価において胸腔内血液容量係数は中心静脈圧やヘマトクリットより正確"
+      },
+      {
+        "en": "Central venous pressure is a poor predictor of fluid status and responsiveness",
+        "ja": "中心静脈圧は体液状態と輸液反応性の予測因子として不良"
+      }
+    ],
+    "note_ja": "単一の数値ではなく、バイタル、尿量、BUN、ヘマトクリットを組み合わせて判断する。体液過剰の徴候を見逃さない。",
+    "note_en": "Combine vital signs, urine output, BUN and hematocrit rather than chasing one number, and watch for fluid overload.",
+    "patients_ja": "患者は、尿量評価のための長期の尿道カテーテル留置など、モニタリング自体が負担になることを理解し、必要不可欠でない侵襲的モニタリングを避けられないか検討してほしいと求めている。",
+    "patients_en": "Patients ask clinicians to recognize that monitoring, such as prolonged urinary catheterization, can be a burden, and to avoid invasive monitoring unless essential."
+  },
+  {
+    "q": 13,
+    "section": "V",
+    "question_en": "How should abdominal pain be assessed in AP?",
+    "question_ja": "急性膵炎の腹痛はどのように評価すべきか",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "Abdominal pain should be assessed periodically using a visual analog or numeric rating scale to judge the requirement of analgesics.",
+        "text_ja": "鎮痛薬の必要性を判断するため、腹痛は視覚的アナログスケールまたは数値評価スケールを用いて定期的に評価すべきである。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "疼痛は急性膵炎の主症状であるが主観的で、客観的な定量化は難しい。鎮痛薬を検討したRCTでは、VAS（0〜100 mmまたは0〜10 cm）、NRS（0〜10）、自己申告スケールが用いられてきた。術後疼痛ではVASとNRSの妥当性が確立している。",
+      "各試験では入院時から最長5日間、2時間ごとから1日1回の頻度で評価していた。メタアナリシスでは疼痛強度、疼痛のある日数、鎮痛薬の必要量（種類、レジメン、総量）、有害事象が主な評価項目であった。",
+      "ただし鎮痛薬の必要量と疼痛スケールの相関は良くない。スケールは目安として使い、患者の訴えと合わせて判断する。"
+    ],
+    "summary_en": [
+      "Pain is the cardinal symptom of AP but is subjective and hard to quantify. Analgesic RCTs have used the VAS (0 to 100 mm or 0 to 10 cm), the NRS (0 to 10) and self-reported scales, and VAS and NRS are well validated after surgery.",
+      "Studies assessed pain from admission for up to 5 days, from every 2 hours to daily. Meta-analyses mostly reported pain intensity, days with pain, analgesic needs (type, regimen, total dose) and adverse events.",
+      "Analgesic requirement, however, correlates poorly with pain scores. Use the scales as a guide alongside the patient's own account."
+    ],
+    "evidence": [
+      {
+        "en": "VAS (0-100 mm or 0-10 cm) and NRS (0-10) were used in RCTs of analgesics in AP, assessed up to 5 days from admission at intervals of 2 hours to daily",
+        "ja": "急性膵炎の鎮痛薬RCTではVAS（0〜100 mmまたは0〜10 cm）とNRS（0〜10）が用いられ、入院から最長5日間、2時間ごとから1日1回評価された"
+      }
+    ],
+    "note_ja": "",
+    "note_en": "",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 14,
+    "section": "V",
+    "question_en": "Which analgesic should be used for pain relief in patients with AP?",
+    "question_ja": "急性膵炎患者の疼痛緩和にはどの鎮痛薬を用いるべきか",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Either opioid analgesics or non-steroidal anti-inflammatory drugs (NSAIDs) should be used for pain relief. Opioid analgesics provide better pain relief in patients with severe pain.",
+        "text_ja": "疼痛緩和にはオピオイド鎮痛薬または非ステロイド性抗炎症薬（NSAIDs）のいずれかを用いるべきである。強い疼痛のある患者ではオピオイド鎮痛薬のほうが良好な疼痛緩和が得られる。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "十分な鎮痛は基本である。2つのメタアナリシスでは、軽症例でオピオイドとNSAIDsの有効性と安全性は同等だったが、オピオイドではレスキュー鎮痛薬の必要が少なかった。初期治療はオピオイドかNSAIDsとし、必要に応じフェンタニルなど短時間作用型をレスキューとして併用する。静注PCAも選択肢である。",
+      "2本のRCTでは、オピオイド（ペンタゾシンまたはブプレノルフィン）はジクロフェナクより有効で同等に安全であり、中等症・重症のサブグループでも同様だった。呼吸抑制、意識障害、麻痺性イレウスではオピオイドを避ける。",
+      "入院後のオピオイド長期使用が中等症・重症と関連したとする観察研究（OR 2.07）があるが、重症例ほど痛みが強く長いという逆因果は考慮されていない。",
+      "硬膜外鎮痛は9研究（n=726）のメタアナリシスで有益とされたが、148例のRCTでは人工呼吸器非装着日数に利益がなく、侵襲的換気期間が延長した。強い疼痛があり心肺の併存症を持つ患者で考慮してよい。"
+    ],
+    "summary_en": [
+      "Adequate analgesia is essential. Two meta-analyses found similar efficacy and safety for opioids and NSAIDs in mild AP, with less rescue analgesia needed with opioids. Start with an opioid or an NSAID, add short-acting rescue such as fentanyl as needed, and consider intravenous PCA.",
+      "Two RCTs found opioids (pentazocine or buprenorphine) more effective than diclofenac and equally safe, including in moderately severe or severe disease. Opioids should be avoided with respiratory depression, altered sensorium or paralytic ileus.",
+      "An observational study linked longer opioid use after admission to moderately severe or severe AP (OR 2.07), but reverse causation was not addressed.",
+      "Epidural analgesia looked beneficial in a meta-analysis of 9 studies (n = 726), but an RCT of 148 patients found no gain in ventilator-free days and longer invasive ventilation. It may be considered for severe pain with cardiac or respiratory comorbidity."
+    ],
+    "evidence": [
+      {
+        "en": "Two meta-analyses: opioids and NSAIDs have similar efficacy and safety in mild AP, opioids reduce the need for rescue analgesics",
+        "ja": "2つのメタアナリシス：軽症例でオピオイドとNSAIDsの有効性と安全性は同等、オピオイドでレスキュー鎮痛薬が減少"
+      },
+      {
+        "en": "Two RCTs: pentazocine or buprenorphine more effective and equally safe compared with diclofenac, including in moderately severe or severe AP",
+        "ja": "2本のRCT：ペンタゾシンまたはブプレノルフィンはジクロフェナクより有効で同等に安全、中等症・重症でも同様"
+      },
+      {
+        "en": "Observational cohort: longer opioid use associated with moderately severe or severe AP (OR 2.07, 95 % CI 1.29-3.33, p = 0.003), reverse causation not addressed",
+        "ja": "観察コホート：オピオイドの長期使用は中等症・重症と関連（OR 2.07、95%CI 1.29〜3.33、p=0.003）、逆因果は未検討"
+      },
+      {
+        "en": "Epidural analgesia: meta-analysis of 9 studies (n = 726) favourable, but RCT of 148 patients showed no benefit and longer invasive ventilation",
+        "ja": "硬膜外鎮痛：9研究（n=726）のメタアナリシスでは有益、148例のRCTでは利益なく侵襲的換気期間が延長"
+      }
+    ],
+    "note_ja": "オピオイドは呼吸抑制、意識障害、麻痺性イレウスのある患者では避ける。",
+    "note_en": "Avoid opioids with respiratory depression, altered sensorium or paralytic ileus.",
+    "patients_ja": "患者は疼痛スケールだけでは痛みの影響や程度を十分に表せないとし、スケールを補助として使い、主観的な訴えにも耳を傾けるよう求めている。幻覚や妄想など鎮痛薬の副作用を自ら言い出せない患者もいるため、医師から副作用を尋ねてほしいとしている。",
+    "patients_en": "Patients feel pain scales alone do not capture the impact of pain and want them used alongside their own descriptions. They ask clinicians to enquire about side effects such as hallucinations or paranoid delusions, since some patients do not raise them."
+  },
+  {
+    "q": 15,
+    "section": "VI",
+    "question_en": "What are the indications for admission to an intensive care unit (ICU) in patients with AP?",
+    "question_ja": "急性膵炎患者における集中治療室（ICU）入室の適応は何か",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "Organ failure of grade 2 or more as per the modified Marshall's classification is an indication for the transfer of a patient with AP to an ICU. Patients with infected necrotizing pancreatitis with sepsis or other complications such as intra-abdominal hemorrhage or colonic fistulization also merit admission to a high-dependency unit or ICU.",
+        "text_ja": "修正Marshallスコアでグレード2以上の臓器不全は、急性膵炎患者のICU転床の適応である。敗血症を伴う感染性膵壊死や、腹腔内出血、結腸瘻形成などの合併症を有する患者も、高度治療室（HDU）またはICUへの入室が妥当である。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "改訂アトランタ分類は持続性（48時間超）臓器不全を重症と定義する。2016年の米国集中治療医学会（SCCM）ガイドラインでは、臓器不全に対する生命維持や集中的モニタリングを要する患者はすべてICU入室の対象となる。",
+      "Charlson併存疾患指数3以上、病的肥満、高齢（65歳超）、集中的なモニタリングや治療を要する臓器障害のある患者など、急速な悪化リスクが高い患者はHDUまたはICUへの入室を検討する。",
+      "乳酸、CRP、ヘマトクリット、BUNなどの単一マーカーのみでICUへのトリアージを行うことは推奨されない。"
+    ],
+    "summary_en": [
+      "The revised Atlanta classification defines severe AP as persistent organ failure over 48 hours. Per the 2016 SCCM guidelines, any patient needing life support for organ failure or intensive monitoring should be admitted to the ICU.",
+      "Patients at high risk of rapid deterioration, such as a Charlson comorbidity index of 3 or more, morbid obesity, age over 65, or organ dysfunction requiring intensive monitoring, should be assessed for HDU or ICU admission.",
+      "Single markers such as lactate, CRP, hematocrit or BUN should not be used alone to triage patients to the ICU."
+    ],
+    "evidence": [
+      {
+        "en": "SCCM guidelines (2016): all patients requiring life support for organ failure and intensive monitoring require ICU admission",
+        "ja": "SCCMガイドライン（2016年）：臓器不全に対する生命維持と集中的モニタリングを要する患者はICU入室の対象"
+      },
+      {
+        "en": "High-risk features for HDU/ICU assessment: Charlson comorbidity index >=3, morbid obesity, age >65 years",
+        "ja": "HDU/ICU入室を検討すべき高リスク因子：Charlson併存疾患指数3以上、病的肥満、65歳超"
+      }
+    ],
+    "note_ja": "単一の検査値でICU入室を決めない。臓器不全のグレードと全身状態で判断する。",
+    "note_en": "Do not decide ICU admission on a single laboratory value. Use organ failure grade and overall condition.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 16,
+    "section": "VI",
+    "question_en": "How to provide specific organ support to patients with AP admitted to the ICU?",
+    "question_ja": "ICUに入室した急性膵炎患者に対し、臓器別の支持療法をどのように行うべきか",
+    "statements": [
+      {
+        "kind": "gps",
+        "text_en": "Patients with organ failure require organ support, similar to any other critically ill patient in the ICU.",
+        "text_ja": "臓器不全を有する患者には、ICUの他の重症患者と同様に臓器支持療法が必要である。",
+        "strength": null,
+        "quality": null
+      }
+    ],
+    "summary_ja": [
+      "急性膵炎に特化した集中治療のRCTは乏しく、推奨は主に敗血症など一般的な重症患者の文献から導かれている。",
+      "呼吸、腎、循環の支持は他の重症疾患と同様に行い、平均動脈圧65 mmHg以上を維持する。",
+      "中等症・重症の患者では腹腔内圧をモニタリングすべきである。詳細な推奨は補足資料に示されている。"
+    ],
+    "summary_en": [
+      "RCTs on critical care specific to AP are lacking, so the advice is drawn mainly from the general critical care literature, especially sepsis.",
+      "Respiratory, renal and cardiovascular support should be given as in other critical illnesses, maintaining a MAP of 65 mm Hg or more.",
+      "Intra-abdominal pressure should be monitored in moderately severe and severe AP. Detailed recommendations are in the Supplementary material."
+    ],
+    "evidence": [
+      {
+        "en": "Recommendations derived mainly from critical care and sepsis literature because AP-specific RCTs are lacking",
+        "ja": "急性膵炎特異的なRCTがないため、推奨は主に集中治療・敗血症の文献に基づく"
+      },
+      {
+        "en": "Target MAP >=65 mm Hg, and monitor intra-abdominal pressure in moderate-severe AP",
+        "ja": "平均動脈圧65 mmHg以上を目標とし、中等症・重症では腹腔内圧をモニタリング"
+      }
+    ],
+    "note_ja": "",
+    "note_en": "",
+    "patients_ja": "患者は、どこで治療を受けていてもできる限りのことがなされ、適切な場合には専門のhigh-volume centerへの転送に最大限の努力が払われるという保証を求めている。",
+    "patients_en": "Patients want assurance that everything possible will be done wherever they are treated, and that every effort will be made to transfer them to a specialist high-volume center when appropriate."
+  },
+  {
+    "q": 17,
+    "section": "VII",
+    "question_en": "When should antibiotics be used in AP?",
+    "question_ja": "急性膵炎において抗菌薬はいつ使用すべきか",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Antibiotics should be used if there is proven extrapancreatic infection or strong suspicion of infected necrotizing pancreatitis.",
+        "text_ja": "膵外感染が証明された場合、または感染性膵壊死が強く疑われる場合には抗菌薬を使用すべきである。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "膵壊死性貯留の感染は抗菌薬の主な適応だが、急性膵炎全体の約5%と頻度は高くない。胆管炎や肺炎などの膵外感染は14〜37.4%に生じる。これらから、正当化される抗菌薬投与率は20〜40%程度と見積もられる。",
+      "実際には抗菌薬は過剰に使われている。23か国9869例の国際多施設研究では、投与率は中国81.4%、台湾80.6%、アルバニア78.6%、ブルガリア78%と高く、スペイン31.8%、英国31.2%と低かった。",
+      "抗菌薬投与は死亡率や重症度の低下と関連しなかった。感染の根拠に基づいて開始し、漫然とした投与を避けることが求められる。"
+    ],
+    "summary_en": [
+      "Infected necrotic collections are the main indication for antibiotics but occur in only about 5 % of AP. Extrapancreatic infections such as cholangitis or pneumonia occur in 14 to 37.4 %. A justified antibiotic rate would therefore be about 20 to 40 %.",
+      "In practice antibiotics are overused. An international study of 9869 patients in 23 countries found rates as high as 81.4 % in China, 80.6 % in Taiwan, 78.6 % in Albania and 78 % in Bulgaria, and as low as 31.8 % in Spain and 31.2 % in the UK.",
+      "Antibiotic therapy was not associated with lower mortality or severity. Start antibiotics on evidence of infection and avoid open-ended use."
+    ],
+    "evidence": [
+      {
+        "en": "Infection of pancreatic necrosis occurs in about 5 % of all AP, extrapancreatic infections in 14-37.4 %, so justified antibiotic use should be 20-40 %",
+        "ja": "膵壊死感染は急性膵炎全体の約5%、膵外感染は14〜37.4%で、正当な抗菌薬投与率は20〜40%"
+      },
+      {
+        "en": "International multicenter study (9869 patients, 23 countries): antibiotic use 81.4 % China, 80.6 % Taiwan vs 31.8 % Spain, 31.2 % UK, with no association with lower mortality or severity",
+        "ja": "国際多施設研究（9869例、23か国）：抗菌薬投与率は中国81.4%、台湾80.6%に対しスペイン31.8%、英国31.2%。死亡率や重症度の低下とは関連せず"
+      }
+    ],
+    "note_ja": "発熱や炎症反応上昇は膵炎自体でも生じるため、それだけで抗菌薬を開始しない。",
+    "note_en": "Fever and raised inflammatory markers can come from pancreatitis itself and alone do not justify antibiotics.",
+    "patients_ja": "",
+    "patients_en": ""
+  },
+  {
+    "q": 18,
+    "section": "VII",
+    "question_en": "What are the clinical indications or biomarkers for initiating antibiotic therapy in AP?",
+    "question_ja": "急性膵炎において抗菌薬治療を開始する臨床的適応またはバイオマーカーは何か",
+    "statements": [
+      {
+        "kind": "rec",
+        "text_en": "Positive microbiologic cultures from body fluids, e.g., blood, sputum, bile, urine, and drain fluid, are definite indications for antibiotic therapy.",
+        "text_ja": "血液、喀痰、胆汁、尿、ドレーン排液などの体液の微生物培養陽性は、抗菌薬治療の明確な適応である。",
+        "strength": "strong",
+        "quality": "moderate"
+      },
+      {
+        "kind": "rec",
+        "text_en": "The presence of gas bubbles within the pancreatic/peri-pancreatic necrotic collection on a CT scan suggests infected pancreatic necrosis and is an indication for antibiotic therapy.",
+        "text_ja": "CTで膵または膵周囲の壊死性貯留内にガス像を認める場合は感染性膵壊死が示唆され、抗菌薬治療の適応である。",
+        "strength": "strong",
+        "quality": "moderate"
+      },
+      {
+        "kind": "rec",
+        "text_en": "Elevated levels of C-reactive protein (CRP), white blood cell (WBC) count, or procalcitonin (PCT) alone should not be used as biomarkers to start antibiotic therapy.",
+        "text_ja": "CRP、白血球数、プロカルシトニン（PCT）の上昇のみを、抗菌薬治療開始のバイオマーカーとして用いるべきではない。",
+        "strength": "strong",
+        "quality": "moderate"
+      }
+    ],
+    "summary_ja": [
+      "微生物培養陽性は抗菌薬開始の明確な根拠であり、膵または膵周囲貯留内のガス像も感染性膵壊死を示唆する。",
+      "炎症マーカーは病勢や二次感染の評価に役立つが、急性膵炎の早期には誤解を招きやすい。感染性壊死の診断能はCRP（AUC 0.510）と白血球数（AUC 0.454）では低く、許容できる予測能を示したのはPCT（AUC 0.729）のみであった。",
+      "軽症例が中心の単施設RCT（260例）では、PCTガイドにより抗菌薬使用が63%から45%に減少した。PCTは開始判断の単独根拠ではなく、使用を減らす補助として位置づけられる。感染性膵壊死をより早く診断できるバイオマーカーの開発が求められる。"
+    ],
+    "summary_en": [
+      "Positive cultures are a definite trigger for antibiotics, and gas within a pancreatic or peripancreatic collection also points to infected necrosis.",
+      "Inflammatory markers help track disease and secondary infection, but are misleading early in AP. For infected necrosis, CRP (AUC 0.510) and WBC (AUC 0.454) perform poorly, and only procalcitonin (AUC 0.729) has acceptable predictive value.",
+      "A single-center RCT of 260 mostly mild AP patients showed that procalcitonin guidance reduced antibiotic use from 63 % to 45 %. PCT is a tool to limit use rather than a sole trigger to start. Better biomarkers for early diagnosis of infected necrosis are needed."
+    ],
+    "evidence": [
+      {
+        "en": "Diagnostic performance for infected necrosis: CRP AUC 0.510, WBC AUC 0.454, procalcitonin AUC 0.729",
+        "ja": "感染性壊死の診断能：CRP AUC 0.510、白血球数 AUC 0.454、プロカルシトニン AUC 0.729"
+      },
+      {
+        "en": "Single-center RCT (n = 260, mostly mild AP): procalcitonin-guided strategy reduced antibiotic use from 63 % to 45 %",
+        "ja": "単施設RCT（n=260、主に軽症）：プロカルシトニンガイドで抗菌薬使用が63%から45%に減少"
+      }
+    ],
+    "note_ja": "Table 1では2項目目の「infected pancreatic necrosis」が「infected necrotizing pancreatitis」と表記されているが、内容は同じである。",
+    "note_en": "Table 1 words the second item as infected necrotizing pancreatitis rather than infected pancreatic necrosis, with the same meaning.",
+    "patients_ja": "",
+    "patients_en": ""
+  }
+]

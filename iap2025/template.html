@@ -80,7 +80,10 @@
 #iap25 .sheet{position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);background:var(--sheet);color:var(--ink);z-index:99999;display:grid;grid-template-rows:auto minmax(0,1fr) auto;box-shadow:-8px 0 30px rgba(0,0,0,.18);transform:translateX(100%);transition:transform .26s cubic-bezier(.2,.8,.2,1)}
 #iap25 .sheet.on{transform:none}
 #iap25 .sh-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:calc(12px + env(safe-area-inset-top,0px)) 20px 12px;border-bottom:1px solid var(--line)}
-#iap25 .sh-top small{font-size:13px;color:var(--mute)}
+#iap25 .sh-top small{font-size:13px;color:var(--mute);flex:1}
+#iap25 .lang.sm{margin:0;border-color:var(--line)}
+#iap25 .lang.sm button{color:var(--ink);padding:4px 12px;min-height:34px;font-size:13px}
+#iap25 .lang.sm button[aria-pressed=true]{background:var(--ink);color:var(--sheet)}
 #iap25 .x{border:0;background:var(--soft);width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:22px;line-height:1;flex:none}
 #iap25 .sh-body{overflow-y:auto;padding:22px 24px 28px;overscroll-behavior:contain}
 #iap25 .sh-q{display:grid;grid-template-columns:auto minmax(0,1fr);gap:14px;align-items:start;margin-bottom:20px}
@@ -98,7 +101,7 @@
 #iap25 .stmt p{margin:0;font-size:16px;line-height:1.75;font-weight:500;white-space:pre-line}
 #iap25 details.orig{margin-top:10px;font-size:14px;color:var(--mute)}
 #iap25 details.orig summary{cursor:pointer;min-height:32px;display:flex;align-items:center}
-#iap25 details.orig p{font-size:14px;font-weight:400;color:var(--mute);line-height:1.65}
+#iap25 details.orig p{white-space:pre-line;font-size:14px;font-weight:400;color:var(--mute);line-height:1.65}
 #iap25 h5{font:700 16px/1.4 "Zen Kaku Gothic New",sans-serif;margin:26px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
 #iap25 .txt p{margin:0 0 12px}
 #iap25 .ev{list-style:none;padding:0;margin:0}
@@ -112,7 +115,7 @@
 #iap25 .sh-nav button:disabled{opacity:.35;cursor:default}
 #iap25 .sh-nav .nx{text-align:right}
 @media(max-width:900px){#iap25 .map{grid-template-columns:minmax(0,1fr)}#iap25 .head{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:600px){#iap25 .tally{grid-template-columns:repeat(2,auto)}#iap25 .mrow{grid-template-columns:minmax(0,1fr)}#iap25 .mrow>span{padding-top:4px}#iap25 .cell{width:28px;height:28px}#iap25 .sh-body{padding:18px 16px 24px}#iap25 .chip{padding:6px 11px}}
+@media(max-width:600px){#iap25 .tally{grid-template-columns:repeat(4,auto);gap:4px 18px}#iap25 .lead{font-size:15px}#iap25 .lang{margin-bottom:12px}#iap25 .top{padding-top:22px}#iap25 .mrow{grid-template-columns:minmax(0,1fr)}#iap25 .mrow>span{padding-top:4px}#iap25 .cell{width:28px;height:28px}#iap25 .sh-body{padding:18px 16px 24px}#iap25 .chip{padding:6px 11px}}
 @media(prefers-reduced-motion:reduce){#iap25 .sheet,#iap25 .scrim,#iap25 .cell{transition:none}}
 </style>
 
@@ -155,7 +158,7 @@
 
   <div class="scrim" id="scrim" hidden></div>
   <aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="shq" hidden>
-    <div class="sh-top"><small id="shmeta"></small><button class="x" id="close" type="button" aria-label="Close">×</button></div>
+    <div class="sh-top"><small id="shmeta"></small><div class="lang sm" role="group" aria-label="Language"><button type="button" data-lang="ja" aria-pressed="true">JA</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div><button class="x" id="close" type="button" aria-label="Close">×</button></div>
     <div class="sh-body" id="shbody"></div>
     <div class="sh-nav"><button type="button" id="prev"></button><button type="button" class="nx" id="next"></button></div>
   </aside>
@@ -186,9 +189,9 @@ const DOMAINS = [
 ];
 const SUBS = [[55,60,"小児の急性膵炎","Pediatric AP"],[61,63,"副甲状腺機能亢進症による急性膵炎","AP due to primary hyperparathyroidism"],[64,67,"高トリグリセリド血症性膵炎（HTGP）","Hypertriglyceridemia-induced pancreatitis"],[68,71,"ERCP後膵炎の予防","Prevention of post-ERCP pancreatitis"],[72,75,"外傷性膵炎","Traumatic pancreatitis"],[76,79,"妊娠中の急性膵炎","AP in pregnancy"]];
 const T = {
- ja:{src:"Pancreatology 2025, 25: 770–814 ｜ IAP/APA/EPC/IPC/JPS",title:"IAP 2025 急性膵炎ガイドライン 全96 CQ",lead:"18領域96のクリニカルクエスチョンを、推奨文・GRADE・解説・主要エビデンスまで日本語で通読できるようにまとめた。タイルかカードを押すと解説が開く。",maph:"エビデンスマップ",tq:"クリニカルクエスチョン",ts:"強い推奨",tc:"条件付き推奨",tg:"GPS",lgS:"強い推奨（塗り）",lgC:"条件付き推奨（枠）",lgG:"GPS（斜線）",lgQ:"色の濃さ＝エビデンスの確実性",ph:"キーワードで検索（例：LAMS、乳酸リンゲル、妊娠）",fAll:"すべて",fS:"強い推奨",fC:"条件付き",fG:"GPS",cnt:n=>n+" 件",none:"該当するCQはありません",rec:"推奨",gps:"Good Practice Statement",strong:"強い推奨",conditional:"条件付き推奨",q:{high:"高","moderate":"中",low:"低","very low":"非常に低"},ql:"エビデンス",orig:"原文（英語）",sum:"解説",ev:"主要エビデンス",note:"臨床のポイント",pt:"患者の視点",prev:"前のCQ",next:"次のCQ",close:"閉じる",
+ ja:{src:"Pancreatology 2025, 25: 770–814 ｜ IAP/APA/EPC/IPC/JPS",title:"IAP 2025 急性膵炎ガイドライン 全96 CQ",lead:"18領域96のクリニカルクエスチョンを、推奨文・GRADE・解説・主要エビデンスまで日本語で通読できるようにまとめた。タイルかカードを押すと解説が開く。",maph:"エビデンスマップ",tq:"CQ",ts:"強い推奨",tc:"条件付き推奨",tg:"GPS",lgS:"強い推奨（塗り）",lgC:"条件付き推奨（枠）",lgG:"GPS（斜線）",lgQ:"色の濃さ＝エビデンスの確実性",ph:"キーワードで検索（例：LAMS、乳酸リンゲル、妊娠）",fAll:"すべて",fS:"強い推奨",fC:"条件付き",fG:"GPS",cnt:n=>n+" 件",none:"該当するCQはありません",rec:"推奨",gps:"Good Practice Statement",strong:"強い推奨",conditional:"条件付き推奨",q:{high:"高","moderate":"中",low:"低","very low":"非常に低"},ql:"エビデンス",orig:"原文（英語）",sum:"解説",ev:"主要エビデンス",note:"臨床のポイント",pt:"患者の視点",prev:"前のCQ",next:"次のCQ",close:"閉じる",
   foot:['出典：IAP/APA/EPC/IPC/JPS Working Group. International Association of Pancreatology Revised Guidelines on Acute Pancreatitis 2025. Pancreatology 2025;25:770–814. <a href="https://doi.org/10.1016/j.pan.2025.04.020" target="_blank" rel="noopener">doi:10.1016/j.pan.2025.04.020</a>','本ページは EUS channel による非公式の日本語解説である。推奨文は原文の翻訳、解説は原文 Remarks をもとに要点をまとめたもので、原文の逐語訳ではない。診療上の判断には必ず原著を参照のこと。','GRADE：強い推奨／条件付き推奨、エビデンスの確実性は 高・中・低・非常に低 の4段階。Good Practice Statement（GPS）は直接的エビデンスが乏しいが利益が明らかな事項で、正式な格付けはない。']},
- en:{src:"Pancreatology 2025, 25: 770–814 | IAP/APA/EPC/IPC/JPS",title:"IAP 2025 Acute Pancreatitis Guidelines, all 96 CQs",lead:"Every clinical question across 18 domains with its recommendation, GRADE rating, commentary and key evidence. Tap a tile or card to open the commentary.",maph:"Evidence map",tq:"Clinical questions",ts:"Strong",tc:"Conditional",tg:"GPS",lgS:"Strong (filled)",lgC:"Conditional (outlined)",lgG:"GPS (hatched)",lgQ:"Darker = higher certainty",ph:"Search (e.g. LAMS, Ringer, pregnancy)",fAll:"All",fS:"Strong",fC:"Conditional",fG:"GPS",cnt:n=>n+(n===1?" question":" questions"),none:"No matching questions",rec:"Recommendation",gps:"Good Practice Statement",strong:"Strong recommendation",conditional:"Conditional recommendation",q:{high:"High","moderate":"Moderate",low:"Low","very low":"Very low"},ql:"Evidence",orig:"Original",sum:"Commentary",ev:"Key evidence",note:"Clinical point",pt:"Patients' view",prev:"Previous",next:"Next",close:"Close",
+ en:{src:"Pancreatology 2025, 25: 770–814 | IAP/APA/EPC/IPC/JPS",title:"IAP 2025 Acute Pancreatitis Guidelines, all 96 CQs",lead:"Every clinical question across 18 domains with its recommendation, GRADE rating, commentary and key evidence. Tap a tile or card to open the commentary.",maph:"Evidence map",tq:"Questions",ts:"Strong",tc:"Conditional",tg:"GPS",lgS:"Strong (filled)",lgC:"Conditional (outlined)",lgG:"GPS (hatched)",lgQ:"Darker = higher certainty",ph:"Search (e.g. LAMS, Ringer, pregnancy)",fAll:"All",fS:"Strong",fC:"Conditional",fG:"GPS",cnt:n=>n+(n===1?" question":" questions"),none:"No matching questions",rec:"Recommendation",gps:"Good Practice Statement",strong:"Strong recommendation",conditional:"Conditional recommendation",q:{high:"High","moderate":"Moderate",low:"Low","very low":"Very low"},ql:"Evidence",orig:"Original",sum:"Commentary",ev:"Key evidence",note:"Clinical point",pt:"Patients' view",prev:"Previous",next:"Next",close:"Close",
   foot:['Source: IAP/APA/EPC/IPC/JPS Working Group. International Association of Pancreatology Revised Guidelines on Acute Pancreatitis 2025. Pancreatology 2025;25:770–814. <a href="https://doi.org/10.1016/j.pan.2025.04.020" target="_blank" rel="noopener">doi:10.1016/j.pan.2025.04.020</a>','An unofficial study guide by EUS channel. Statements follow the original wording. Commentary summarises the Remarks in our own words and is not a verbatim copy. Always check the original article for clinical decisions.','GRADE: strong or conditional recommendation, certainty of evidence high, moderate, low or very low. Good Practice Statements (GPS) are not formally graded.']}
 };
 const QL = {high:4,moderate:3,low:2,"very low":1};
@@ -264,8 +267,9 @@ function stmtHTML(s){
   const isRec = s.kind==='rec';
   const qn = QL[s.quality]||0;
   const meta = isRec ? `<span class="pill str">${esc(L(s.strength))}</span><span>${esc(L('ql'))}：${esc(L('q')[s.quality]||'')}</span><span class="meter" aria-hidden="true">${[1,2,3,4].map(i=>`<i class="${i<=qn?'f':''}"></i>`).join('')}</span>` : '';
-  const txt = lang==='ja' ? (s.text_ja||s.text_en) : s.text_en;
-  const orig = lang==='ja' && s.text_ja ? `<details class="orig"><summary>${esc(L('orig'))}</summary><p>${esc(s.text_en)}</p></details>` : '';
+  const brk = t => String(t||'').replace(/\s+(?=(?:\(?(?:i{1,3}|iv|v|vi)[.)])\s)/g,'\n')
+  const txt = brk(lang==='ja' ? (s.text_ja||s.text_en) : s.text_en);
+  const orig = lang==='ja' && s.text_ja ? `<details class="orig"><summary>${esc(L('orig'))}</summary><p>${esc(brk(s.text_en))}</p></details>` : '';
   return `<div class="stmt ${isRec?'q'+(qn||1):''}"><div class="k"><span class="pill kind">${esc(isRec?L('rec'):L('gps'))}</span>${meta}</div><p>${esc(txt)}</p>${orig}</div>`;
 }
 
@@ -300,7 +304,7 @@ function closeSheet(){
 root.addEventListener('click', e=>{
   const l = e.target.closest('[data-lang]'); if (l){ lang = l.dataset.lang; try{localStorage.setItem('iap25-lang',lang);}catch(err){} renderStatic(); render(); if (!$('sheet').hidden) openQ(cur,false); return; }
   const f = e.target.closest('[data-f]'); if (f){ filt = f.dataset.f; renderStatic(); render(); return; }
-  const c = e.target.closest('[data-q]'); if (c && !c.closest('#sheet')){ openQ(byQ.findIndex(it=>it.q===+c.dataset.q)); }
+  const c = e.target.closest('[data-q]'); if (c && !c.closest('.sheet')){ openQ(byQ.findIndex(it=>it.q===+c.dataset.q)); }
 });
 $('q').addEventListener('input', e=>{ term = e.target.value.trim().toLowerCase(); render(); });
 $('scrim').addEventListener('click', closeSheet);
